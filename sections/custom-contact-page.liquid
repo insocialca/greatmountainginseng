@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div class="page-width{% if section.settings.is_narrow %} page-width--narrow{% endif %}">
+  {% if page.title != blank %}
+  <h1 class="main-page-title page-title h0{% if section.settings.striked_header %} striked-header{% endif %}">
+    <span>{{ page.title | escape }}</span>
+  </h1>
+  {% endif %}
+  {% unless section.settings.sidebar_content %}
+  {% if page.content != blank %}
+  <div class="rte">
+    {{ page.content }}
+  </div>
+  {% endif %}
+  {% endunless %}
+</div>
+
+{% schema %}
+{
+  "name": "Contact Page",
+  "tag": "section",
+  "class": "spaced-section",
+  "settings": [
+	{
+      "type": "checkbox",
+      "id": "striked_header",
+      "default": false,
+      "label": "Striked header style"
+  	},
+	{
+      "type": "checkbox",
+      "id": "is_narrow",
+      "default": true,
+      "label": "Narrow page width"
+  	},
+	{
+      "type": "checkbox",
+      "id": "sidebar_content",
+      "default": false,
+      "label": "2 column content",
+	  "info": "If ticked, the 'Sidebar Content' section must be added to the page."
+  	}
+  ]
+}
+{% endschema %}

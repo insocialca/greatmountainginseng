@@ -1,0 +1,71 @@
+<div class="splide">
+	<div class="splide__track">
+		<ul class="splide__list">
+            {%- for block in section.blocks -%}
+          		{%- assign block_image = block.settings.image -%}
+          		{% if block_image == blank %}
+          			<li class="splide__slide">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</li>
+          		{% else %}
+          			<li class="splide__slide">
+          			{% if block.settings.image_link != blank %}
+                      <a href="{{ block.settings.image_link }}">
+          			{% endif %}
+                        <img src="{{ block_image | img_url: 'master' }}" alt="{{ block_image.alt }}" />
+                    {% if block.settings.image_link != blank %}
+                      </a>
+          			{% endif %}
+                    </li>
+          		{% endif %}
+          	{%- endfor -%}
+		</ul>
+	</div>
+</div>
+
+{% schema %}
+  {
+    "name": "Carousel",
+    "class": "index-section index-section--carousel",
+    "max_blocks": 20,
+    "settings": [
+        {
+            "type": "text",
+            "id": "header",
+            "label": "Header",
+            "info": "Optional"
+        }
+    ],
+	"blocks": [
+		{
+			"type": "image",
+			"name": "Carousel Item",
+			"settings": [
+              {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+              },
+              {
+                "type": "url",
+                "id": "image_link",
+                "label": "Image Link",
+                "info": "Optional"
+              }
+			]
+		}
+	],
+	"presets": [
+		{
+			"name": "Carousel",
+			"category": "Image",
+            "blocks": [
+              {
+                  "type": "image"
+              },
+              {
+                  "type": "image"
+              }
+            ]
+		}
+	]
+  }
+{% endschema %}

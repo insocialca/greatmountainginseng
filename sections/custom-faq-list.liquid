@@ -1,0 +1,70 @@
+<div class="page-width">
+  <div class="faq-list__item faq-list-{{ section.id }}">
+    {% if section.settings.title != blank %}
+    <h3 class="faq-list__item-title">{{ section.settings.title | escape }}</h3>
+    {% endif %}
+    <div class="faq-list__block">
+    {% for block in section.blocks %}
+      <div>
+      {% if block.type == 'faq-item' and block.settings.question != blank and block.settings.answer != blank %}
+    	  <p class="faq-list__question" data-faq-id="faq-{{ block.id }}" data-faq-status="close">{{ block.settings.question | escape }} <span class="faq-list__icon">{% render 'icon-caret' %}</span></p>
+          <div class="faq-list__answer" data-faq-id="faq-{{ block.id }}" data-faq-status="close">
+            {{ block.settings.answer }}
+          </div>
+      {% endif %}
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "FAQ List",
+  "class": "spaced-section spaced-section--full-width faq-list",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.multicolumn.settings.title.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "faq-item",
+      "name": "FAQ Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "default": "Type your question here",
+          "label": "Question"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "default": "<p>Type the answer here...</p>",
+          "label": "Answer"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQ List",
+      "blocks": [
+        {
+          "type": "faq-item"
+        },
+        {
+          "type": "faq-item"
+        },
+        {
+          "type": "faq-item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

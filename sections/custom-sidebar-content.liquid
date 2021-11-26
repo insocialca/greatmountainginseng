@@ -1,0 +1,83 @@
+{% unless section.settings.sidebar_alignment == 'none' %}
+<style>
+@media screen and (min-width: 900px) {
+  #MainContent {
+    display: grid;
+    max-width: 120rem;
+    margin: 0 auto;
+    grid-template:
+    [row1-start] "header header" [row1-end]
+    [row2-start] "{{ section.settings.sidebar_alignment }}" [row2-end]
+    / 1fr 1fr;
+  }
+  #MainContent > section {
+    padding: 0;
+    margin: 0;
+  }
+  #MainContent .sidebar-content {
+    grid-area: sidebar;
+  }
+  #MainContent .contact_form {
+    grid-area: content;
+  }
+  #MainContent > section:first-child {
+    grid-area: header;
+  }
+}
+@media screen and (min-width: 900px) {
+  #MainContent .contact_form {
+    margin-right: 5rem;
+  }
+}
+@media screen and (max-width: 899px) {
+  #MainContent .sidebar-content {
+    margin-top: 0;
+  }
+}
+</style>
+{% endunless %}
+
+{% if page.content != blank %}
+<div class="page-width{% if section.settings.is_narrow %} page-width--narrow{% endif %}">
+  <div class="contact__sidebar-wrap">
+    <div class="rte contact__sidebar">
+    {{ page.content }}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Sidebar content",
+  "class": "spaced-section sidebar-content",
+  "tag": "section",
+  "settings": [
+	{
+      "type": "select",
+      "id": "sidebar_alignment",
+      "options": [
+        {
+        "value": "none",
+        "label": "None"
+        },
+        {
+        "value": "sidebar content",
+        "label": "Right"
+        },
+        {
+        "value": "content sidebar",
+        "label": "Left"
+        }
+      ],
+      "label": "Sidebar alignment",
+      "default": "none"
+	}
+  ],
+  "presets": [
+    {
+      "name": "Sidebar content"
+    }
+  ]
+}
+{% endschema %}

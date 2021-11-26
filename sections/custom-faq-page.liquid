@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div class="page-width{% if section.settings.is_narrow %} page-width--narrow{% endif %}">
+  <h1 class="main-page-title page-title h0{% if section.settings.striked_header %} striked-header{% endif %}">
+    <span>{{ page.title | escape }}</span>
+  </h1>
+  {% if page.content != blank %}
+  <div class="rte">
+    {{ page.content }}
+  </div>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "FAQ Page",
+  "tag": "section",
+  "class": "spaced-section faq",
+  "settings": [
+	{
+      "type": "checkbox",
+      "id": "striked_header",
+      "default": false,
+      "label": "Striked header style"
+  	},
+	{
+      "type": "checkbox",
+      "id": "is_narrow",
+      "default": true,
+      "label": "Narrow page width"
+  	}
+  ]
+}
+{% endschema %}
