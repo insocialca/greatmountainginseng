@@ -376,8 +376,15 @@ img {
   
 /* Product Image */
 
+.page-product .product.grid {
+}
+  
 .page-product .product__media-wrapper {
-  max-width: 530px !important;
+  flex-basis: 530px !important;
+  
+}
+  
+.page-product .product__info-wrapper {
 }
   
 .page-product .product__media-wrapper modal-opener {
