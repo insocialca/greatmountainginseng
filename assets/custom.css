@@ -415,6 +415,10 @@ img {
   background-color: #fff;
 }
   
+.page-product .product-form__quantity .quantity__button svg {
+  stroke: black;
+}
+  
 /* Add to Cart Button */
   
 .page-product .product-form__buttons .button {
