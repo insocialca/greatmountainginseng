@@ -381,10 +381,13 @@ img {
   padding: 50px 0;
   color: #fff;
 }
-  
-.product-description__heading span {
+
+.product-description__heading {
   margin-top: 0;
   text-align: center;
+}
+  
+.product-description__heading span {
   color: #fff;
   font-weight: bold;
   padding-bottom: 10px;
