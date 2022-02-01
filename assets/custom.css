@@ -402,7 +402,7 @@ img {
   
 /* Variant */
   
-.page-product variant-radios label {
+.page-product .product-form__input input[type=radio]+label {
   text-align: center;
   border-radius: 10px;
   border: 2px solid var(--color-light-beige);
