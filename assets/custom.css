@@ -375,10 +375,6 @@ img {
 /* Product Page */
   
 /* Product Image */
-
-.page-product .product.grid {
-  gap: 30px;
-}
   
 .page-product .slider.slider--mobile {
   overflow-x: visible;
@@ -394,6 +390,10 @@ img {
 }
   
 @media screen and (min-width: 949px) {
+  .page-product .product.grid {
+    gap: 30px;
+  }
+
   .page-product .product__media-wrapper {
     max-width: 530px !important;
   }
