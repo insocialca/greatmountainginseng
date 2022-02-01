@@ -424,7 +424,7 @@ img {
 }
   
 .page-product .product-form__quantity .quantity__button[name="plus"] {
-  border-right: 2px solid #D3C8C9;
+  border-left: 2px solid #D3C8C9;
 }
   
 .page-product .product-form__quantity .quantity__button svg {
