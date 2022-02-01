@@ -377,7 +377,7 @@ img {
 /* Product Image */
 
 .page-product .product__media-wrapper {
-  max-width: 530px;
+  max-width: 530px !important;
 }
   
 .page-product .product__media-wrapper modal-opener {
