@@ -511,9 +511,9 @@ img {
 }
   
 .product-description__content {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  width: auto;
+  margin-left: 15px;
+  margin-right: 15px;
 }
   
 .product-description__content iframe {
@@ -524,6 +524,12 @@ img {
 @media screen and (min-width: 769px) {
   .page-product .section_product-description {
     background: url('https://cdn.shopify.com/s/files/1/0580/8445/8645/files/prod-desc-bg.png?v=1643752748') center center/110% auto no-repeat black;
+  }
+  
+  .product-description__content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
   
