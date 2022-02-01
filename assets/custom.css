@@ -400,6 +400,14 @@ img {
   text-align: center;
 }
   
+/* Product Title */
+  
+.page-product .product__title {
+  font-size: 26px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #85714D;
+}
+  
 /* Variant */
 
 .page-product .product__info-container legend {
