@@ -382,9 +382,11 @@ img {
   color: #fff;
 }
   
-.product-description__heading {
+.product-description__heading span {
   margin-top: 0;
   text-align: center;
+  color: #fff;
+  font-weight: bold;
   padding-bottom: 10px;
   border-bottom: 2px solid #85714D;
 }

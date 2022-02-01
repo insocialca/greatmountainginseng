@@ -1,7 +1,7 @@
 {% if product.description != blank %}
 <div id="read-more" class="product-description__wrap">
   {% if section.settings.heading != blank %}
-  <h2 class="product-description__heading">{{ section.settings.heading | escape }}</h2>
+  <h2 class="product-description__heading"><span>{{ section.settings.heading | escape }}</span></h2>
   {% endif %}
   <div class="product-description__content">
   	{{ product.description }}
