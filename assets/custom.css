@@ -419,6 +419,10 @@ img {
   stroke: black;
 }
   
+.page-product .product-form__quantity .quantity__input {
+  color: #000;
+}
+  
 /* Add to Cart Button */
   
 .page-product .product-form__buttons .button {
