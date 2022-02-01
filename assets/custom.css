@@ -376,7 +376,9 @@ img {
   
 /* Product Description */
   
-.page-product 
+.page-product .section_product-description {
+  background-color: black;
+}
   
 /* Footer */
   
