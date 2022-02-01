@@ -408,6 +408,11 @@ img {
   gap: 25px;
 }
   
+.page-product .product-form__quantity .quantity {
+  border-radius: 10px;
+  border: 2px solid #D3C8C9;
+}
+  
 /* Add to Cart Button */
   
 .page-product .product-form__buttons .button {
