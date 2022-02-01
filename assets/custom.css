@@ -405,7 +405,7 @@ img {
 .page-product .product__title {
   font-size: 26px;
   padding-bottom: 5px;
-  border-bottom: 2px solid #85714D;
+  border-bottom: 2px solid var(--color-header-gold);
 }
   
 /* Variant */
@@ -457,17 +457,17 @@ img {
   
 .page-product .product-form__quantity .quantity {
   border-radius: 10px;
-  border: 2px solid #D3C8C9;
+  border: 2px solid var(--color-light-beige);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: #fff;
 }
   
 .page-product .product-form__quantity .quantity__button[name="minus"] {
-  border-right: 2px solid #D3C8C9;
+  border-right: 2px solid var(--color-light-beige);
 }
   
 .page-product .product-form__quantity .quantity__button[name="plus"] {
-  border-left: 2px solid #D3C8C9;
+  border-left: 2px solid var(--color-light-beige);
 }
   
 .page-product .product-form__quantity .quantity__button svg {
@@ -507,7 +507,7 @@ img {
   color: #fff;
   font-weight: bold;
   padding: 0 24px 10px;
-  border-bottom: 2px solid #85714D;
+  border-bottom: 2px solid var(--color-header-gold);
 }
   
 .product-description__content {
