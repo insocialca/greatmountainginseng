@@ -375,6 +375,10 @@ img {
 /* Product Page */
   
 /* Product Image */
+
+.page-product .product__media-wrapper {
+  max-width: 530px;
+}
   
 .page-product .product__media-wrapper modal-opener {
   background-color: #fff;
