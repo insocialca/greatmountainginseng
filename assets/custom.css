@@ -377,11 +377,11 @@ img {
 /* Product Image */
 
 .page-product .product.grid {
+  gap: 30px;
 }
   
 .page-product .product__media-wrapper {
-  flex-basis: 530px !important;
-  
+  max-width: 530px !important; 
 }
   
 .page-product .product__info-wrapper {
