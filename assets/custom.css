@@ -406,6 +406,9 @@ img {
   display: flex;
   align-items: center;
   gap: 25px;
+}
+  
+.page-product .product-form__quantity label {
   font-size: 20px;
 }
   
