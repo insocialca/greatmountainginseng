@@ -375,11 +375,7 @@ img {
 /* Product Page */
   
 /* Product Image */
-  
-.page-product .slider.slider--mobile {
-  overflow-x: visible;
-}
-  
+ 
 .page-product .product__media-wrapper modal-opener {
   background-color: #fff;
   border-radius: 1rem;
@@ -404,8 +400,10 @@ img {
   }
 }
   
-@media screen and (max-width: 948px) {
-  .page-product .product__media-wrapper {
+@media screen and (max-width: 750px) {
+  .page-product .slider.slider--mobile {
+    overflow-x: visible;
+    margin-top: 30px;
   }
 }
   
