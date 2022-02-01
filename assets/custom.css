@@ -403,7 +403,7 @@ img {
 @media screen and (max-width: 750px) {
   .page-product .slider.slider--mobile {
     overflow-x: visible;
-    margin-top: 30px;
+    margin-top: 50px;
   }
 }
   
