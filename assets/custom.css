@@ -421,6 +421,8 @@ img {
   
 .page-product .product-form__quantity .quantity__input {
   color: #000;
+  font-size: 20px;
+  font-weight: 500;
 }
   
 /* Add to Cart Button */
