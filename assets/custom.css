@@ -378,6 +378,7 @@ img {
 
 .page-product .section_product-description {
   background-color: #000;
+  padding: 50px 0;
 }
   
 @media screen and (min-width: 769px) {
