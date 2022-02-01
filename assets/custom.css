@@ -400,6 +400,12 @@ img {
   text-align: center;
 }
   
+/* Qty */
+  
+.page-product .product-form__quantity {
+  display: flex;
+}
+  
 /* Add to Cart Button */
   
 .page-product .product-form__buttons .button {
