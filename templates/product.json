@@ -19,6 +19,12 @@
           "settings": {
           }
         },
+        "9ae08ec4-c609-4aae-97bf-701bc143e851": {
+          "type": "richtext",
+          "settings": {
+            "paragraph": "<p><a href=\"#read-more\" title=\"#read-more\">阅读有关此产品的信息 &gt;<\/a><\/p>"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -35,6 +41,7 @@
         "title",
         "variant_picker",
         "price",
+        "9ae08ec4-c609-4aae-97bf-701bc143e851",
         "quantity_selector",
         "buy_buttons"
       ],
