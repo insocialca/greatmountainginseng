@@ -404,6 +404,8 @@ img {
   
 .page-product .product-form__quantity {
   display: flex;
+  align-items: center;
+  gap: 25px;
 }
   
 /* Add to Cart Button */
