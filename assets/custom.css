@@ -385,6 +385,8 @@ img {
 .product-description__heading {
   margin-top: 0;
   text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #85714D;
 }
   
 @media screen and (min-width: 769px) {
