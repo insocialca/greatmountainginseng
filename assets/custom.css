@@ -375,9 +375,15 @@ img {
 /* Product Page */
   
 /* Product Description */
-  
+
 .page-product .section_product-description {
-  background: url('https://cdn.shopify.com/s/files/1/0580/8445/8645/files/prod-desc-bg.png?v=1643752748') center center/contain no-repeat black;
+  background-color: #000;
+}
+  
+@media screen and (min-width: 769px) {
+  .page-product .section_product-description {
+    background: url('https://cdn.shopify.com/s/files/1/0580/8445/8645/files/prod-desc-bg.png?v=1643752748') center center/110% auto no-repeat black;
+  }
 }
   
 /* Footer */
