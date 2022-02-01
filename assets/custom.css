@@ -389,6 +389,10 @@ img {
   max-width: none !important;
 }
   
+.page-product .slider.slider--mobile {
+  overflow-x: none;
+}
+  
 .page-product .product__media-wrapper modal-opener {
   background-color: #fff;
   border-radius: 1rem;
