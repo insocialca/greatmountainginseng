@@ -374,6 +374,19 @@ img {
   
 /* Product Page */
   
+/* Product Image */
+  
+.page-product .product__media-wrapper slider-component {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, 0.15);
+  border: 0.2rem solid var(--color-light-beige);
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem;
+  text-align: center;
+}
+  
 /* Product Description */
 
 .page-product .section_product-description {
