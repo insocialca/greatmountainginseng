@@ -390,7 +390,7 @@ img {
 }
   
 .page-product .slider.slider--mobile {
-  overflow-x: none;
+  overflow-x: visible;
 }
   
 .page-product .product__media-wrapper modal-opener {
