@@ -77,7 +77,9 @@
               {{- block.settings.text -}}
             </p>
           {% when 'richtext' %}
-        	{{ block.settings.paragraph }}
+        	<div class="product__richtext">
+        	  {{ block.settings.paragraph }}
+        	</div>
           {%- when 'title' -%}
             <h1 class="product__title">
               {{ product.title | escape }}
