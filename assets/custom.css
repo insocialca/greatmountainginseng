@@ -386,7 +386,7 @@ img {
   
 .page-product .product__info-wrapper {
   width: auto !important;
-  max-width: none;
+  max-width: none !important;
 }
   
 .page-product .product__media-wrapper modal-opener {
