@@ -50,6 +50,12 @@
         "enable_video_looping": false
       }
     },
+    "1643752020a7b71251": {
+      "type": "product-description",
+      "settings": {
+        "heading": "产品详情"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -63,6 +69,7 @@
   },
   "order": [
     "main",
+    "1643752020a7b71251",
     "product-recommendations"
   ]
 }
