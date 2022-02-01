@@ -377,7 +377,7 @@ img {
 /* Product Description */
   
 .page-product .section_product-description {
-  background-color: black;
+  background: url('https://cdn.shopify.com/s/files/1/0580/8445/8645/files/prod-desc-bg.png?v=1643752748') center center/contain no-repeat black;
 }
   
 /* Footer */
