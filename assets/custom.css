@@ -172,8 +172,18 @@ img {
 }
   
 .emphasize_first_child .price .price__sale {
+  display: block;
+}
+ 
+.emphasize_first_child .price .price__regular .price-item--regular,
+.emphasize_first_child .price .price__sale .price-item--sale {
   color: var(--color-price-green);
   font-weight: bold;
+}
+  
+.emphasize_first_child .price .price__sale .price-item--regular {
+  color: var(--color-price-gold);
+  font-weight: 500;
 }
 
 .emphasize_first_child .card-information__view-product {
