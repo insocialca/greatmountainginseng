@@ -419,15 +419,15 @@ img {
 /* Price */
 
 .page-product .price-item--regular {
-  color: var(color-price-green);
+  color: var(--color-price-green);
 }
   
 .page-product .price__sale .price-item--regular {
-  color: var(color-price-gold);
+  color: var(--color-price-gold);
 }
   
 .page-product .price__sale .price-item--sale {
-  color: var(color-price-green);
+  color: var(--color-price-green);
 }
   
 /* Variant */
