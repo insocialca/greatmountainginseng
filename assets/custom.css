@@ -180,23 +180,6 @@ img {
   width: 50%;
   max-width: 50%;
 }
-
-.emphasize_first_child .card-information__view-product {
-  color: var(--color-base-accent-1);
-  font-weight: bold;
-  font-size: 18px;
-  text-decoration: none;
-  border-bottom: 1px solid var(--color-base-accent-1);
-}
-
-.emphasize_first_child .card-information__view-product svg path {
-  fill: var(--color-base-accent-1);
-}
-
-.card-information__view-product svg {
-  height: 1.5rem;
-  width: 1.5rem;
-}
   
 .collection .center .button {
   font-weight: bold;
