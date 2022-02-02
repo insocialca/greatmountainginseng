@@ -818,29 +818,3 @@ product-recommendations .card-wrapper {
   border-radius: 1rem;
   overflow: hidden;
 }
-  
-.boxed-product-grid .card-information__text {
-  font-size: 2rem;
-}
-  
-.boxed-product-grid .card-information__size {
-  font-size: 1.8rem;
-  font-weight: bold;
-}
-  
-.boxed-product-grid .card-information__view-product {
-  color: var(--color-base-accent-1);
-  font-weight: bold;
-  font-size: 18px;
-  text-decoration: none;
-  border-bottom: 1px solid var(--color-base-accent-1);
-}
-  
-.boxed-product-grid .card-information__view-product svg {
-  height: 1.5rem;
-  width: 1.5rem;
-}
-  
-.boxed-product-grid .card-information__view-product svg path {
-  fill: var(--color-base-accent-1);
-}
