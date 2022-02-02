@@ -66,11 +66,32 @@
         "add_image_padding": false,
         "show_vendor": false
       }
+    },
+    "1643819030a7a05058": {
+      "type": "apps",
+      "blocks": {
+        "ff11c3f6-674a-4446-9af6-30ec5a48bfba": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "helvetica_n4",
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "ff11c3f6-674a-4446-9af6-30ec5a48bfba"
+      ],
+      "settings": {
+        "include_margins": false
+      }
     }
   },
   "order": [
     "main",
     "1643752020a7b71251",
-    "product-recommendations"
+    "product-recommendations",
+    "1643819030a7a05058"
   ]
 }
