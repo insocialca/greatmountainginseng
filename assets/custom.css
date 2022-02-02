@@ -811,10 +811,6 @@ product-recommendations .card-wrapper {
   margin-bottom: 10rem;
 }
 
-.collection-grid-section * {
-  color: #000;
-}
-
 .boxed-product-grid * {
   text-align: center;
 }
