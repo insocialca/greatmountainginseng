@@ -433,6 +433,11 @@ img {
   font-weight: 500;
 }
   
+.page-product .price--large .badge {
+  font-size: 20px;
+  font-weight: bold;
+}
+  
 /* Variant */
 
 .page-product .product__info-container legend {
