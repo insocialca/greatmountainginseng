@@ -436,6 +436,7 @@ img {
 .page-product .price--large .badge {
   font-size: 20px;
   font-weight: bold;
+  padding: 5px;
 }
   
 .page-product .price--large .price__badge-sale {
