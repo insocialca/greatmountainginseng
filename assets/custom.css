@@ -438,6 +438,11 @@ img {
   font-weight: bold;
 }
   
+.page-product .price--large .price__badge-sale {
+  background-color: var(--color-price-green);
+  color: #fff;
+}
+  
 /* Variant */
 
 .page-product .product__info-container legend {
