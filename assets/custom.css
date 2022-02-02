@@ -440,6 +440,7 @@ img {
   
 .page-product .price--large .price__badge-sale {
   background-color: var(--color-price-green);
+  border-color: var(--color-price-green);
   color: #fff;
 }
   
