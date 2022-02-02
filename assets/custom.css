@@ -424,6 +424,8 @@ img {
   
 .page-product .price__sale .price-item--regular {
   color: var(--color-price-gold);
+  font-size: 26px;
+  font-weight: 500;
 }
   
 .page-product .price__sale .price-item--sale {
