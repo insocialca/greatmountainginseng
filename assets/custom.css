@@ -408,33 +408,15 @@ img {
   border-bottom: 2px solid var(--color-header-gold);
 }
   
-/* Price */
+/* Product Price */
 
 .page-product .price--large .price-item {
   font-size: 26px;
 }
   
-.page-product .price-item--regular,
-.page-product .price__sale .price-item--sale {
-  color: var(--color-price-green);
-  font-weight: bold;
-}
-  
-.page-product .price__sale .price-item--regular {
-  color: var(--color-price-gold);
-  font-weight: 500;
-}
-  
 .page-product .price--large .badge {
   font-size: 20px;
-  font-weight: bold;
   padding: 8px 24px;
-}
-  
-.page-product .price--large .price__badge-sale {
-  background-color: var(--color-price-green);
-  border-color: var(--color-price-green);
-  color: #fff;
 }
   
 /* Variant */
