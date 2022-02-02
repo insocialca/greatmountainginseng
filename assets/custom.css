@@ -54,7 +54,8 @@ img {
   color: #fff;
 }
    
-.card-information .price {
+.card-information .price,
+.card-information .price__sale {
   justify-content: center;
 }
   
