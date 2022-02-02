@@ -33,7 +33,7 @@ img {
   }
 }
   
-/* Card and Price Styling */
+/* Price Styling */
   
 .price__regular .price-item--regular,
 .price__sale .price-item--sale {
@@ -53,6 +53,8 @@ img {
   font-weight: bold;
   color: #fff;
 }
+  
+/* Product Card Styling */
    
 .card-information .price,
 .card-information .price__sale {
