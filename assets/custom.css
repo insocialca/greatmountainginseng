@@ -35,7 +35,7 @@ img {
   
 /* Price Styling */
   
-.price-item--regular,
+.price__regular .price-item--regular,
 .price__sale .price-item--sale {
   color: var(--color-price-green);
   font-weight: bold;
