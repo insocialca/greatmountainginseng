@@ -46,11 +46,12 @@ img {
   font-weight: 500;
 }
   
-.badge {
+.price__badge-sale,
+.badge.color-accent-2 {
   background-color: var(--color-price-green);
   border-color: var(--color-price-green);
   font-weight: bold;
-  color: #fff !important;
+  color: #fff;
 }
    
 /* Header */
