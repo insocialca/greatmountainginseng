@@ -54,6 +54,10 @@ img {
   color: #fff;
 }
    
+.card-information .price {
+  justify-content: center;
+}
+  
 /* Header */
   
 .gold-border {
