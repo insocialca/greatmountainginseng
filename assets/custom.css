@@ -55,10 +55,36 @@ img {
 }
   
 /* Product Card Styling */
-   
+  
+.card-information__text {
+  font-size: 2rem;
+}
+  
+.card-information__size {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+  
 .card-information .price,
 .card-information .price__sale {
   justify-content: center;
+}
+  
+.card-information__view-product {
+  color: var(--color-base-accent-1);
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-base-accent-1);
+}
+  
+.card-information__view-product svg path {
+  fill: var(--color-base-accent-1);
+}
+  
+.card-information__view-product svg {
+  height: 1.5rem;
+  width: 1.5rem;
 }
   
 /* Header */
