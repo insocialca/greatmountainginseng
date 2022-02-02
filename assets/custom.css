@@ -1,10 +1,11 @@
 /* In Social Custom Code */
 
 :root {
-  --color-price-green: #215732;
   --color-header-gold: #85714D;
   --color-light-beige: #D3C8C9;
   --color-forest-green: #215732;
+  --color-price-green: #215732;
+  --color-price-gold: #926427;
 }
 
 /* Image Render Fix */
@@ -413,6 +414,20 @@ img {
   font-size: 26px;
   padding-bottom: 5px;
   border-bottom: 2px solid var(--color-header-gold);
+}
+  
+/* Price */
+
+.page-product .price-item--regular {
+  color: var(color-price-green);
+}
+  
+.page-product .price__sale .price-item--regular {
+  color: var(color-price-gold);
+}
+  
+.page-product .price__sale .price-item--sale {
+  color: var(color-price-green);
 }
   
 /* Variant */
