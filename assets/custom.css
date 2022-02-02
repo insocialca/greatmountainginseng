@@ -50,7 +50,7 @@ img {
   background-color: var(--color-price-green);
   border-color: var(--color-price-green);
   font-weight: bold;
-  color: #fff;
+  color: #fff !important;
 }
    
 /* Header */
