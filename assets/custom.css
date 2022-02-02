@@ -172,15 +172,6 @@ img {
   margin-bottom: 1.6rem;
 }
   
-.emphasize_first_child .card-information__wrapper {
-  padding-top: 
-}
-  
-.emphasize_first_child .card-information__wrapper * {
-  font-size: 1.8rem;
-  font-weight: bold;
-}
-  
 .emphasize_first_child .card-information__text {
   padding: 0 !important;
 }
