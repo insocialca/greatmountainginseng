@@ -23,11 +23,128 @@
             "description": "成立Chin Tai Ginseng Co. Ltd.",
             "timeline_direction": "direction-r"
           }
+        },
+        "8e660ea9-c454-416b-9d74-91239ffbd3ce": {
+          "type": "item",
+          "settings": {
+            "title": "1989年",
+            "description": "第一間大山行門市正式開幕－密市中國城門市，取名為大山行 成立大山行花旗參有限公司（Great Mountain Ginseng Co. Ltd.）",
+            "timeline_direction": "direction-l"
+          }
+        },
+        "e3b5c3a8-8ca0-4c04-8b47-9b53d93611c6": {
+          "type": "item",
+          "settings": {
+            "title": "1992年",
+            "description": "中區唐人街門市開幕",
+            "timeline_direction": "direction-r"
+          }
+        },
+        "3172ed2a-249b-46f4-8cae-40eef490b1ec": {
+          "type": "item",
+          "settings": {
+            "title": "1992年",
+            "description": "Y.E Ginseng更名為Yeh's Ginseng Farm",
+            "timeline_direction": "direction-l"
+          }
+        },
+        "76dc6b07-4862-4929-952e-51c8237c2f4b": {
+          "type": "item",
+          "settings": {
+            "title": "1995年",
+            "description": "列治文山時代廣場店門市開幕",
+            "timeline_direction": "direction-r"
+          }
+        },
+        "4803f913-a331-409f-aac9-7509d5f5716e": {
+          "type": "item",
+          "settings": {
+            "title": "1997年",
+            "description": "萬錦太古商場門市開幕",
+            "timeline_direction": "direction-l"
+          }
+        },
+        "2554eaed-ac31-4ed2-8da7-400cc74736d1": {
+          "type": "item",
+          "settings": {
+            "title": "1999年",
+            "description": "密市黃金廣場門市開幕",
+            "timeline_direction": "direction-r"
+          }
+        },
+        "decfc298-9968-4129-998e-96ac9986ef7b": {
+          "type": "item",
+          "settings": {
+            "title": "2005年",
+            "description": "溫哥華時代坊門市開幕",
+            "timeline_direction": "direction-l"
+          }
+        },
+        "69ff2c6a-9f0c-4e0e-ad1a-bcaf0f87312b": {
+          "type": "item",
+          "settings": {
+            "title": "2006年",
+            "description": "尼加拉瓜瀑佈區示範農場開幕",
+            "timeline_direction": "direction-r"
+          }
+        },
+        "9f387dee-402e-4c5a-94b4-c21a67df08e3": {
+          "type": "item",
+          "settings": {
+            "title": "2007年",
+            "description": "萬錦錦繡中華門市開幕",
+            "timeline_direction": "direction-l"
+          }
+        },
+        "214b68c1-0706-4724-8fe0-9f91337c9a27": {
+          "type": "item",
+          "settings": {
+            "title": "2008年",
+            "description": "渥太華門市開幕",
+            "timeline_direction": "direction-r"
+          }
+        },
+        "3d6f4b33-2023-4495-b255-93182110b732": {
+          "type": "item",
+          "settings": {
+            "title": "2008年",
+            "description": "設立花旗參加工廠及工廠門市",
+            "timeline_direction": "direction-l"
+          }
+        },
+        "c7a9bb8a-9d54-4981-9551-9d95daf4616e": {
+          "type": "item",
+          "settings": {
+            "title": "2011年",
+            "description": "普曼娜康山門市開幕",
+            "timeline_direction": "direction-r"
+          }
+        },
+        "9ec51817-8195-4c62-948f-c8a9de7c4c0b": {
+          "type": "item",
+          "settings": {
+            "title": "2019年",
+            "description": "農場增設廣達45,000平方呎的加工廠，且獲得SFCR認證",
+            "timeline_direction": "direction-l"
+          }
         }
       },
       "block_order": [
         "9448fe16-288f-4135-8635-9403c31e588e",
-        "0381e841-f7d9-4ff1-87d8-b626f37b77df"
+        "0381e841-f7d9-4ff1-87d8-b626f37b77df",
+        "8e660ea9-c454-416b-9d74-91239ffbd3ce",
+        "e3b5c3a8-8ca0-4c04-8b47-9b53d93611c6",
+        "3172ed2a-249b-46f4-8cae-40eef490b1ec",
+        "76dc6b07-4862-4929-952e-51c8237c2f4b",
+        "4803f913-a331-409f-aac9-7509d5f5716e",
+        "2554eaed-ac31-4ed2-8da7-400cc74736d1",
+        "decfc298-9968-4129-998e-96ac9986ef7b",
+        "69ff2c6a-9f0c-4e0e-ad1a-bcaf0f87312b",
+        "9f387dee-402e-4c5a-94b4-c21a67df08e3",
+        "214b68c1-0706-4724-8fe0-9f91337c9a27",
+        "3d6f4b33-2023-4495-b255-93182110b732",
+        "c7a9bb8a-9d54-4981-9551-9d95daf4616e",
+        "9ec51817-8195-4c62-948f-c8a9de7c4c0b"
       ],
       "settings": {
         "title": "我们的历史",
