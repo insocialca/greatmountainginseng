@@ -274,7 +274,7 @@
         "swipe_on_mobile": false,
         "section_border": false,
         "section_border_color": "",
-        "custom_class": ""
+        "custom_class": "story-awards"
       }
     }
   },
