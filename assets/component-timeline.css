@@ -50,14 +50,6 @@
   position: relative;
 }
 
-.timeline__item-wrap.direction-l .flag-wrapper {
-  padding-right: 60px;
-}
-
-.timeline__item-wrap.direction-r .flag-wrapper {
-  padding-left: 60px;
-}
-
 .flag {
   background: #A6192E;
   border-radius: 10px;
@@ -74,11 +66,15 @@
   padding: 30px;
 }
 
-.timeline__item-wrap.direction-r .desc {
-  text-align: right;
-}
-
 @media screen and (min-width: 660px) {
+  .timeline__item-wrap.direction-l .flag-wrapper {
+    padding-right: 60px;
+  }
+
+  .timeline__item-wrap.direction-r .flag-wrapper {
+    padding-left: 60px;
+  }
+  
   .flag {
     position: absolute;
     top: calc(50% - 25px);
@@ -90,5 +86,9 @@
   
   .timeline__item-wrap.direction-r .flag {
     left: 30px;
+  }
+  
+  .timeline__item-wrap.direction-r .desc {
+    text-align: right;
   }
 }
