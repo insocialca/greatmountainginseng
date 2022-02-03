@@ -1,0 +1,6 @@
+.timeline__item_wrap {
+  display: flex;
+}
+.timeline__item {
+  width: 50%;
+}
