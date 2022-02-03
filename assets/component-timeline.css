@@ -74,6 +74,10 @@
   padding: 30px;
 }
 
+.timeline__item-wrap.direction-r .desc {
+  text-align: right;
+}
+
 @media screen and (min-width: 660px) {
   .flag {
     position: absolute;
