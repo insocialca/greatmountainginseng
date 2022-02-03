@@ -896,7 +896,7 @@ product-recommendations .card-wrapper {
 }
   
 .story-awards .multicolumn-card__info h3 {
-  color: var(--color-forest-green);
+  color: var(--color-forest-green) !important;
   font-weight: bold;
   font-size: 20px;
 }
