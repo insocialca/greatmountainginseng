@@ -1,6 +1,7 @@
 /* In Social Custom Code */
 
 :root {
+  --color-red: #A6192E;
   --color-header-gold: #85714D;
   --color-light-beige: #D3C8C9;
   --color-forest-green: #215732;
@@ -874,7 +875,7 @@ product-recommendations .card-wrapper {
   font-weight: bold;
   font-size: 39px;
   text-align: center;
-  color: #A6192E !important;
+  color: var(--color-red) !important;
 }
   
 .story-awards h2.title {
