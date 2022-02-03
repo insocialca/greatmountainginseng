@@ -67,6 +67,10 @@
     {% endif %}
     background-color: {{ section.settings.bg_color }};
   }
+  
+  #shopify-section-{{ section.id }} .image-with-text__content {
+  color: {{ section.settings.txt_color }}
+  }
 </style>
 
 {% schema %}
