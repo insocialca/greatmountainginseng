@@ -1,7 +1,16 @@
+.timeline {
+  position: relative;
+}
+
 .timeline::before {
-  content: ' ';
-  border-bottom: 2px solid #A6192E;
-  transform: rotate(90deg);
+  content: " ";
+  background-color: #A6192E;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  z-index: 100;
 }
 
 .timeline__item_wrap {
