@@ -46,7 +46,7 @@
 <div class="multicolumn__border-{{ section.id }} multicolumn__border-top"></div>
 {% endif %}
 
-<div id="multicolumn-{{ section.id }}" class="multicolumn background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.set_style == 'borderless_overlay' %} multicolumn-borderless{% elsif section.settings.set_style == 'plain' %} multicolumn-plain{% elsif section.settings.set_style == 'locations' %} multicolumn-locations{% endif %}">
+<div id="multicolumn-{{ section.id }}" class="multicolumn background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.set_style == 'borderless_overlay' %} multicolumn-borderless{% elsif section.settings.set_style == 'plain' %} multicolumn-plain{% elsif section.settings.set_style == 'locations' %} multicolumn-locations{% endif %} {{ section.settings.custom_class }}">
   <div class="page-width">
     {% if section.settings.content_above_header != blank %}
     <div class="multicolumn__content-above-header">
@@ -371,6 +371,11 @@
       "type": "color",
       "id": "section_border_color",
 	  "label": "Border color"
+    },
+	{
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
     }
   ],
   "blocks": [
