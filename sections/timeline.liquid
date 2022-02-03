@@ -1,12 +1,27 @@
 {{ 'component-timeline.css' | asset_url | stylesheet_tag }}
 
+<div class="timeline__wrap">
+  <ul class="timeline">
+  </ul>
+</div>
+
 {% schema %}
 {
   "name": "Timeline",
   "tag": "section",
   "class": "spaced-section timeline",
   "blocks": [
-    
+	{
+      "name": "Timeline Item",
+      "type": "item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading"
+        }
+      ]
+    }
   ],
   "settings": [
     
