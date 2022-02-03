@@ -249,7 +249,7 @@
         "content_above_header": "<p><strong>我们的使命大山参坚持天然、纯正、高品质<\/strong><\/p>",
         "set_style": "locations",
         "section_bg": "shopify:\/\/shop_images\/background-awards.png",
-        "section_bg_fit": "contain",
+        "section_bg_fit": "cover",
         "section_bg_color": "#eaeaea",
         "background_style": "secondary",
         "background_position": "bottom center",
