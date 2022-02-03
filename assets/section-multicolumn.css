@@ -119,7 +119,7 @@
     padding: 0;
   }
   
-  .grid--2-col .multicolumn-list__item {
+  .grid--2-col .multicolumn-list__item .multicolumn-card {
     margin: 0 0.5rem 1rem;
   }
 
