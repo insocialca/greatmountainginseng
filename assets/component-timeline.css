@@ -60,7 +60,7 @@
   color: #fff;
   position: absolute;
   padding: 10px 15px;
-  top: 50%;
+  top: calc(50% - 10px);
 }
 
 .timeline__item-wrap.direction-l .flag {
