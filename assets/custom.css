@@ -96,6 +96,13 @@ img {
   height: 8px;
   background: linear-gradient(90deg, #926427 0%, #E9B91A 27.08%, #B08123 56.77%, #F0C019 81.77%, #FBF2C8 100%);
 }
+  
+@media screen and (max-width: 749px) {
+  .header {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
 
 /* Striked Header */
 
