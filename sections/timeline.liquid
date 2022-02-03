@@ -1,6 +1,11 @@
 {{ 'component-timeline.css' | asset_url | stylesheet_tag }}
 
 <div class="timeline__wrap">
+  <div class="timeline__section-content">
+    {% if section.settings.title != blank %}
+    <h2 class="title{% if section.settings.striked-header %} striked-header{% endif %}"><span>Featured products</span></h2>
+    {% endif %}
+  </div>
   <ul class="timeline">
   </ul>
 </div>
