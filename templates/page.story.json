@@ -3,6 +3,8 @@
     "main": {
       "type": "custom-story-page",
       "settings": {
+        "bg_image": "shopify:\/\/shop_images\/story-bg.png",
+        "bg_color": "#eaeaea"
       }
     },
     "1643899962b94e00b4": {
