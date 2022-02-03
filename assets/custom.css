@@ -883,6 +883,7 @@ product-recommendations .card-wrapper {
   text-align: center;
   color: var(--color-red) !important;
   font-size: 20px;
+  margin: 0 15px;
 }
   
 .story-awards h2.title {
