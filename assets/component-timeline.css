@@ -83,7 +83,7 @@
     padding-right: 60px;
   }
   
-  .timeline__item-wrap .flag-wrapper::before {
+  .flag-wrapper::before {
     content: ' ';
     background-color: #A6192E;
     height: 2px;
