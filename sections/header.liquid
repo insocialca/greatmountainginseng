@@ -58,6 +58,14 @@
       padding-top: 0.5rem;
     }
   }
+  
+  @media screen and (max-width: 749px) {
+    {% if section.settings.hide_account_on_mobile %}
+    .header__content-right .header__icon--account {
+      display: none !important;
+    }
+    {% endif %}
+  }
 </style>
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
