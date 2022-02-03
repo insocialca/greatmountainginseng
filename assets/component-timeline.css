@@ -39,6 +39,10 @@
   margin-bottom: 30px;
 }
 
+.timeline__item-wrap:last-child {
+  margin-bottom: 0;
+}
+
 .flag-wrapper {
   position: relative;
   text-align: center;
