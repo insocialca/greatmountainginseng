@@ -22,8 +22,8 @@
   
   {% if section.settings.header_color != blank %}
   #multicolumn-{{ section.id }},
-  #multicolumn-{{ section.id }} .title *  {
-    color: {{ section.settings.header_color }} !important;
+  #multicolumn-{{ section.id }} * {
+    color: {{ section.settings.header_color }};
   }
   {% endif %}
   
