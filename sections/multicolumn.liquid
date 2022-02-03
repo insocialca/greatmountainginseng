@@ -39,6 +39,18 @@
     display: block !important;
   }
   {% endif %}
+  
+  {% if section.settings.collapse_content_mobile %}
+  @media screen and (max-width: 749px) {
+    #multicolumn-{{ section.id }} .multicolumn-card {
+      display: flex;
+    }
+    
+    #multicolumn-{{ section.id }} .multicolumn-card > div {
+      width: 50%;
+    }
+  }
+  {% endif %}
 </style>
 {% endif %}
 
