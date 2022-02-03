@@ -7,6 +7,17 @@
     },
     "1643899962b94e00b4": {
       "type": "timeline",
+      "blocks": {
+        "9448fe16-288f-4135-8635-9403c31e588e": {
+          "type": "item",
+          "settings": {
+            "title": "1976年"
+          }
+        }
+      },
+      "block_order": [
+        "9448fe16-288f-4135-8635-9403c31e588e"
+      ],
       "settings": {
       }
     }
