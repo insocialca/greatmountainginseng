@@ -880,3 +880,8 @@ product-recommendations .card-wrapper {
 .story-awards h2.title {
   font-weight: normal;
 }
+  
+.story-awards .multicolumn-card-spacing {
+  margin: 0;
+  padding: 0;
+}
