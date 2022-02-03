@@ -893,3 +893,9 @@ product-recommendations .card-wrapper {
 .story-awards .multicolumn-card-spacing .media img {
   object-fit: contain;
 }
+  
+.story-awards .multicolumn-card__info h3 {
+  color: var(--color-forest-green);
+  font-weight: bold;
+  font-size: 20px;
+}
