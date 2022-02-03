@@ -174,7 +174,7 @@
         "striked-header": true,
         "image": "shopify:\/\/shop_images\/our-process.png",
         "height": "adapt",
-        "color_scheme": "background-1",
+        "color_scheme": "",
         "layout": "text_first",
         "section_border": true,
         "bg_image": "shopify:\/\/shop_images\/process-bg.png",
