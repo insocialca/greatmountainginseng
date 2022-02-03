@@ -36,14 +36,7 @@
 
 .timeline__item-wrap {
   display: flex;
-}
-
-.timeline__item {
-  width: 50%;
-}
-
-.timeline__item-wrap.direction-r {
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .flag-wrapper {
@@ -67,6 +60,18 @@
 }
 
 @media screen and (min-width: 660px) {
+  .timeline__item {
+    width: 50%;
+  }
+
+  .timeline__item-wrap.direction-l {
+    justify-content: flex-start;
+  }
+  
+  .timeline__item-wrap.direction-r {
+    justify-content: flex-end;
+  }
+  
   .timeline__item-wrap.direction-l .flag-wrapper {
     padding-right: 60px;
   }
