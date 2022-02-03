@@ -8,7 +8,7 @@
 </div>
 
 <style>
-  #shopify-section-template--{{ section.id }} {
+  #shopify-section{{ section.id }} {
     {% if section.settings.bg_image != blank %}
     background-image: url("{{ section.settings.bg_image | img_url: '1420x' }}");
     background-size: {{ section.settings.section_bg_fit }};
