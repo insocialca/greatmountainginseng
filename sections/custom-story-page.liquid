@@ -10,11 +10,12 @@
 <style>
   #shopify-section-template--{{ section.id }} {
     {% if section.settings.bg_image != blank %}
-    background-image: url('{{ section.settings.bg_image | img_url: '1420x' }}');
+    background-image: url("{{ section.settings.bg_image | img_url: '1420x' }}");
     background-size: {{ section.settings.section_bg_fit }};
     background-repeat: no-repeat;
     background-position: {{ section.settings.background_position }};
     {% endif %}
+    background-color: {{ section.settings.bg_color }};
   }
 </style>
 
