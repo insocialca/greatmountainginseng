@@ -267,6 +267,7 @@
         "image_ratio": "adapt",
         "column_alignment": "center",
         "set_column_number": 5,
+        "set_col_mobile": 2,
         "button_label": "",
         "button_link": "",
         "trigger_all_locations": false,
