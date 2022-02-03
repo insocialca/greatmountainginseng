@@ -238,7 +238,7 @@
       "settings": {
         "title": "我們的榮耀",
         "header_color": "",
-        "striked_header": false,
+        "striked_header": true,
         "set_style": "default",
         "section_bg_fit": "cover",
         "section_bg_color": "",
