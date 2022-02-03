@@ -38,3 +38,11 @@
 .timeline__item-wrap.direction-r {
   justify-content: flex-end;
 }
+
+.flag-wrapper {
+  background: #FFFFFF;
+  border: 2px solid #D3C8C9;
+  width: 100%;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
