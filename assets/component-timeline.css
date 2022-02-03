@@ -61,17 +61,6 @@
   padding: 10px 15px;
 }
 
-@media screen and (min-width: 660px) {
-  .flag {
-    position: absolute;
-    top: calc(50% - 25px);
-  }
-}
-
-.timeline__item-wrap.direction-l .flag {
-  right: 30px;
-}
-
 .desc {
   background: #FFFFFF;
   border: 2px solid #D3C8C9;
@@ -81,3 +70,17 @@
   padding: 30px;
 }
 
+@media screen and (min-width: 660px) {
+  .flag {
+    position: absolute;
+    top: calc(50% - 25px);
+  }
+  
+  .timeline__item-wrap.direction-l .flag {
+    right: 30px;
+  }
+  
+  .timeline__item-wrap.direction-r .flag {
+    left: 30px;
+  }
+}
