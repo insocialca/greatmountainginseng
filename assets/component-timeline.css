@@ -79,18 +79,29 @@
     justify-content: flex-end;
   }
   
+  .flag-wrapper::before {
+    content: " ";
+    background-color: #a6192e;
+    height: 2px;
+    position: absolute;
+    width: 30px;
+    top: calc(50% - 1px);
+  }
+  
   .timeline__item-wrap.direction-l .flag-wrapper {
     padding-right: 60px;
   }
   
-  .flag-wrapper::before {
-    content: ' ';
-    background-color: #A6192E;
-    height: 2px;
+  .timeline__item-wrap.direction-l .flag-wrapper::before {
+  	right: 0;
   }
 
   .timeline__item-wrap.direction-r .flag-wrapper {
     padding-left: 60px;
+  }
+  
+  .timeline__item-wrap.direction-r .flag-wrapper::before {
+  	left: 0;
   }
   
   .flag {
