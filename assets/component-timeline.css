@@ -2,8 +2,7 @@
   position: relative;
 }
 
-.timeline::before {
-  content: " ";
+.timeline > span {
   background-color: #A6192E;
   height: 100%;
   position: absolute;
