@@ -171,7 +171,9 @@
         "image": "shopify:\/\/shop_images\/our-process.png",
         "height": "adapt",
         "color_scheme": "background-1",
-        "layout": "text_first"
+        "layout": "text_first",
+        "section_border": true,
+        "custom_class": ""
       }
     },
     "16439091179c9cd623": {
@@ -260,7 +262,8 @@
         "button_style_mobile": "text",
         "swipe_on_mobile": false,
         "section_border": false,
-        "section_border_color": ""
+        "section_border_color": "",
+        "custom_class": ""
       }
     }
   },
