@@ -10,7 +10,7 @@ body {
 
 /* ================ The Timeline ================ */
 
-.timeline-component {
+.timeline__graph .timeline {
   position: relative;
   width: 660px;
   margin: 0 auto;
@@ -19,7 +19,7 @@ body {
   list-style-type: none;
 }
 
-.timeline-component:before {
+.timeline__graph .timeline__graph .timeline__graph .timeline:before {
   position: absolute;
   left: 50%;
   top: 0;
@@ -39,11 +39,11 @@ body {
   z-index: 5;
 }
 
-.timeline-component li {
+.timeline__graph .timeline__graph .timeline__graph .timeline li {
   padding: 1em 0;
 }
 
-.timeline-component li:after {
+.timeline__graph .timeline__graph .timeline__graph .timeline li:after {
   content: "";
   display: block;
   height: 0;
@@ -181,12 +181,12 @@ body {
 
 @media screen and (max-width: 660px) {
 
-  .timeline-component {
+  .timeline__graph .timeline__graph .timeline__graph .timeline {
     width: 100%;
     padding: 4em 0 1em 0;
   }
 
-  .timeline-component li {
+  .timeline__graph .timeline__graph .timeline__graph .timeline li {
     padding: 2em 0;
   }
 
