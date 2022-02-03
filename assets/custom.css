@@ -874,7 +874,7 @@ product-recommendations .card-wrapper {
   font-weight: bold;
   font-size: 39px;
   text-align: center;
-  color: #A6192E;
+  color: #A6192E !important;
 }
   
 .story-awards h2.title {
