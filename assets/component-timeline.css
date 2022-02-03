@@ -71,6 +71,10 @@
     width: 50%;
   }
 
+  .timeline__item-wrap {
+    margin-bottom: 0;
+  }
+  
   .timeline__item-wrap.direction-l {
     justify-content: flex-start;
   }
