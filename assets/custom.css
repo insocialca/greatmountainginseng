@@ -855,6 +855,7 @@ product-recommendations .card-wrapper {
   font-weight: 500;
   font-size: 26px;
   text-align: center;
+  margin: 0.83em 0;
 }
   
 .story-page .rte p {
