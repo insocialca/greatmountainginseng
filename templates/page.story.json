@@ -4,7 +4,7 @@
       "type": "custom-story-page",
       "settings": {
         "bg_image": "shopify:\/\/shop_images\/story-bg.png",
-        "section_bg_fit": "contain",
+        "section_bg_fit": "cover",
         "background_position": "center center",
         "bg_color": "#eaeaea"
       }
