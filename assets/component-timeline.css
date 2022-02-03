@@ -35,7 +35,11 @@
   justify-content: flex-end;
 }
 
-.flag-wrapper {
+.timeline__item-wrap.direction-l .flag-wrapper {
+  padding-right: 30px;
+}
+
+.desc {
   background: #FFFFFF;
   border: 2px solid #D3C8C9;
   width: 100%;
@@ -43,6 +47,3 @@
   border-radius: 10px;
 }
 
-.timeline__item-wrap.direction-l .flag-wrapper {
-  padding-right: 30px;
-}
