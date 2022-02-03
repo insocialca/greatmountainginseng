@@ -23,6 +23,11 @@
   margin-left: -10px;
 }
 
+.timeline__graph {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .timeline__item-wrap {
   display: flex;
 }
