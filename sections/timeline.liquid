@@ -6,11 +6,12 @@
     <h2 class="title{% if section.settings.striked-header %} striked-header{% endif %}"><span>{{ section.settings.title | escape }}</span></h2>
     {% endif %}
   </div>
-  {{ section.blocks.size }}
+  {% if section.blocks.size > 0 %}
   <div class="timeline__graph">
     <ul class="timeline">
     </ul>
   </div>
+  {% endif %}
 </div>
 
 {% schema %}
