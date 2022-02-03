@@ -8,8 +8,8 @@
       {% endif %}
     </div>
     {% if section.blocks.size > 0 %}
-    <div class="timeline__graph">
-      <ul class="timeline">
+    <div class="timeline">
+      <ul class="timeline__graph">
         {%- for block in section.blocks -%}
         <li class="timeline__item-wrap">
           <div class="timeline__item {{ block.settings.timeline_direction }}">
