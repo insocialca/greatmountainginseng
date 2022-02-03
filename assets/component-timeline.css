@@ -46,7 +46,7 @@
 
 .flag {
   background: #A6192E;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   color: #fff;
   padding: 10px 15px;
 }
@@ -85,6 +85,7 @@
   .flag {
     position: absolute;
     top: calc(50% - 25px);
+    border-radius: 10px;
   }
   
   .timeline__item-wrap.direction-l .flag {
