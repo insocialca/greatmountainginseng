@@ -10,6 +10,7 @@
   top: 0;
   left: 50%;
   width: 2px;
+  margin-left: -1px;
 }
 
 .timeline > span::before {
@@ -19,7 +20,7 @@
   height: 22px;
   width: 22px;
   border-radius: 50%;
-  margin-left: -11px;
+  margin-left: -10px;
 }
 
 .timeline__item_wrap {
