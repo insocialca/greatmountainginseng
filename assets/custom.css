@@ -861,12 +861,8 @@ product-recommendations .card-wrapper {
 }
   
 /* Image with Text */
-
-.our-process .image-with-text__grid {
-  gap: 30px;
-}
   
 .our-process .image-with-text__content {
-  padding: 0;
+  padding: 0 30px 0 0;
   color: #fff;
 }
