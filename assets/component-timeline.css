@@ -58,9 +58,14 @@
   background: #A6192E;
   border-radius: 10px;
   color: #fff;
-  position: absolute;
   padding: 10px 15px;
-  top: calc(50% - 25px);
+}
+
+@media screen and (min-width: 660px) {
+  .flag {
+    position: absolute;
+    top: calc(50% - 25px);
+  }
 }
 
 .timeline__item-wrap.direction-l .flag {
