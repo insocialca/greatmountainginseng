@@ -12,6 +12,14 @@
   width: 2px;
 }
 
+.timeline > span::before {
+  content: ' ';
+  background-color: #A6192E;
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+}
+
 .timeline__item_wrap {
   display: flex;
 }
