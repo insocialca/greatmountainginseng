@@ -859,3 +859,9 @@ product-recommendations .card-wrapper {
 .story-page .rte p {
   line-height: 2;
 }
+  
+/* Image with Text */
+  
+.our-process .image-with-text__content {
+  padding: 0;
+}
