@@ -11,8 +11,8 @@
     <div class="timeline__graph">
       <ul class="timeline">
         {%- for block in section.blocks -%}
-        <li>
-          <div class="{{ block.settings.timeline_direction }}">
+        <li class="timeline__item-wrap">
+          <div class="timeline__item {{ block.settings.timeline_direction }}">
             <div class="flag-wrapper">
               <span class="flag">{{ block.settings.title }}</span>
               <div class="desc">
