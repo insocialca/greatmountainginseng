@@ -124,6 +124,12 @@
   }
   
   .timeline__item-wrap.direction-r .desc {
+    padding-right: 80px;
+    text-align: left;
+  }
+  
+  .timeline__item-wrap.direction-r .desc {
+    padding-left: 80px;
     text-align: right;
   }
 }
