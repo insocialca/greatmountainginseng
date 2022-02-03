@@ -1,10 +1,10 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
+<div class="{{ section.settings.custom_class }}">
 {% if section.settings.section_border %}
-<div class="multicolumn__border-{{ section.id }} multicolumn__border-top"></div>
+<div class="image-with-text__border-top"></div>
 {% endif %}
-
-<div class="image-with-text {% if section.settings.full_width %}image-with-text--full-width{% else %}page-width{% endif %} color-scheme-{{ section.settings.color_scheme }} {{ section.settings.custom_class }}">
+<div class="image-with-text {% if section.settings.full_width %}image-with-text--full-width{% else %}page-width{% endif %} color-scheme-{{ section.settings.color_scheme }}">
   {% if section.settings.title != blank %}
   <h2 class="title{% if section.settings.striked-header %} striked-header{% endif %}"><span>{{ section.settings.title | escape }}</span></h2>
   {% endif %}
@@ -52,10 +52,10 @@
     </div>
   </div>
 </div>
-
 {% if section.settings.section_border %}
-<div class="multicolumn__border-{{ section.id }} multicolumn__border-bottom"></div>
+<div class="image-with-text__border-bottom"></div>
 {% endif %}
+</div>
 
 <style>
   #shopify-section-{{ section.id }} {
