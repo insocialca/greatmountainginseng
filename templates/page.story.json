@@ -177,11 +177,12 @@
         "color_scheme": "",
         "layout": "text_first",
         "section_border": true,
+        "border_color": "#a6192e",
         "bg_image": "shopify:\/\/shop_images\/process-bg.png",
         "section_bg_fit": "contain",
         "background_position": "center center",
         "bg_color": "#000000",
-        "txt_color": "#fff",
+        "txt_color": "#ffffff",
         "custom_class": "our-process"
       }
     },
