@@ -49,6 +49,8 @@
   border-radius: 10px 10px 0 0;
   color: #fff;
   padding: 10px 15px;
+  width: 100%;
+  display: block;
 }
 
 .desc {
