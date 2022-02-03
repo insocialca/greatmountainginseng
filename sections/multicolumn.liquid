@@ -9,7 +9,7 @@
     {% unless section.settings.section_bg_fit == 'pattern' %}
       background-size: {{ section.settings.section_bg_fit }};
       background-repeat: no-repeat;
-      background-position: center center;
+      background-position: {{ section.settings.background_position }};
     {% endunless %}
   }
   
@@ -232,6 +232,46 @@
 	},
     {
       "type": "select",
+      "id": "background_style",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:sections.multicolumn.settings.background_style.options__1.label"
+        },
+        {
+          "value": "primary",
+          "label": "t:sections.multicolumn.settings.background_style.options__2.label"
+        },
+        {
+          "value": "secondary",
+          "label": "t:sections.multicolumn.settings.background_style.options__3.label"
+        }
+      ],
+      "default": "primary",
+      "label": "t:sections.multicolumn.settings.background_style.label"
+    },
+    {
+      "type": "select",
+      "id": "background_position",
+      "options": [
+        {
+          "value": "top center",
+          "label": "Top"
+        },
+        {
+          "value": "center center",
+          "label": "Center"
+        },
+        {
+          "value": "bottom center",
+          "label": "Bottom"
+        }
+      ],
+      "default": "center center",
+      "label": "Background position"
+    },
+    {
+      "type": "select",
       "id": "image_width",
       "options": [
         {
@@ -299,26 +339,6 @@
       "default": 2,
       "label": "Set Number of Columns (Desktop)",
 	  "info": "Only takes effect if image width is set to full"
-    },
-    {
-      "type": "select",
-      "id": "background_style",
-      "options": [
-        {
-          "value": "none",
-          "label": "t:sections.multicolumn.settings.background_style.options__1.label"
-        },
-        {
-          "value": "primary",
-          "label": "t:sections.multicolumn.settings.background_style.options__2.label"
-        },
-        {
-          "value": "secondary",
-          "label": "t:sections.multicolumn.settings.background_style.options__3.label"
-        }
-      ],
-      "default": "primary",
-      "label": "t:sections.multicolumn.settings.background_style.label"
     },
     {
       "type": "text",
