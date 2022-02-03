@@ -849,3 +849,9 @@ product-recommendations .card-wrapper {
   margin-top: 0;
   padding: 50px 0;
 }
+  
+.story-page .main-page-title {
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+}
