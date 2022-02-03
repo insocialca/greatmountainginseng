@@ -19,7 +19,7 @@ body {
   list-style-type: none;
 }
 
-.timeline__graph .timeline__graph .timeline__graph .timeline:before {
+.timeline__graph .timeline:before {
   position: absolute;
   left: 50%;
   top: 0;
@@ -39,11 +39,11 @@ body {
   z-index: 5;
 }
 
-.timeline__graph .timeline__graph .timeline__graph .timeline li {
+.timeline__graph .timeline li {
   padding: 1em 0;
 }
 
-.timeline__graph .timeline__graph .timeline__graph .timeline li:after {
+.timeline__graph .timeline li:after {
   content: "";
   display: block;
   height: 0;
