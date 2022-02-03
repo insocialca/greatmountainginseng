@@ -1,6 +1,13 @@
+.timeline::before {
+  content: ' ';
+  border-bottom: 2px solid #A6192E;
+  transform: rotate(90deg);
+}
+
 .timeline__item_wrap {
   display: flex;
 }
+
 .timeline__item {
   width: 50%;
 }
