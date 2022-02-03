@@ -245,7 +245,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "set_column_number": 4,
+        "set_column_number": 5,
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
