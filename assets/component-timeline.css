@@ -13,12 +13,13 @@
 }
 
 .timeline > span::before {
+  display: block;
   content: ' ';
   background-color: #A6192E;
-  height: 23px;
-  width: 23px;
+  height: 22px;
+  width: 22px;
   border-radius: 50%;
-  border: 1px solid black;
+  margin-left: -11px;
 }
 
 .timeline__item_wrap {
