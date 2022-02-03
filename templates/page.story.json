@@ -177,6 +177,10 @@
         "color_scheme": "background-1",
         "layout": "text_first",
         "section_border": true,
+        "bg_image": "shopify:\/\/shop_images\/process-bg.png",
+        "section_bg_fit": "cover",
+        "background_position": "center center",
+        "bg_color": "#000000",
         "custom_class": ""
       }
     },
