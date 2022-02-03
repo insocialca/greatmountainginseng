@@ -31,3 +31,10 @@
   width: 50%;
 }
 
+.timeline__item-wrap.direction-l {
+  justify-content: flex-end;
+}
+
+.timeline__item-wrap.direction-r {
+  flex-direction: row-reverse;
+}
