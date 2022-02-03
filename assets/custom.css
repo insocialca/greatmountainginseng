@@ -900,3 +900,8 @@ product-recommendations .card-wrapper {
   font-weight: bold;
   font-size: 20px;
 }
+
+.story-awards .multicolumn-card__info .rte {
+  font-size: 16px;
+  line-height: 1;
+}
