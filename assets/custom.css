@@ -844,3 +844,8 @@ product-recommendations .card-wrapper {
 }
   
 /* Story Page */
+  
+.story-page {
+  margin-top: 0;
+  padding-top: 50px;
+}
