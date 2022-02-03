@@ -48,6 +48,11 @@
 
 <div id="multicolumn-{{ section.id }}" class="multicolumn background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.set_style == 'borderless_overlay' %} multicolumn-borderless{% elsif section.settings.set_style == 'plain' %} multicolumn-plain{% elsif section.settings.set_style == 'locations' %} multicolumn-locations{% endif %}">
   <div class="page-width">
+    {% if section.settings.content_above_header != blank %}
+    <div class="multicolumn__content-above-header">
+      {{ section.settings.content_above_header }}
+    </div>
+    {% endif %}
     <div class="title-wrapper-with-link title-wrapper--self-padded-mobile{% if section.settings.title == blank %} title-wrapper-with-link--no-heading{% endif %}">
       <h2 class="title{% if section.settings.striked_header %} striked-header{% endif %}">
         <span>{{ section.settings.title | escape }}</span>
@@ -165,6 +170,11 @@
       "id": "striked_header",
       "default": false,
       "label": "Striked header style"
+    },
+    {
+      "type": "textarea",
+      "id": "content_above_header",
+      "label": "Content above header"
     },
     {
       "type": "select",
