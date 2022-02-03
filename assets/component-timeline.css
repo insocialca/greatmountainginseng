@@ -123,7 +123,7 @@
     border-radius: 10px;
   }
   
-  .timeline__item-wrap.direction-r .desc {
+  .timeline__item-wrap.direction-l .desc {
     padding-right: 80px;
     text-align: left;
   }
