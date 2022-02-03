@@ -173,11 +173,94 @@
         "color_scheme": "background-1",
         "layout": "text_first"
       }
+    },
+    "16439091179c9cd623": {
+      "type": "multicolumn",
+      "blocks": {
+        "1643909117baf58097-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "trigger_locations": false
+          }
+        },
+        "1643909117baf58097-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "trigger_locations": false
+          }
+        },
+        "1643909117baf58097-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "trigger_locations": false
+          }
+        },
+        "4679d9e8-90a9-4408-96cb-1b2d853776d9": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "trigger_locations": false
+          }
+        },
+        "ecda7645-36db-4d99-a49f-3383842b4955": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "trigger_locations": false
+          }
+        }
+      },
+      "block_order": [
+        "1643909117baf58097-0",
+        "1643909117baf58097-1",
+        "1643909117baf58097-2",
+        "4679d9e8-90a9-4408-96cb-1b2d853776d9",
+        "ecda7645-36db-4d99-a49f-3383842b4955"
+      ],
+      "settings": {
+        "title": "我們的榮耀",
+        "header_color": "",
+        "striked_header": false,
+        "set_style": "default",
+        "section_bg_fit": "cover",
+        "section_bg_color": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "set_column_number": 4,
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "trigger_all_locations": false,
+        "button_style_mobile": "text",
+        "swipe_on_mobile": false,
+        "section_border": false,
+        "section_border_color": ""
+      }
     }
   },
   "order": [
     "main",
     "1643899962b94e00b4",
-    "164390874991a99b46"
+    "164390874991a99b46",
+    "16439091179c9cd623"
   ]
 }
