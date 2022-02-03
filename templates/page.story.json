@@ -245,6 +245,7 @@
         "header_color": "",
         "striked_header": true,
         "set_style": "locations",
+        "section_bg": "shopify:\/\/shop_images\/background-awards.png",
         "section_bg_fit": "contain",
         "section_bg_color": "",
         "image_width": "full",
