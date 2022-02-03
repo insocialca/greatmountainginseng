@@ -1,0 +1,32 @@
+{% if product.description != blank %}
+<div id="read-more" class="product-description__wrap">
+  {% if section.settings.heading != blank %}
+  <h2 class="product-description__heading"><span>{{ section.settings.heading | escape }}</span></h2>
+  {% endif %}
+  <div class="product-description__content">
+  	{{ product.description }}
+  </div>
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Product Description",
+  "tag": "section",
+  "class": "spaced-section section_product-description",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "产品详情",
+      "label": "Heading"
+    }
+  ],
+  "templates": ["product"],
+  "presets": [
+    {
+      "name": "Product Description"
+    }
+  ]
+}
+{% endschema %}

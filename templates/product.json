@@ -1,1 +1,98 @@
-{"sections":{"main":{"type":"main-product","blocks":{"vendor":{"type":"text","settings":{"text":"{{ product.vendor }}","text_style":"uppercase"}},"title":{"type":"title","settings":{}},"subtitle":{"type":"text","settings":{"text":"{{ product.metafields.descriptors.subtitle.value }}","text_style":"subtitle"}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button"}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true}},"description":{"type":"description","settings":{}},"share":{"type":"share","settings":{}},"134bcdc0-0853-4086-9d3b-cfd24a71706a":{"type":"collapsible_tab","settings":{"heading":"Collapsible tab","content":"","page":"","icon":"none"}},"40b7958e-5907-4f9a-9a7c-3cdc2e56c0bb":{"type":"collapsible_tab","settings":{"heading":"Collapsible tab","content":"","page":"","icon":"none"}}},"block_order":["vendor","title","subtitle","price","variant_picker","quantity_selector","buy_buttons","description","share","134bcdc0-0853-4086-9d3b-cfd24a71706a","40b7958e-5907-4f9a-9a7c-3cdc2e56c0bb"],"settings":{"enable_sticky_info":true,"enable_video_looping":false}},"product-recommendations":{"type":"product-recommendations","settings":{"heading":"You may also like","image_ratio":"adapt","show_secondary_image":false,"add_image_padding":false,"show_vendor":false}}},"order":["main","product-recommendations"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "9ae08ec4-c609-4aae-97bf-701bc143e851": {
+          "type": "richtext",
+          "settings": {
+            "paragraph": "<p><a href=\"#read-more\" title=\"#read-more\">阅读有关此产品的信息 &gt;<\/a><\/p>"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "variant_picker",
+        "price",
+        "9ae08ec4-c609-4aae-97bf-701bc143e851",
+        "quantity_selector",
+        "buy_buttons"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "enable_video_looping": false
+      }
+    },
+    "1643752020a7b71251": {
+      "type": "product-description",
+      "settings": {
+        "heading": "产品详情"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "你可能还喜欢",
+        "striked-header": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_vendor": false,
+        "show_viewproduct": true
+      }
+    },
+    "1643819030a7a05058": {
+      "type": "apps",
+      "blocks": {
+        "ff11c3f6-674a-4446-9af6-30ec5a48bfba": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "helvetica_n4",
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "ff11c3f6-674a-4446-9af6-30ec5a48bfba"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1643752020a7b71251",
+    "product-recommendations",
+    "1643819030a7a05058"
+  ]
+}
