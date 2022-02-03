@@ -252,6 +252,7 @@
         "section_bg_fit": "contain",
         "section_bg_color": "#eaeaea",
         "background_style": "secondary",
+        "background_position": "bottom center",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "center",
