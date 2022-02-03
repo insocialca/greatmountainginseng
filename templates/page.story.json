@@ -15,10 +15,19 @@
             "description": "成立Y.E Ginseng（花旗參農場）",
             "timeline_direction": "direction-l"
           }
+        },
+        "0381e841-f7d9-4ff1-87d8-b626f37b77df": {
+          "type": "item",
+          "settings": {
+            "title": "1982年",
+            "description": "成立Chin Tai Ginseng Co. Ltd.",
+            "timeline_direction": "direction-r"
+          }
         }
       },
       "block_order": [
-        "9448fe16-288f-4135-8635-9403c31e588e"
+        "9448fe16-288f-4135-8635-9403c31e588e",
+        "0381e841-f7d9-4ff1-87d8-b626f37b77df"
       ],
       "settings": {
         "title": "我们的历史",
