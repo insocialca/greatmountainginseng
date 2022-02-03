@@ -13,7 +13,8 @@
   margin-left: -1px;
 }
 
-.timeline > span::before {
+.timeline > span::before,
+.timeline > span::after {
   display: block;
   content: ' ';
   background-color: #A6192E;
@@ -21,6 +22,10 @@
   width: 22px;
   border-radius: 50%;
   margin-left: -10px;
+}
+
+.timeline > span::after {
+  bottom: 0;
 }
 
 .timeline__graph {
