@@ -871,7 +871,7 @@ product-recommendations .card-wrapper {
 
 /* Awards section */
   
-.story-awards .multicolumn__content-above-header {
+.story-awards .multicolumn__content-above-header * {
   font-weight: bold;
   font-size: 39px;
   text-align: center;
