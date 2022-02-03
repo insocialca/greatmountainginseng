@@ -54,6 +54,10 @@
   padding-right: 60px;
 }
 
+.timeline__item-wrap.direction-r .flag-wrapper {
+  padding-left: 60px;
+}
+
 .flag {
   background: #A6192E;
   border-radius: 10px;
