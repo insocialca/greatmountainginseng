@@ -150,6 +150,52 @@
       "default": false
     },
 	{
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background image"
+    },
+	{
+      "type": "select",
+      "id": "section_bg_fit",
+      "options": [
+        {
+          "value": "cover",
+          "label": "Cover"
+        },
+        {
+          "value": "contain",
+          "label": "Contain"
+        }
+      ],
+      "default": "cover",
+      "label": "Background image size"
+    },
+    {
+      "type": "select",
+      "id": "background_position",
+      "options": [
+        {
+          "value": "top center",
+          "label": "Top"
+        },
+        {
+          "value": "center center",
+          "label": "Center"
+        },
+        {
+          "value": "bottom center",
+          "label": "Bottom"
+        }
+      ],
+      "default": "center center",
+      "label": "Background position"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color"
+    },
+	{
       "type": "text",
       "id": "custom_class",
       "label": "Custom Class"
