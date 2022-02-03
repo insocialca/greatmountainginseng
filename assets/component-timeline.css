@@ -59,6 +59,8 @@
   border-radius: 10px;
   color: #fff;
   position: absolute;
+  padding: 10px 15px;
+  top: 50%;
 }
 
 .timeline__item-wrap.direction-l .flag {
@@ -71,5 +73,6 @@
   width: 100%;
   box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
+  padding: 30px;
 }
 
