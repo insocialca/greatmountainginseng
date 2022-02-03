@@ -3,6 +3,7 @@
 }
 
 .timeline > span {
+  display: block;
   background-color: #A6192E;
   height: 100%;
   position: absolute;
