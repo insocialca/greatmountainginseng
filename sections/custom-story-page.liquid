@@ -9,8 +9,20 @@
 
 {% schema %}
 {
-  "name": "Story page",
+  "name": "Story",
   "tag": "section",
-  "class": "spaced-section story-page"
+  "class": "spaced-section story-page",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background image"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color"
+    }
+  ]
 }
 {% endschema %}
