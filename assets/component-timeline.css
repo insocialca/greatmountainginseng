@@ -87,6 +87,7 @@
     position: absolute;
     top: calc(50% - 25px);
     border-radius: 10px;
+    display: inline;
   }
   
   .timeline__item-wrap.direction-l .flag {
