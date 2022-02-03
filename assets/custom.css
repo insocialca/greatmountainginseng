@@ -871,6 +871,7 @@ product-recommendations .card-wrapper {
 
 @media screen and (min-width: 750px) {
   .our-process .image-with-text__content {
+    margin-top: 0;
     padding-right: 60px;
   }
 }
