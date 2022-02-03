@@ -31,10 +31,6 @@
   width: 50%;
 }
 
-.timeline__item-wrap.direction-l {
-  
-}
-
 .timeline__item-wrap.direction-r {
   justify-content: flex-end;
 }
@@ -45,4 +41,8 @@
   width: 100%;
   box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
+}
+
+.timeline__item-wrap.direction-l .flag-wrapper {
+  padding-right: 30px;
 }
