@@ -4,9 +4,15 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "1643899962b94e00b4": {
+      "type": "timeline",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1643899962b94e00b4"
   ]
 }
