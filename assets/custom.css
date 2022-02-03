@@ -880,7 +880,6 @@ product-recommendations .card-wrapper {
   
 .story-awards .multicolumn__content-above-header * {
   font-weight: bold;
-  font-size: 39px;
   text-align: center;
   color: var(--color-red) !important;
 }
@@ -911,4 +910,10 @@ product-recommendations .card-wrapper {
 .story-awards .multicolumn-card__info .rte {
   font-size: 14px;
   line-height: 1.25;
+}
+
+@media screen and (min-width: 750px) {
+  .story-awards .multicolumn__content-above-header * {
+    font-size: 39px;
+  }
 }
