@@ -855,3 +855,7 @@ product-recommendations .card-wrapper {
   font-size: 26px;
   text-align: center;
 }
+  
+.story-page .rte p {
+  line-height: 2;
+}
