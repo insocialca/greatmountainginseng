@@ -180,49 +180,54 @@
         "1643909117baf58097-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "shopify:\/\/shop_images\/award1.png",
+            "title": "2006",
+            "text": "<p>Chinese Canadian Entrepreneur Awards -  The Award of Merit<\/p>",
+            "button_label": "",
             "button_link": "",
             "trigger_locations": false
           }
         },
-        "1643909117baf58097-1": {
+        "acc700e2-5295-4de2-9d1b-f034ff34aab9": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "shopify:\/\/shop_images\/award2.png",
+            "title": "2011",
+            "text": "<p>Foodland Ontario Approval - Certified Production in Ontario<\/p>",
+            "button_label": "",
             "button_link": "",
             "trigger_locations": false
           }
         },
-        "1643909117baf58097-2": {
+        "3d0a6ad8-bcf9-4b9c-81f0-851eb5880c19": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "shopify:\/\/shop_images\/award3.png",
+            "title": "2011",
+            "text": "<p>Agriculture and Agri-Food Canada Approval - Certified Production in Canada<\/p>",
+            "button_label": "",
             "button_link": "",
             "trigger_locations": false
           }
         },
-        "4679d9e8-90a9-4408-96cb-1b2d853776d9": {
+        "532483bb-8d76-4dcc-9038-3374d1a4fa3f": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "shopify:\/\/shop_images\/award4.png",
+            "title": "2011",
+            "text": "<p>Ontario Ginseng Growers Association Approval - Certified for authenticity and country of production<\/p>",
+            "button_label": "",
             "button_link": "",
             "trigger_locations": false
           }
         },
-        "ecda7645-36db-4d99-a49f-3383842b4955": {
+        "cf4227ef-7003-4b48-8fa8-f9f6f7bab184": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "shopify:\/\/shop_images\/award5.png",
+            "title": "2019",
+            "text": "<p>Greater Niagara Chamber of Commerce - Business Achievement Award<\/p>",
+            "button_label": "",
             "button_link": "",
             "trigger_locations": false
           }
@@ -230,16 +235,16 @@
       },
       "block_order": [
         "1643909117baf58097-0",
-        "1643909117baf58097-1",
-        "1643909117baf58097-2",
-        "4679d9e8-90a9-4408-96cb-1b2d853776d9",
-        "ecda7645-36db-4d99-a49f-3383842b4955"
+        "acc700e2-5295-4de2-9d1b-f034ff34aab9",
+        "3d0a6ad8-bcf9-4b9c-81f0-851eb5880c19",
+        "532483bb-8d76-4dcc-9038-3374d1a4fa3f",
+        "cf4227ef-7003-4b48-8fa8-f9f6f7bab184"
       ],
       "settings": {
         "title": "我們的榮耀",
         "header_color": "",
         "striked_header": true,
-        "set_style": "default",
+        "set_style": "locations",
         "section_bg_fit": "cover",
         "section_bg_color": "",
         "image_width": "full",
