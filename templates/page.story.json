@@ -181,6 +181,7 @@
         "section_bg_fit": "contain",
         "background_position": "center center",
         "bg_color": "#000000",
+        "txt_color": "#fff",
         "custom_class": "our-process"
       }
     },
