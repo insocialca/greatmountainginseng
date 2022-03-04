@@ -953,5 +953,5 @@ product-recommendations .card-wrapper {
   
 .rich-text__list {
   display: grid;
-  grid-template-columns: 1fr, 2fr;
+  grid-template-columns: 1fr 2fr;
 }
