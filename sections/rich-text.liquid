@@ -25,9 +25,9 @@
     	{%- when 'list' -%}
     	  <div class="rich-text__list">
     	  {% for i in (1..6) %}
-            {% assign caption = block.settings.list_title[i] %}
+            {% assign caption = 'list_title' | append: i %}
             {% assign list_text = block.settings.list_text[i] %}
-            <span class="rich-text__list_caption">{{ caption }}{{ i }}</span>
+            <span class="rich-text__list_caption">{{ block.settings[caption] }}{{ i }}</span>
             <span class="rich-text__list_text">{{ list_text }}</span>
           {% endfor %}
     	  </div>
