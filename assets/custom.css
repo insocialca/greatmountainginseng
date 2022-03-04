@@ -981,6 +981,12 @@ product-recommendations .card-wrapper {
   padding-left: 15px;
 }
   
+.rich-text__text .heading {
+  font-weight: bold;
+  font-size: 26px;
+  color: var(--color-header-gold);
+}
+  
 @media screen and (min-width: 990px) {
   .rich-text__list {
     max-width: 75%;
