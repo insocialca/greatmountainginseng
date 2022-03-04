@@ -2,11 +2,81 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "164641875717f909fb": {
+      "type": "multicolumn",
+      "blocks": {
+        "164641875741c6f736-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ginseng.png",
+            "title": "花旗參",
+            "text": "",
+            "button_label": "",
+            "button_link": "#ginseng",
+            "trigger_locations": false
+          }
+        },
+        "164641875741c6f736-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fishmaw.png",
+            "title": "海參\/花膠",
+            "text": "",
+            "button_label": "",
+            "button_link": "#fishmaw",
+            "trigger_locations": false
+          }
+        },
+        "164641875741c6f736-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/birdsnest.png",
+            "title": "燕窩",
+            "text": "",
+            "button_label": "",
+            "button_link": "#birdsnest",
+            "trigger_locations": false
+          }
+        }
+      },
+      "block_order": [
+        "164641875741c6f736-0",
+        "164641875741c6f736-1",
+        "164641875741c6f736-2"
+      ],
+      "settings": {
+        "title": "",
+        "header_color": "",
+        "striked_header": false,
+        "content_above_header": "",
+        "set_style": "borderless_overlay",
+        "section_bg_fit": "cover",
+        "section_bg_color": "",
+        "background_style": "primary",
+        "background_position": "center center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "set_column_number": 3,
+        "set_col_mobile": 1,
+        "collapse_content_mobile": false,
+        "button_label": "",
+        "button_link": "",
+        "trigger_all_locations": false,
+        "button_style_mobile": "text",
+        "swipe_on_mobile": false,
+        "section_border": false,
+        "section_border_color": "",
+        "custom_class": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "164641875717f909fb"
   ]
 }
