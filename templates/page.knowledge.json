@@ -93,7 +93,18 @@
         "2135d899-788c-429a-a765-e50b18283a59": {
           "type": "list",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "list_title1": "移植野山參",
+            "list_text1": "參齡一般約3～5年，是市面上較常見的參種。",
+            "list_title2": "移植野山參",
+            "list_text2": "又稱泡參或半野山參，參齡一般約4～5年。以野山參種子進行人 工培育而成。",
+            "list_title3": "纯野山參",
+            "list_text3": "參齡多半較長，一般可達8～10年，甚至以上。天然生長於山野林 間，生長過程不經任何人工介入，目前已列瀕危物種，相當稀有。",
+            "list_title4": "",
+            "list_text4": "",
+            "list_title5": "",
+            "list_text5": "",
+            "list_title6": "",
+            "list_text6": ""
           }
         },
         "1646419237c3058e7d-1": {
