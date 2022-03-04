@@ -970,4 +970,5 @@ product-recommendations .card-wrapper {
   
 .rich-text__list_caption > span {
   padding: 16px;
+  line-height: 1;
 }
