@@ -959,7 +959,8 @@ product-recommendations .card-wrapper {
 }
   
 .rich-text__list_caption {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   height: 120px;
   border-radius: 50%;
   border: 2px solid var(--color-header-gold);
