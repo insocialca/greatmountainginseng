@@ -954,12 +954,14 @@ product-recommendations .card-wrapper {
 .rich-text__blocks > *:first-child {
   margin-top: 0;
 }
-  
-.rich-text__list {
-  display: grid;
-  grid-template-columns: 120px 2fr;
-  align-items: center;
-  grid-gap: 16px;
+
+@media screen and (min-width: 500px) {
+  .rich-text__list {
+    display: grid;
+    grid-template-columns: 120px 2fr;
+    align-items: center;
+    grid-gap: 16px;
+  }
 }
   
 .rich-text__list_caption {
