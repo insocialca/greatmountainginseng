@@ -953,13 +953,13 @@ product-recommendations .card-wrapper {
   
 .rich-text__list {
   display: grid;
-  grid-template-columns: 100px 2fr;
+  grid-template-columns: 120px 2fr;
 }
   
 .rich-text__list_caption {
   display: inline-block;
   border-radius: 50%;
   border: 2px solid var(--color-header-gold);
-  height: 100px;
+  line-height: 120px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
