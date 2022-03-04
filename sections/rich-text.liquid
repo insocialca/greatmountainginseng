@@ -8,7 +8,7 @@
 <div class="rich-text__border-{{ section.id }} rich-text__border-top"></div>
 {% endif %}
 
-<div class="rich-text{% if section.settings.full_width %} rich-text--full-width{% endif %} color-{{ section.settings.color_scheme }}">
+<div{% if section.settings.anchor_tag != blank %} id="{{ section.settings.anchor_tag | handleize }}"{% endif %} class="rich-text{% if section.settings.full_width %} rich-text--full-width{% endif %} color-{{ section.settings.color_scheme }}">
   <div class="rich-text__blocks">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
@@ -114,6 +114,11 @@
       "type": "color",
       "id": "section_border_color",
 	  "label": "Border color"
+    },
+    {
+      "type": "text",
+      "id": "anchor_tag",
+      "label": "Anchor"
     }
   ],
   "blocks": [
