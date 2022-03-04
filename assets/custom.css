@@ -978,6 +978,7 @@ product-recommendations .card-wrapper {
   color: var(--color-header-gold);
   text-align: left;
   padding-left: 15px;
+  margin-bottom: 16px;
 }
   
 .rich-text__text .heading {
