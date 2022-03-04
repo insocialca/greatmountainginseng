@@ -940,3 +940,13 @@ product-recommendations .card-wrapper {
   text-decoration: none;
   color: #fff;
 }
+  
+/* Rich Text */
+  
+.color-background-3 {
+  background-color: #EAEAEA;
+}
+  
+.rich-text.color-background-3 {
+  background: url('https://cdn.shopify.com/s/files/1/0580/8445/8645/files/background-3.png?v=1646422753') top center/contain repeat-y #EAEAEA;
+}
