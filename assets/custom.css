@@ -955,7 +955,7 @@ product-recommendations .card-wrapper {
   display: grid;
   grid-template-columns: 120px 2fr;
   align-items: center;
-  grid-gap: 30px 16px;
+  grid-gap: 16px;
 }
   
 .rich-text__list_caption {
@@ -978,6 +978,7 @@ product-recommendations .card-wrapper {
   font-size: 20px;
   color: var(--color-header-gold);
   text-align: left;
+  padding-left: 15px;
 }
   
 @media screen and (min-width: 990px) {
