@@ -22,6 +22,14 @@
     	  <div class="rich-text__video">
             {{ block.settings.video_embed }}
     	  </div>
+    	{%- when 'list' -%}
+    	  <div class="rich-text__list">
+    	  {% for i in (1..6) %}
+            {% capture loop_index %}{{ forloop.index }}{% endcapture %}
+            <span class="rich-text__list_caption">{{ block.settings.list_title[loop_index] }}</span>
+            <span class="rich-text__list_text">{{ block.settings.list_text[loop_index] }}</span>
+          {% endfor %}
+    	  </div>
       {%- endcase -%}
     {%- endfor -%}
   </div>
