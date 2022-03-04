@@ -25,8 +25,8 @@
     	{%- when 'list' -%}
     	  <div class="rich-text__list">
     	  {% for i in (1..6) %}
-            <span class="rich-text__list_caption">{{ block.settings.list_title[forloop.index] }}</span>
-            <span class="rich-text__list_text">{{ block.settings.list_text[forloop.index] }}</span>
+            <span class="rich-text__list_caption">{{ block.settings.list_title[i] }}</span>
+            <span class="rich-text__list_text">{{ block.settings.list_text[i] }}</span>
           {% endfor %}
     	  </div>
       {%- endcase -%}
