@@ -28,7 +28,7 @@
             {% assign caption = 'list_title' | append: i %}
             {% assign list_text = 'list_text' | append: i %}
             {% if block.settings[caption] != blank %}
-            <span class="rich-text__list_caption">{{ block.settings[caption] }}</span>
+            <span class="rich-text__list_caption"><span>{{ block.settings[caption] }}</span></span>
             {% endif %}
             {% if block.settings[list_text] != blank %}
             <span class="rich-text__list_text">{{ block.settings[list_text] }}</span>
