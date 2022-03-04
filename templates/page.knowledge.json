@@ -14,6 +14,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ginseng.png",
             "title": "花旗參",
+            "add_link_to_header": true,
             "text": "",
             "button_label": "",
             "button_link": "#ginseng",
@@ -25,6 +26,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/fishmaw.png",
             "title": "海參\/花膠",
+            "add_link_to_header": true,
             "text": "",
             "button_label": "",
             "button_link": "#fishmaw",
@@ -36,6 +38,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/birdsnest.png",
             "title": "燕窩",
+            "add_link_to_header": true,
             "text": "",
             "button_label": "",
             "button_link": "#birdsnest",
