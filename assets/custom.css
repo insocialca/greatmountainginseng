@@ -954,21 +954,13 @@ product-recommendations .card-wrapper {
 .rich-text__blocks > *:first-child {
   margin-top: 0;
 }
-
-@media screen and (min-width: 500px) {
-  .rich-text__list {
-    display: grid;
-    grid-template-columns: 120px 2fr;
-    align-items: center;
-    grid-gap: 16px;
-  }
-}
   
 .rich-text__list_caption {
   display: flex;
   align-items: center;
   height: 120px;
   width: 120px;
+  margin: 0 auto 16px;
   border-radius: 50%;
   border: 2px solid var(--color-header-gold);
   font-size: 20px;
@@ -996,6 +988,15 @@ product-recommendations .card-wrapper {
   
 .rich-text__video iframe {
   max-width: 100%;
+}
+  
+@media screen and (min-width: 500px) {
+  .rich-text__list {
+    display: grid;
+    grid-template-columns: 120px 2fr;
+    align-items: center;
+    grid-gap: 16px;
+  }
 }
   
 @media screen and (min-width: 990px) {
