@@ -122,7 +122,7 @@
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
-                  <h3>{{ block.settings.title | escape }}</h3>
+                <h3>{% if block.settings.add_link_to_header and block.settings.button_link != blank %}<a href="{{ block.settings.button_link }}">{{ block.settings.title | escape }}</a>{% else %}{{ block.settings.title | escape }}{% endif %}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
@@ -447,6 +447,12 @@
           "id": "title",
           "default": "Column",
           "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "add_link_to_header",
+          "default": false,
+          "label": "Add link to title"
         },
         {
           "type": "richtext",
