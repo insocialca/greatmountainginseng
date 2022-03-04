@@ -972,3 +972,9 @@ product-recommendations .card-wrapper {
   padding: 20px;
   line-height: 1.25;
 }
+  
+@media screen and (min-width: 990px) {
+  .rich-text__list {
+    max-width: 75%;
+  }
+}
