@@ -991,6 +991,10 @@ product-recommendations .card-wrapper {
   color: var(--color-header-gold);
 }
   
+.rich-text__video iframe {
+  max-width: 100%;
+}
+  
 @media screen and (min-width: 990px) {
   .rich-text__list {
     max-width: 75%;
