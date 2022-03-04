@@ -977,6 +977,7 @@ product-recommendations .card-wrapper {
   font-weight: bold;
   font-size: 20px;
   color: var(--color-header-gold);
+  text-align: left;
 }
   
 @media screen and (min-width: 990px) {
