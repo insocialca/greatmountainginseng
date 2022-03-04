@@ -84,7 +84,8 @@
           "type": "heading",
           "settings": {
             "heading": "什麼是花旗參",
-            "heading_size": "medium"
+            "heading_size": "medium",
+            "striked_header": true
           }
         },
         "d45ffd2e-a8ad-41cf-9df4-f8b21bbe599b": {
@@ -132,7 +133,8 @@
       ],
       "settings": {
         "color_scheme": "background-3",
-        "full_width": true
+        "full_width": true,
+        "section_border": false
       }
     }
   },
