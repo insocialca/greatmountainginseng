@@ -946,6 +946,10 @@ product-recommendations .card-wrapper {
 .color-background-3 {
   --color-background: #EAEAEA;
 }
+
+.rich-text.color-background-1 {
+  background: url('https://cdn.shopify.com/s/files/1/0580/8445/8645/files/background-1.png?v=1646422745') center top/contain repeat-y var(--color-background);
+}
   
 .rich-text.color-background-3 {
   background: url('https://cdn.shopify.com/s/files/1/0580/8445/8645/files/background-3.png?v=1646422753') center top/contain repeat-y var(--color-background);
