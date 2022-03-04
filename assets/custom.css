@@ -973,6 +973,12 @@ product-recommendations .card-wrapper {
   line-height: 1.25;
 }
   
+.rich-text__list_text {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--color-header-gold);
+}
+  
 @media screen and (min-width: 990px) {
   .rich-text__list {
     max-width: 75%;
