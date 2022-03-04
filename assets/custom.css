@@ -933,3 +933,10 @@ product-recommendations .card-wrapper {
     font-size: 39px;
   }
 }
+  
+/* Knowledge Page */
+  
+.multicolumn-card__info h3 > a {
+  text-decoration: none;
+  color: #fff;
+}
