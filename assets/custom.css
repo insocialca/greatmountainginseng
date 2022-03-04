@@ -950,6 +950,11 @@ product-recommendations .card-wrapper {
 .rich-text.color-background-3 {
   background: url('https://cdn.shopify.com/s/files/1/0580/8445/8645/files/background-3.png?v=1646422753') center top/contain repeat-y #EAEAEA;
 }
+
+.rich-text__blocks > *:first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
   
 .rich-text__list {
   display: grid;
