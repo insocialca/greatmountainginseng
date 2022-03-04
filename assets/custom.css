@@ -955,6 +955,7 @@ product-recommendations .card-wrapper {
   display: grid;
   grid-template-columns: 120px 2fr;
   grid-template-rows: 120px;
+  align-items: center;
 }
   
 .rich-text__list_caption {
