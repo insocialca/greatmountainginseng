@@ -27,6 +27,17 @@
 <div class="rich-text__border-{{ section.id }} rich-text__border-bottom"></div>
 {% endif %}
 
+<style>
+  {% if section.settings.section_border and section.settings.section_border_color != blank %}
+  .rich-text__border-{{ section.id }} {
+    height: 8px;
+    background-color: {{ section.settings.section_border_color }};
+    width: 100%;
+    display: block !important;
+  }
+  {% endif %}
+</style>
+
 {% schema %}
 {
   "name": "t:sections.rich-text.name",
