@@ -944,7 +944,7 @@ product-recommendations .card-wrapper {
 /* Rich Text */
   
 .color-background-3 {
-  background-color: #EAEAEA;
+  --color-background: #EAEAEA;
 }
   
 .rich-text.color-background-3 {
