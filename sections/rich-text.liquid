@@ -4,6 +4,10 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
 
+{% if section.settings.section_border %}
+<div class="rich-text__border-{{ section.id }} rich-text__border-top"></div>
+{% endif %}
+
 <div class="rich-text{% if section.settings.full_width %} rich-text--full-width{% endif %} color-{{ section.settings.color_scheme }}">
   <div class="rich-text__blocks">
     {%- for block in section.blocks -%}
@@ -18,6 +22,10 @@
     {%- endfor -%}
   </div>
 </div>
+
+{% if section.settings.section_border %}
+<div class="rich-text__border-{{ section.id }} rich-text__border-bottom"></div>
+{% endif %}
 
 {% schema %}
 {
