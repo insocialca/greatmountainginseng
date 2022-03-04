@@ -118,14 +118,6 @@
           "settings": {
             "video_embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/lZAyC4wq6iU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>"
           }
-        },
-        "1646419237c3058e7d-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
@@ -133,11 +125,10 @@
         "d45ffd2e-a8ad-41cf-9df4-f8b21bbe599b",
         "2135d899-788c-429a-a765-e50b18283a59",
         "1646419237c3058e7d-1",
-        "dcbf2cff-699d-4838-a5c0-6855d027936d",
-        "1646419237c3058e7d-2"
+        "dcbf2cff-699d-4838-a5c0-6855d027936d"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "background-3",
         "full_width": true
       }
     }
