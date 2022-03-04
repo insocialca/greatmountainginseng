@@ -168,7 +168,7 @@
         "0d8df860-4c67-45de-97bd-e1a338ed86f1": {
           "type": "video",
           "settings": {
-            "video_embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/_UeOKoTiXHA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>"
+            "video_embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/_UeOKoTiXHA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>"
           }
         }
       },
@@ -184,12 +184,58 @@
         "section_border": true,
         "section_border_color": "#a6192e"
       }
+    },
+    "164642799880df6dd7": {
+      "type": "rich-text",
+      "blocks": {
+        "1646427998f5602908-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "什么是燕窝",
+            "heading_size": "medium",
+            "striked_header": true
+          }
+        },
+        "1646427998f5602908-1": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<p>燕窩原是燕子所築的巢穴，在剔除雜質和細毛後，才能成為可販售的燕窩。<\/p>"
+          }
+        },
+        "65230ab2-d242-40ac-b383-bb5fa0aa3605": {
+          "type": "text",
+          "settings": {
+            "heading": "挑選方法與功效",
+            "text": "<p>燕窩得主要營養成分為唾液酸，又名燕窩酸，另富含豐富的蛋白質且多種鈉、鈣、鎂、鉀等人體所需之元素。<\/p><p>色澤：由於燕窩為天然產品，且燕子的唾液會因所吃的食物而略有不同，為自然現象。過於潔白或顏色均勻的燕窩，可能有漂白的疑慮。<br\/>外型：燕窩形狀完整一般視為較優良的等級，越完整與大片價值也越高。<br\/>氣味：由於燕窩為燕子的唾液所製成，帶有淡淡的腥味為正常現象。<br\/>細毛：由於燕窩本身即為脆弱，無法以機器替除細毛與雜質，完全仰賴手工。即便經驗老到的加工師傅，也無法100%的剔除細毛，因此燕窩含有少量細毛為正常現象。若完全沒有任何細毛，則要考慮是否經過漂白，需額外留意。<\/p>"
+          }
+        },
+        "1ebb66dd-516c-4d56-b485-878f1ec13f41": {
+          "type": "video",
+          "settings": {
+            "video_embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/itcDXBnkdLk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>"
+          }
+        }
+      },
+      "block_order": [
+        "1646427998f5602908-0",
+        "1646427998f5602908-1",
+        "65230ab2-d242-40ac-b383-bb5fa0aa3605",
+        "1ebb66dd-516c-4d56-b485-878f1ec13f41"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "section_border": false,
+        "section_border_color": ""
+      }
     }
   },
   "order": [
     "main",
     "164641875717f909fb",
     "16464192376acc1cf4",
-    "1646424174ea92482d"
+    "1646424174ea92482d",
+    "164642799880df6dd7"
   ]
 }
