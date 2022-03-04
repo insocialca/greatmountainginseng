@@ -105,7 +105,7 @@
         "dcbf2cff-699d-4838-a5c0-6855d027936d": {
           "type": "video",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "video_embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/lZAyC4wq6iU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>"
           }
         },
         "1646419237c3058e7d-2": {
