@@ -137,7 +137,8 @@
         "color_scheme": "background-3",
         "full_width": true,
         "section_border": false,
-        "section_border_color": ""
+        "section_border_color": "",
+        "anchor_tag": "ginseng"
       }
     },
     "1646424174ea92482d": {
@@ -182,7 +183,8 @@
         "color_scheme": "inverse",
         "full_width": true,
         "section_border": true,
-        "section_border_color": "#a6192e"
+        "section_border_color": "#a6192e",
+        "anchor_tag": "fishmaw"
       }
     },
     "164642799880df6dd7": {
@@ -227,7 +229,8 @@
         "color_scheme": "background-1",
         "full_width": true,
         "section_border": false,
-        "section_border_color": ""
+        "section_border_color": "",
+        "anchor_tag": "birdsnest"
       }
     },
     "16464282297255239e": {
