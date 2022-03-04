@@ -84,6 +84,12 @@
             "heading_size": "medium"
           }
         },
+        "2135d899-788c-429a-a765-e50b18283a59": {
+          "type": "list",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
         "1646419237c3058e7d-1": {
           "type": "text",
           "settings": {
@@ -101,6 +107,7 @@
       },
       "block_order": [
         "1646419237c3058e7d-0",
+        "2135d899-788c-429a-a765-e50b18283a59",
         "1646419237c3058e7d-1",
         "1646419237c3058e7d-2"
       ],
