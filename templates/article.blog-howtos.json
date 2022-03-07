@@ -21,9 +21,11 @@
           "settings": {
           }
         },
-        "social_sharing": {
-          "type": "social_sharing",
+        "c4982c40-0bec-408c-b6e7-87a42650b540": {
+          "type": "button",
           "settings": {
+            "button_text": "立即前往搶購",
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
@@ -31,7 +33,7 @@
         "featured_image",
         "title",
         "content",
-        "social_sharing"
+        "c4982c40-0bec-408c-b6e7-87a42650b540"
       ],
       "settings": {
         "tag_title": "How To"

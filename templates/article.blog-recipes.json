@@ -21,9 +21,11 @@
           "settings": {
           }
         },
-        "social_sharing": {
-          "type": "social_sharing",
+        "27f44b9b-507e-4d4b-b412-8288d86982a6": {
+          "type": "button",
           "settings": {
+            "button_text": "立即前往搶購",
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
@@ -31,7 +33,7 @@
         "featured_image",
         "title",
         "content",
-        "social_sharing"
+        "27f44b9b-507e-4d4b-b412-8288d86982a6"
       ],
       "settings": {
         "tag_title": "Recipes"
