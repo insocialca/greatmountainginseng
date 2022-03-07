@@ -1060,4 +1060,8 @@ product-recommendations .card-wrapper {
   .blog-articles__article:first-child {
     grid-column: span 3 !important;
   }
+  
+  .blog-articles__article:first-child .article-card > a > * {
+    width: 50%;
+  }
 }
