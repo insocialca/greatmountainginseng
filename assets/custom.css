@@ -1088,15 +1088,14 @@ product-recommendations .card-wrapper {
 }
   
 .article-blog-post > .page-width {
-  display: flex;
   padding-top: 50px;
 }
   
-.article-blog-post > .page-width > * {
-  width: 100%;
-}
-  
 @media screen and (min-width: 750px) {
+  .article-blog-post > .page-width {
+    display: flex;
+  }
+
   .article-template {
     width: calc(100% - 375px);
   }
