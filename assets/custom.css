@@ -1064,4 +1064,8 @@ product-recommendations .card-wrapper {
   .blog-articles__article:first-child .article-content {
     flex-direction: row;
   }
+  
+  .blog-articles__article:first-child .article-content > * {
+    width: 50%;
+  }
 }
