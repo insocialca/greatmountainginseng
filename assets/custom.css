@@ -1100,11 +1100,12 @@ product-recommendations .card-wrapper {
   
 .article-blog-post .article-card__title {
   font-size: 2rem;
-  text-decoration: none !important;
 }
   
 .article-blog-post .article-card__link {
   color: var(--color-base-accent-1);
+  text-decoration: underline;
+  font-weight: bold;
 }
   
 @media screen and (min-width: 750px) {
