@@ -1,8 +1,14 @@
 <div class="page-width">
   <aside class="article-sidebar">
+    {% assign counter = 0 %}
     {% for post in blog.articles %}
-      {% if post.tags == article.tags %}
-      {{ post.title }}
+      {% if counter < 3 %}
+        {% if post.tags == article.tags %}
+          {{ post.title }}
+          {% assign counter = counter | plus: 1 %}
+        {% endif %}
+      {% else %}
+    	{% break %}
       {% endif %}
     {% endfor %}
   </aside>
