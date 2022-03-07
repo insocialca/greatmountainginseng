@@ -1109,6 +1109,11 @@ product-recommendations .card-wrapper {
   font-size: 18px;
 }
   
+.article-blog-post .article-card__link svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+  
 @media screen and (min-width: 750px) {
   .article-blog-post > .page-width {
     display: flex;
