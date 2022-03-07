@@ -1121,10 +1121,11 @@ product-recommendations .card-wrapper {
 @media screen and (min-width: 750px) {
   .article-blog-post > .page-width {
     display: flex;
+    gap: 2.5rem;
   }
 
   .article-template {
-    width: calc(100% - 375px);
+    width: calc(100% - 400px);
   }
 
   .article-sidebar {
