@@ -1,13 +1,13 @@
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
-
+{{ current_page }}
 {%- paginate blog.articles by 6 -%}
 
   <div class="main-blog page-width">
     <h1 class="title--primary">
       {% if current_tags != blank %}
-      <a href="{{ blog.url }}">{{ blog.title | escape }}</a>
+      {{ blog.title | link_to: blog.url }}
       {% else %}
       <span class="active">{{ blog.title | escape }}</span>
       {% endif %}
