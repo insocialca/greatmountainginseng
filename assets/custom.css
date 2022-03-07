@@ -1082,9 +1082,9 @@ product-recommendations .card-wrapper {
 }
   
 .article-template {
-  width: calc(100% - 250px);
+  width: calc(100% - 375px);
 }
   
 .article-sidebar {
-  flex-basis: 250px;
+  flex-basis: 375px;
 }
