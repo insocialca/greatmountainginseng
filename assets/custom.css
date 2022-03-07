@@ -813,6 +813,14 @@ product-recommendations .card-wrapper {
   margin-bottom: 5rem;
 }
   
+@media screen and (max-width: 500px) {
+  .shopify-policy__container table,
+  .shopify-policy__container table tr,
+  .shopify-policy__container table td {
+    display: block;
+  }
+}
+  
 /* Collection Pages */
   
 .collection-hero__title {
@@ -1025,3 +1033,4 @@ product-recommendations .card-wrapper {
     margin: 30px auto;
   }
 }
+  
