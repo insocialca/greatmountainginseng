@@ -20,12 +20,20 @@
           "type": "content",
           "settings": {
           }
+        },
+        "b4c6204d-81bf-407e-8682-1fe272bf31bc": {
+          "type": "button",
+          "settings": {
+            "button_text": "立即前往搶購",
+            "button_link": "shopify:\/\/collections\/all"
+          }
         }
       },
       "block_order": [
         "featured_image",
         "title",
-        "content"
+        "content",
+        "b4c6204d-81bf-407e-8682-1fe272bf31bc"
       ],
       "settings": {
         "tag_title": "News"
