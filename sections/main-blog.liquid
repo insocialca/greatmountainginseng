@@ -15,7 +15,7 @@
       	{% if current_tags contains tag %}
       	<span class="active">{{ tag | escape }}</span>
       	{% else %}
-      	{{ tag | escape }}
+      	{{ tag  | link_to_add_tag: tag }}
       	{% endif %}
       {% endfor %}
     </h1>
