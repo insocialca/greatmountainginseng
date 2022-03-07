@@ -1,7 +1,7 @@
 <div class="page-width">
   <aside class="article-sidebar">
-    {{ article.tags }}
     {% for post in blog.articles %}
+    {{ post.tags }}
       {% if post.tags contains article.tags %}
       {{ post.title }}
       {% endif %}
