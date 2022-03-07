@@ -7,9 +7,9 @@
   <div class="main-blog page-width">
     <h1 class="title--primary">
       {% if current_tags != blank %}
-      here
+      <a href="{{ blog.url }}">{{ blog.title | escape }}</a>
       {% else %}
-      {{ blog.title | escape }}
+      <span class="active">{{ blog.title | escape }}</span>
       {% endif %}
       {% for tag in blog.all_tags %}
       	{% if current_tags contains tag %}
