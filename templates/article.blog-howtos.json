@@ -38,9 +38,30 @@
       "settings": {
         "tag_title": "How To"
       }
+    },
+    "1646693016588ffde6": {
+      "type": "apps",
+      "blocks": {
+        "0836d875-25bf-4c97-92fc-1e86f10e57a4": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "helvetica_n4",
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "0836d875-25bf-4c97-92fc-1e86f10e57a4"
+      ],
+      "settings": {
+        "include_margins": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1646693016588ffde6"
   ]
 }
