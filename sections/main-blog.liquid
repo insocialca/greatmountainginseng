@@ -8,7 +8,9 @@
     <h1 class="title--primary">
       {% for tag in blog.all_tags %}
       	{% if current_tags contains tag %}
-        {{ tag }}
+      	<span class="active">{{ tag }}</span>
+      	{% else %}
+      	{{ tag }}
       	{% endif %}
       {% endfor %}
     </h1>
