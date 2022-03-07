@@ -1073,3 +1073,9 @@ product-recommendations .card-wrapper {
     width: 50%;
   }
 }
+  
+/* Blog Post */
+  
+.article-blog-post {
+  display: flex;
+}
