@@ -1089,9 +1089,13 @@ product-recommendations .card-wrapper {
   padding: 5rem;
 }
   
-.article-card__image-wrapper {
+.article-blog-post .article-card__image-wrapper {
   border-radius: 1rem;
   overflow: hidden;
+}
+  
+.article-blog-post .article-card__title {
+  font-size: 2rem;
 }
   
 @media screen and (min-width: 750px) {
