@@ -1098,6 +1098,11 @@ product-recommendations .card-wrapper {
   padding-bottom: 1.5rem;
 }
   
+.article-blog-post .article-card::last-child {
+  border: none;
+  padding: 0;
+}
+  
 .article-blog-post .article-card__image-wrapper {
   border-radius: 1rem;
   overflow: hidden;
