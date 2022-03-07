@@ -1081,6 +1081,10 @@ product-recommendations .card-wrapper {
   flex-direction: row-reverse;
 }
   
+.article-template {
+  width: calc(100% - 250px);
+}
+  
 .article-sidebar {
   flex-basis: 250px;
 }
