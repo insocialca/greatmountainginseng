@@ -1076,7 +1076,7 @@ product-recommendations .card-wrapper {
   
 /* Blog Post */
   
-.article-blog-post {
+.article-blog-post > .page-width {
   display: flex;
 }
   
