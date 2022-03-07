@@ -1052,4 +1052,8 @@ product-recommendations .card-wrapper {
   .blog-articles {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  
+  .blog-articles__article {
+    grid-column: span 1 !important;
+  }
 }
