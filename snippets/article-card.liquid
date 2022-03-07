@@ -39,14 +39,14 @@
         {%- case block.type -%}
           {%- when 'title'-%}
             <header class="article-card__header">
-              <h2 class="article-card__title" id="Article-{{ article.id }}">
-                {{ article.title | escape }}
-              </h2>
               {%- if block.settings.show_date -%}
                 <span class="circle-divider caption-with-letter-spacing">
                   {{- article.published_at | time_tag: format: 'month_year' -}}
                 </span>
               {%- endif -%}
+              <h2 class="article-card__title" id="Article-{{ article.id }}">
+                {{ article.title | escape }}
+              </h2>
               {%- if block.settings.show_author -%}
                 <span class="caption-with-letter-spacing">{{ article.author -}}</span>
               {%- endif -%}
