@@ -5,7 +5,7 @@
     {% assign filter_tag = section.settings.tag_title  %}
     {% for post in blog.articles %}
       {% if counter < 3 %}
-        {% if post.tags contains filter_tag and post != article %}
+        {% if post != article and post.tags contains filter_tag %}
           {%- render 'sidebar-card', article: post, show_image: true, show_readmore: true -%}
           {% assign counter = counter | plus: 1 %}
         {% endif %}
