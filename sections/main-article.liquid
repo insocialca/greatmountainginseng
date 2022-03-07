@@ -1,9 +1,9 @@
 <div class="page-width">
   <aside class="article-sidebar">
-    {{ current_tags }}
-    {% for article in blog.articles %}
-      {% if article.tags contains current_tag %}
-      {{ article.title }}
+    {{ article.tags }}
+    {% for post in blog.articles %}
+      {% if post.tags contains article.tags %}
+      {{ post.title }}
       {% endif %}
     {% endfor %}
   </aside>
