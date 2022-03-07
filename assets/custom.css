@@ -1094,7 +1094,8 @@ product-recommendations .card-wrapper {
 }
 
 .article-blog-post .article-card {
-  margin-bottom: 2px solid var(--color-header-gold);
+  border-bottom: 2px solid var(--color-header-gold);
+  padding-bottom: 1.5rem;
 }
   
 .article-blog-post .article-card__image-wrapper {
