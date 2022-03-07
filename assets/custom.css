@@ -1093,7 +1093,8 @@ product-recommendations .card-wrapper {
   text-decoration: none;
 }
   
-.article-blog-post .article-card__image-wrapper {
+.article-blog-post .article-card__image-wrapper,
+.article-blog-post .article-template__hero-container {
   border-radius: 1rem;
   overflow: hidden;
 }
