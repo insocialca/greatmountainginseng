@@ -1112,6 +1112,7 @@ product-recommendations .card-wrapper {
 .article-blog-post .article-card__link svg {
   height: 1.5rem;
   width: 1.5rem;
+  fill: var(--color-base-accent-1);
 }
   
 @media screen and (min-width: 750px) {
