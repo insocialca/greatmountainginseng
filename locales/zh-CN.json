@@ -380,10 +380,8 @@
   "shopify": {
     "checkout": {
       "shop_policies": {
-        "privacy_policy": "服務條款及隱私權聲明"
-      },
-      "contact": {
-        "shipping_address_title": "運輸政策"
+        "privacy_policy": "服務條款及隱私權聲明",
+        "shipping_policy": "運輸政策"
       }
     }
   }
