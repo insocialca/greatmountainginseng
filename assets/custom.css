@@ -1056,4 +1056,8 @@ product-recommendations .card-wrapper {
   .blog-articles__article {
     grid-column: span 1 !important;
   }
+  
+  .blog-articles__article:first-child {
+    grid-column: span 3 !important;
+  }
 }
