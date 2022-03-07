@@ -20,18 +20,12 @@
           "type": "content",
           "settings": {
           }
-        },
-        "social_sharing": {
-          "type": "social_sharing",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "featured_image",
         "title",
-        "content",
-        "social_sharing"
+        "content"
       ],
       "settings": {
         "tag_title": "News"
