@@ -1078,6 +1078,7 @@ product-recommendations .card-wrapper {
   
 .article-blog-post > .page-width {
   display: flex;
+  flex-direction: row-reverse;
 }
   
 .article-sidebar {
