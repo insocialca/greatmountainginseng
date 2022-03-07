@@ -42,7 +42,7 @@
       </header>
       {% if show_readmore %}
       <div class="article-card__footer">
-        <span class="link article-card__link" aria-label="{{ 'blogs.article.read_more_title' | t: title: article.title | escape }}">了解更多</span>
+        <span class="link article-card__link" aria-label="{{ 'blogs.article.read_more_title' | t: title: article.title | escape }}">了解更多 <span>{% render 'icon-chevron-right' %}</span></span>
       </div>
       {% endif %}
     </div>
