@@ -6,7 +6,7 @@
     {% for post in blog.articles %}
       {% if counter < 3 %}
         {% if post.tags contains filter_tag %}
-          {%- render 'article-card', section: section, article: post, show_image: true -%}
+          {%- render 'article-card', article: post, show_image: true, show_readmore: true -%}
           {% assign counter = counter | plus: 1 %}
         {% endif %}
       {% else %}
