@@ -1087,6 +1087,10 @@ product-recommendations .card-wrapper {
   text-align: center;
 }
   
+.article-blog-post > .page-width {
+  padding-top: 50px;
+}
+  
 @media screen and (min-width: 750px) {
   .article-blog-post > .page-width {
     display: flex;
