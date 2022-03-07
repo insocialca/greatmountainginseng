@@ -47,6 +47,12 @@
             <div class="article-template__social-sharing page-width page-width--narrow">
               {% render 'social-sharing', share_title: article.title, share_permalink: article.url, share_image: article.image %}
             </div>
+          {%- when 'button' -%}
+            {% if block.settings.button_text != blank %}
+            <div class="article-template__button">
+              <a class="btn" href="{{ blocks.settings.button_link }}">{{ block.settings.button_text }}</a>
+            </div>
+            {% endif %}
       {%- endcase -%}
     {%- endfor -%}
 
