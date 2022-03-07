@@ -1088,6 +1088,10 @@ product-recommendations .card-wrapper {
 .article-blog-post > .page-width {
   padding: 5rem;
 }
+
+.article-blog-post a {
+  text-decoration: underline !important;
+}
   
 .article-blog-post .article-card__image-wrapper {
   border-radius: 1rem;
