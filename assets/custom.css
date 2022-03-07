@@ -1076,19 +1076,6 @@ product-recommendations .card-wrapper {
   
 /* Blog Post */
   
-.article-blog-post > .page-width {
-  display: flex;
-  flex-direction: row-reverse;
-}
-  
-.article-template {
-  width: calc(100% - 375px);
-}
-  
-.article-sidebar {
-  flex-basis: 375px;
-}
-  
 .article-sidebar > div {
   background-color: #fff;
   border-radius: 1rem;
@@ -1098,4 +1085,19 @@ product-recommendations .card-wrapper {
   width: 100%;
   padding: 1.5rem;
   text-align: center;
+}
+  
+@media screen and (min-width: 750px) {
+  .article-blog-post > .page-width {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .article-template {
+    width: calc(100% - 375px);
+  }
+
+  .article-sidebar {
+    flex-basis: 375px;
+  }
 }
