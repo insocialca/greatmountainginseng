@@ -1089,10 +1089,6 @@ product-recommendations .card-wrapper {
   padding: 5rem;
 }
 
-.article-blog-post a {
-  text-decoration: underline !important;
-}
-  
 .article-blog-post .article-card__image-wrapper {
   border-radius: 1rem;
   overflow: hidden;
@@ -1100,6 +1096,7 @@ product-recommendations .card-wrapper {
   
 .article-blog-post .article-card__title {
   font-size: 2rem;
+  text-decoration: underline !important;
 }
   
 .article-blog-post .article-card__link {
