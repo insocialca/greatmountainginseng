@@ -1093,6 +1093,10 @@ product-recommendations .card-wrapper {
   text-decoration: none;
 }
 
+.article-blog-post .article-card {
+  margin-bottom: 2px solid var(--color-header-gold);
+}
+  
 .article-blog-post .article-card__image-wrapper {
   border-radius: 1rem;
   overflow: hidden;
