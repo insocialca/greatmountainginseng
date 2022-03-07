@@ -1096,7 +1096,7 @@ product-recommendations .card-wrapper {
   
 .article-blog-post .article-card__title {
   font-size: 2rem;
-  text-decoration: underline !important;
+  text-decoration: none !important;
 }
   
 .article-blog-post .article-card__link {
