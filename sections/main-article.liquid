@@ -1,6 +1,8 @@
 <div class="page-width">
   <aside class="article-sidebar">
-    sidebar
+    {% for article in blog.articles %}
+    {{ articles.title }}
+    {% endfor %}
   </aside>
 
   <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
