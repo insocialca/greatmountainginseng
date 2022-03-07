@@ -2,6 +2,7 @@
   <aside class="article-sidebar">
     {% for post in blog.articles %}
     {{ post.tags }}
+    {{ article.tags }}
       {% if post.tags contains article.tags %}
       {{ post.title }}
       {% endif %}
