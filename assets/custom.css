@@ -1091,6 +1091,11 @@ product-recommendations .card-wrapper {
   padding: 5rem;
 }
   
+.article-card__image-wrapper {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+  
 @media screen and (min-width: 750px) {
   .article-blog-post > .page-width {
     display: flex;
