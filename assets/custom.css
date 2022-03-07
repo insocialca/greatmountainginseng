@@ -1061,7 +1061,7 @@ product-recommendations .card-wrapper {
     grid-column: span 3 !important;
   }
   
-  .blog-articles__article:first-child .article-card > a > * {
-    width: 50%;
+  .blog-articles__article:first-child .article-content {
+    flex-direction: row;
   }
 }
