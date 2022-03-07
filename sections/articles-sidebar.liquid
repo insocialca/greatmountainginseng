@@ -1,5 +1,6 @@
 <div class="page-width">
   <aside class="article-sidebar">
+    {{ post.tags }}
     {% assign counter = 0 %}
     {% for post in blog.articles %}
       {% if counter < 3 %}
