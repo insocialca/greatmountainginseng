@@ -1098,6 +1098,10 @@ product-recommendations .card-wrapper {
   font-size: 2rem;
 }
   
+.article-blog-post .article-card__link {
+  color: var(--color-base-accent-1);
+}
+  
 @media screen and (min-width: 750px) {
   .article-blog-post > .page-width {
     display: flex;
