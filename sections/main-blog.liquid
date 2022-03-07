@@ -2,12 +2,16 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
 
-{{ current_tags }}
-
 {%- paginate blog.articles by 6 -%}
 
   <div class="main-blog page-width">
-    <h1 class="title--primary">{{ blog.title | escape }}</h1>
+    <h1 class="title--primary">
+      {% for tag in blog.all_tags %}
+      	{% if current_tags contains tag %}
+        {{ tag }}
+      	{% endif %}
+      {% endfor %}
+    </h1>
 
     <div class="blog-articles">
       {%- for article in blog.articles -%}
