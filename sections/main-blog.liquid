@@ -6,11 +6,16 @@
 
   <div class="main-blog page-width">
     <h1 class="title--primary">
+      {% if current_tags != blank %}
+      here
+      {% else %}
+      {{ blog.title | escape }}
+      {% endif %}
       {% for tag in blog.all_tags %}
       	{% if current_tags contains tag %}
-      	<span class="active">{{ tag }}</span>
+      	<span class="active">{{ tag | escape }}</span>
       	{% else %}
-      	{{ tag }}
+      	{{ tag | escape }}
       	{% endif %}
       {% endfor %}
     </h1>
