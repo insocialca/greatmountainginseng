@@ -2,6 +2,7 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
 
+{{ blog.url }}
 
 {%- paginate blog.articles by 6 -%}
 
