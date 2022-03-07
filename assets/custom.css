@@ -1079,3 +1079,7 @@ product-recommendations .card-wrapper {
 .article-blog-post {
   display: flex;
 }
+  
+.article-sidebar {
+  flex-basis: 250px;
+}
