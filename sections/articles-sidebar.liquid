@@ -1,10 +1,11 @@
 <div class="page-width">
+  {% if section.settings.tag_title != blank %}
   <aside class="article-sidebar">
-    {{ article.tags }}
     {% assign counter = 0 %}
+    {% assign filter_tag = section.settings.tag_title  %}
     {% for post in blog.articles %}
       {% if counter < 3 %}
-        {% if post.tags contains 'News' %}
+        {% if post.tags contains filter_tag %}
           {{ post.title }}
           {% assign counter = counter | plus: 1 %}
         {% endif %}
@@ -13,6 +14,7 @@
       {% endif %}
     {% endfor %}
   </aside>
+  {% endif %}
 
   <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
     {%- for block in section.blocks -%}
