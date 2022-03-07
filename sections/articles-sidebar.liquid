@@ -55,12 +55,6 @@
             {% endif %}
       {%- endcase -%}
     {%- endfor -%}
-
-    <div class="element-margin center">
-      <a href="{{ blog.url }}" class="button article-template__link link{% if blog.comments_enabled? == false %} spaced-section{% endif %}">
-        {{ 'blogs.article.back_to_blog' | t: title: blog.title }}
-      </a>
-    </div>
     
     {%- if blog.comments_enabled? -%}
       <div class="article-template__comment-wrapper background-secondary">
@@ -226,6 +220,12 @@
     </div>
   </aside>
   {% endif %}
+</div>
+
+<div class="element-margin center">
+  <a href="{{ blog.url }}" class="button article-template__link link{% if blog.comments_enabled? == false %} spaced-section{% endif %}">
+    {{ 'blogs.article.back_to_blog' | t: title: blog.title }}
+  </a>
 </div>
 
 {% schema %}
