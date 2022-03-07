@@ -379,12 +379,8 @@
   },
   "shopify": {
     "checkout": {
-      "marketing": {
-        "sms": {
-          "disclaimer": {
-            "privacy_policy": "服務條款及隱私權聲明"
-          }
-        }
+      "shop_policies": {
+        "privacy_policy": "服務條款及隱私權聲明"
       }
     }
   }
