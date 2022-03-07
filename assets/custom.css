@@ -1092,16 +1092,6 @@ product-recommendations .card-wrapper {
 .article-blog-post .article-content {
   text-decoration: none;
 }
-
-.article-blog-post .article-card {
-  border-bottom: 2px solid var(--color-header-gold);
-  padding-bottom: 1.5rem;
-}
-  
-.article-blog-post .article-card::last-child {
-  border: none;
-  padding: 0;
-}
   
 .article-blog-post .article-card__image-wrapper {
   border-radius: 1rem;
@@ -1139,5 +1129,15 @@ product-recommendations .card-wrapper {
 
   .article-sidebar {
     flex-basis: 375px;
+  }
+  
+  .article-blog-post .article-card {
+    border-bottom: 2px solid var(--color-header-gold);
+    padding-bottom: 1.5rem;
+  }
+
+  .article-blog-post .article-card:last-child {
+    border: none;
+    padding: 0;
   }
 }
