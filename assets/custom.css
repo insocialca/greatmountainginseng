@@ -1090,7 +1090,7 @@ product-recommendations .card-wrapper {
 .main-blog .article-card__excerpt {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1;
+  line-height: 1.25;
 }
   
 @media screen and (min-width: 750px) {
