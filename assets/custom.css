@@ -1072,6 +1072,10 @@ product-recommendations .card-wrapper {
   overflow: hidden;
 }
   
+.main-blog .article-card__info {
+  text-align: left;
+}
+  
 @media screen and (min-width: 750px) {
   .main-blog .title--primary span,
   .main-blog .title--primary a {
