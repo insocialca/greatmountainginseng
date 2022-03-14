@@ -1095,6 +1095,10 @@ product-recommendations .card-wrapper {
 .main-blog .article-card__link {
   font-size: 20px;
   width: 100%;
+}
+  
+.main-blog .blog-articles__article:first-child .article-card__link {
+  width: auto;
   padding-left: 50px;
   padding-right: 50px;
 }
