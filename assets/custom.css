@@ -1249,6 +1249,7 @@ product-recommendations .card-wrapper {
 .article-blog-post .article-template__button .button {
   background-color: transparent;
   border: 2px solid var(--color-header-gold);
+  color: var(--color-header-gold);
 }
   
 @media screen and (min-width: 750px) {
