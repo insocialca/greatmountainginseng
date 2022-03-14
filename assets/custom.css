@@ -1045,6 +1045,11 @@ product-recommendations .card-wrapper {
   text-decoration: none;
 }
   
+.main-blog .title--primary .active {
+  text-decoration: underline;
+  color: #000;
+}
+  
 .blog-articles__article {
   background-color: #fff;
   border-radius: 1rem;
