@@ -1245,6 +1245,10 @@ product-recommendations .card-wrapper {
   font-weight: 500;
   font-size: 16px;
 }
+
+.article-blog-post .article-template__button {
+  text-align: center;
+}
   
 .article-blog-post .article-template__button .button {
   background-color: transparent;
