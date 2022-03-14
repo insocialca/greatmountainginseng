@@ -50,7 +50,7 @@
           {%- endif -%}
 
           {%- when 'title'-%}
-            <header class="page-width page-width--narrow">
+            <header class="page-width">
               {%- if block.settings.blog_show_date -%}
                 <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">{{ article.published_at | time_tag: "%B %d, %y" }}</span>
               {%- endif -%}
@@ -63,12 +63,12 @@
             </header>
 
           {%- when 'content'-%}
-            <div class="article-template__content page-width page-width--narrow rte" itemprop="articleBody">
+            <div class="article-template__content page-width rte" itemprop="articleBody">
                 {{ article.content }}
             </div>
 
           {%- when 'social_sharing'-%}
-            <div class="article-template__social-sharing page-width page-width--narrow">
+            <div class="article-template__social-sharing page-width">
               {% render 'social-sharing', share_title: article.title, share_permalink: article.url, share_image: article.image %}
             </div>
           {%- when 'button' -%}
