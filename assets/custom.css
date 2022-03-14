@@ -1203,8 +1203,9 @@ product-recommendations .card-wrapper {
   fill: var(--color-base-accent-1);
 }
   
-.article-blog-post .page-width {
+.article-blog-post > .page-width {
   padding: 30px 15px;
+  flex-direction: row;
 }
   
 .article-template {
