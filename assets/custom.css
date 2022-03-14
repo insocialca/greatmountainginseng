@@ -1207,7 +1207,7 @@ product-recommendations .card-wrapper {
   padding: 30px 15px;
   display: flex;
   gap: 2.5rem;
-  flex-direction: row;
+  flex-direction: column-reverse;
 }
   
 .article-template {
