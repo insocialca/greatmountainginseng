@@ -1098,7 +1098,7 @@ product-recommendations .card-wrapper {
 }
   
 .main-blog .article-card__info {
-  padding: 10px;
+  padding: 16px 10px 10px;
   display: block;
 }
 
