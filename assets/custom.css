@@ -1036,18 +1036,15 @@ product-recommendations .card-wrapper {
 }
   
 /* Blog List */
-  
-.main-blog .title--primary * {
-  display: block;
-}
-  
+   
 .main-blog .title--primary span,
 .main-blog .title--primary a {
+  display: block;
   font-weight: 500;
   font-size: 26px;
   color: var(--color-header-gold);
   text-decoration: none;
-  margin: 0 10px;
+  margin-bottom: 15px;
 }
   
 .main-blog .title--primary *:first-child {
@@ -1072,6 +1069,12 @@ product-recommendations .card-wrapper {
 }
   
 @media screen and (min-width: 750px) {
+  .main-blog .title--primary span,
+  .main-blog .title--primary a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
   .blog-articles {
     grid-template-columns: 1fr 1fr 1fr;
   }
