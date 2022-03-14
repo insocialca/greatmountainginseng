@@ -1230,6 +1230,9 @@ product-recommendations .card-wrapper {
   
 .article-blog-post .caption-with-letter-spacing {
   text-transform: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-price-green);
 }
   
 @media screen and (min-width: 750px) {
