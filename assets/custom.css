@@ -1147,6 +1147,15 @@ product-recommendations .card-wrapper {
     padding-left: 50px;
     padding-right: 50px;
   }
+  
+  .main-blog .blog-articles__article .article-card__info {
+    text-align: center;
+  }
+  
+  .main-blog .blog-articles__article:not(:first-child) .article-card__info,
+  .main-blog .blog-articles__article:first-child .article-card__image-wrapper ~ .article-card__info {
+    text-align: left;
+  }
 }
   
 /* Blog Post */
