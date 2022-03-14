@@ -1235,6 +1235,10 @@ product-recommendations .card-wrapper {
   color: var(--color-price-green);
 }
   
+.article-blog-post .article-template__title {
+  margin-top: 16px;
+}
+  
 @media screen and (min-width: 750px) {
   .article-blog-post > .page-width {
     flex-direction: row-reverse;
