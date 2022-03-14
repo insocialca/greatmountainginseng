@@ -232,8 +232,8 @@
   </article>
 </div>
 
-<div class="center small-hide">
-  <a href="{{ blog.url }}" class="button article-template__link link{% if blog.comments_enabled? == false %} spaced-section{% endif %}">
+<div class="center small-hide article-template__link">
+  <a href="{{ blog.url }}" class="button link{% if blog.comments_enabled? == false %} spaced-section{% endif %}">
     {{ 'blogs.article.back_to_blog' | t: title: blog.title }}
   </a>
 </div>
