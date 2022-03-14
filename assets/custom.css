@@ -1259,6 +1259,10 @@ product-recommendations .card-wrapper {
   font-weight: 700;
   font-size: 18px;
 }
+
+.article-blog-post .article-template__link {
+  margin-top: 0;
+}
   
 .article-blog-post .article-template__link .button {
   font-weight: 700;
