@@ -1043,11 +1043,11 @@ product-recommendations .card-wrapper {
   font-size: 26px;
   color: var(--color-header-gold);
   text-decoration: none;
-  line-height: 1.5;
 }
   
 .main-blog .title--primary .active {
-  text-decoration: underline;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #000;
   color: #000;
 }
   
