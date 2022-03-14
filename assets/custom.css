@@ -1043,6 +1043,7 @@ product-recommendations .card-wrapper {
   font-size: 26px;
   color: var(--color-header-gold);
   text-decoration: none;
+  line-height: 1.5;
 }
   
 .main-blog .title--primary .active {
