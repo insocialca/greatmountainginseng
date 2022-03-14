@@ -1039,9 +1039,8 @@ product-recommendations .card-wrapper {
    
 .main-blog .title--primary span,
 .main-blog .title--primary a {
-  display: block;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   color: var(--color-header-gold);
   text-decoration: none;
   margin-bottom: 15px;
@@ -1071,7 +1070,6 @@ product-recommendations .card-wrapper {
 @media screen and (min-width: 750px) {
   .main-blog .title--primary span,
   .main-blog .title--primary a {
-    display: inline-block;
     font-size: 26px;
     margin: 0 10px;
   }
