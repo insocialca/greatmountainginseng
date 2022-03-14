@@ -204,7 +204,7 @@
   
   {% if section.settings.tag_title != blank %}
   <aside class="article-sidebar">
-    <div>
+    <div>test{{ blog.articles.length }}
     {% assign counter = 0 %}
     {% assign filter_tag = section.settings.tag_title  %}
     {% for post in blog.articles %}
