@@ -1203,14 +1203,18 @@ product-recommendations .card-wrapper {
   fill: var(--color-base-accent-1);
 }
   
+.article-template {
+  width: 100%;
+}
+
+.article-template .page-width {
+  padding: 0;
+}
+  
 @media screen and (min-width: 750px) {
   .article-blog-post > .page-width {
     display: flex;
     gap: 2.5rem;
-  }
-  
-  .article-template {
-    width: 100%;
   }
 
   .article-sidebar + .article-template {
@@ -1219,10 +1223,6 @@ product-recommendations .card-wrapper {
 
   .article-sidebar {
     flex-basis: 375px;
-  }
-  
-  .article-template .page-width {
-    padding: 0;
   }
   
   .article-blog-post .article-card {
