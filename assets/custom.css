@@ -1256,7 +1256,7 @@ product-recommendations .card-wrapper {
   color: var(--color-header-gold);
   box-shadow: none;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 18px;
 }
   
 @media screen and (min-width: 750px) {
@@ -1293,5 +1293,13 @@ product-recommendations .card-wrapper {
     border: none;
     padding: 0;
     margin-bottom: 0;
+  }
+  
+  .article-blog-post .article-template__button {
+    text-align: left;
+  }
+
+  .article-blog-post .article-template__button .button {
+    font-size: 26px;
   }
 }
