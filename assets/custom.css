@@ -1236,7 +1236,7 @@ product-recommendations .card-wrapper {
 }
   
 .article-blog-post .article-template__title {
-  margin-top: 16px;
+  margin-top: 10px;
 }
   
 @media screen and (min-width: 750px) {
