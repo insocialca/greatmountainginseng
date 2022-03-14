@@ -1228,6 +1228,10 @@ product-recommendations .card-wrapper {
   .article-sidebar + .article-template {
     width: calc(100% - 400px);
   }
+  
+  .article-sidebar + .article-template .article-template__hero-container {
+    float: none;
+  }
 
   .article-sidebar {
     flex-basis: 375px;
