@@ -1234,12 +1234,16 @@ product-recommendations .card-wrapper {
   .article-blog-post .article-template__hero-container {
     margin-bottom: 50px;
     float: right;
-    width: 500px;
+    max-width: 500px;
     margin-left: 30px;
   }
   
   .article-sidebar + .article-template {
     width: calc(100% - 400px);
+  }
+  
+  .article-sidebar + .article-template .article-template__hero-container {
+    max-width: none;
   }
 
   .article-sidebar {
