@@ -1076,6 +1076,7 @@ product-recommendations .card-wrapper {
   overflow: hidden;
 }
   
+.main-blog .blog-articles__article:not(:first-child) .article-card__info,
 .main-blog .blog-articles__article:first-child .article-card__image-wrapper ~ .article-card__info {
   text-align: left;
 }
