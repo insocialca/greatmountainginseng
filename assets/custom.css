@@ -1221,6 +1221,10 @@ product-recommendations .card-wrapper {
     flex-basis: 375px;
   }
   
+  .article-template .page-width {
+    padding: 0;
+  }
+  
   .article-blog-post .article-card {
     border-bottom: 2px solid var(--color-header-gold);
     padding-bottom: 1.5rem;
