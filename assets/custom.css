@@ -1209,7 +1209,7 @@ product-recommendations .card-wrapper {
     gap: 2.5rem;
   }
 
-  .article-template {
+  .article-sidebar + .article-template {
     width: calc(100% - 400px);
   }
 
