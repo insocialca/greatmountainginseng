@@ -202,9 +202,9 @@
     {%- endif -%}
   </article>
   
-  {% if section.settings.tag_title != blank %}
+  {% if blog.articles.size > 0 and section.settings.tag_title != blank %}
   <aside class="article-sidebar">
-    <div>test{{ blog.articles.size }}
+    <div>
     {% assign counter = 0 %}
     {% assign filter_tag = section.settings.tag_title  %}
     {% for post in blog.articles %}
