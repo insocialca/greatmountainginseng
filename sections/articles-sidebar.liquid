@@ -52,7 +52,7 @@
           {%- when 'title'-%}
             <header class="page-width">
               {%- if block.settings.blog_show_date -%}
-                <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">{{ article.published_at | time_tag: "%B %d, %Y" }}</span>
+                <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">{{ article.published_at | time_tag: "%B %D, %Y" }}</span>
               {%- endif -%}
               <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
               {%- if block.settings.blog_show_author -%}

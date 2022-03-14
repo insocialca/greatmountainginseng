@@ -1228,6 +1228,10 @@ product-recommendations .card-wrapper {
   margin-left: 0;
 }
   
+.article-blog-post .caption-with-letter-spacing {
+  text-transform: none;
+}
+  
 @media screen and (min-width: 750px) {
   .article-blog-post > .page-width {
     flex-direction: row-reverse;
