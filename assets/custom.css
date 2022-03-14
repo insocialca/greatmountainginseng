@@ -1237,6 +1237,8 @@ product-recommendations .card-wrapper {
   
 .article-blog-post .article-template__title {
   margin-top: 10px;
+  font-weight: 700;
+  font-size: 26px;
 }
   
 @media screen and (min-width: 750px) {
