@@ -1208,6 +1208,10 @@ product-recommendations .card-wrapper {
     display: flex;
     gap: 2.5rem;
   }
+  
+  .article-template {
+    width: 100%;
+  }
 
   .article-sidebar + .article-template {
     width: calc(100% - 400px);
