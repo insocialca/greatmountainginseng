@@ -1056,7 +1056,7 @@ product-recommendations .card-wrapper {
   color: #000;
 }
   
-.blog-articles__article {
+.main-blog .blog-articles__article {
   background-color: #fff;
   border-radius: 1rem;
   box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, 0.15);
@@ -1065,6 +1065,11 @@ product-recommendations .card-wrapper {
   width: 100%;
   padding: 1.5rem;
   text-align: center;
+}
+  
+.main-blog .article-card__image-wrapper {
+  border-radius: 10px;
+  overflow: hidden;
 }
   
 @media screen and (min-width: 750px) {
