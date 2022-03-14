@@ -1255,6 +1255,8 @@ product-recommendations .card-wrapper {
   border: 2px solid var(--color-header-gold);
   color: var(--color-header-gold);
   box-shadow: none;
+  font-weight: 700;
+  font-size: 26px;
 }
   
 @media screen and (min-width: 750px) {
