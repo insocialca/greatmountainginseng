@@ -1095,6 +1095,8 @@ product-recommendations .card-wrapper {
 .main-blog .article-card__link {
   font-size: 20px;
   width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
 }
   
 @media screen and (min-width: 750px) {
