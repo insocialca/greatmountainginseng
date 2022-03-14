@@ -15,6 +15,14 @@
 {% endcapture %}
 
 <div class="page-width">
+  {% if sidebar_content != blank and section.settings.tag_title != blank %}
+  <aside class="article-sidebar">
+    <div>
+   	  {{ sidebar_content }}
+    </div>
+  </aside>
+  {% endif %}
+  
   <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
@@ -217,14 +225,6 @@
     </div>
     {%- endif -%}
   </article>
-  
-  {% if sidebar_content != blank and section.settings.tag_title != blank %}
-  <aside class="article-sidebar">
-    <div>
-   	  {{ sidebar_content }}
-    </div>
-  </aside>
-  {% endif %}
 </div>
 
 <div class="element-margin center">
