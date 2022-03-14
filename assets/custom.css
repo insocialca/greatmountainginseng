@@ -1037,7 +1037,7 @@ product-recommendations .card-wrapper {
   
 /* Blog List */
   
-.main-blog .title--primary {
+.main-blog .title--primary a {
   font-weight: 500;
   font-size: 26px;
   color: var(--color-header-gold);
