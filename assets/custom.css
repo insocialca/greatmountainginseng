@@ -1217,6 +1217,7 @@ product-recommendations .card-wrapper {
   
 .article-blog-post .article-template__hero-container {
   margin-bottom: 50px;
+  float: right;
 }
   
 @media screen and (min-width: 750px) {
