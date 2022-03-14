@@ -1248,6 +1248,7 @@ product-recommendations .card-wrapper {
 
 .article-blog-post .article-template__button {
   text-align: center;
+  margin-bottom: 16px;
 }
   
 .article-blog-post .article-template__button .button {
