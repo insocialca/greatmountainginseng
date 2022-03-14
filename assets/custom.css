@@ -1078,6 +1078,8 @@ product-recommendations .card-wrapper {
   
 .main-blog .article-card__header time {
   color: var(--color-price-green);
+  font-weight: 700;
+  font-size: 18px;
 }
   
 @media screen and (min-width: 750px) {
