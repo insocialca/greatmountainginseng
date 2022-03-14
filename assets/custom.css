@@ -1222,6 +1222,12 @@ product-recommendations .card-wrapper {
   margin-left: 30px;
 }
   
+.article-sidebar + .article-template .article-template__hero-container {
+  float: none;
+  margin-left: 0;
+  max-width: 100%;
+}
+  
 @media screen and (min-width: 750px) {
   .article-blog-post > .page-width {
     display: flex;
@@ -1230,12 +1236,6 @@ product-recommendations .card-wrapper {
 
   .article-sidebar + .article-template {
     width: calc(100% - 400px);
-  }
-  
-  .article-sidebar + .article-template .article-template__hero-container {
-    float: none;
-    margin-left: 0;
-    max-width: 100%;
   }
 
   .article-sidebar {
