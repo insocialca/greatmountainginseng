@@ -1205,6 +1205,8 @@ product-recommendations .card-wrapper {
   
 .article-blog-post > .page-width {
   padding: 30px 15px;
+  display: flex;
+  gap: 2.5rem;
   flex-direction: row;
 }
   
@@ -1228,8 +1230,6 @@ product-recommendations .card-wrapper {
   
 @media screen and (min-width: 750px) {
   .article-blog-post > .page-width {
-    display: flex;
-    gap: 2.5rem;
     flex-direction: row-reverse;
   }
 
