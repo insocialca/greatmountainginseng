@@ -1259,6 +1259,11 @@ product-recommendations .card-wrapper {
   font-size: 18px;
 }
   
+.article-blog-post .article-template__link {
+  font-weight: 700;
+  font-size: 18px;
+}
+  
 @media screen and (min-width: 750px) {
   .article-blog-post > .page-width {
     flex-direction: row-reverse;
