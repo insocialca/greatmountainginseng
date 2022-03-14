@@ -1046,6 +1046,10 @@ product-recommendations .card-wrapper {
   margin: 0 10px;
 }
   
+.main-blog .title--primary *:first-child {
+  margin-left: 0;
+}
+  
 .main-blog .title--primary .active {
   padding-bottom: 5px;
   border-bottom: 2px solid #000;
