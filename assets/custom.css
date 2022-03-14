@@ -1087,6 +1087,12 @@ product-recommendations .card-wrapper {
   font-size: 26px;
 }
   
+.main-blog .article-card__excerpt {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+}
+  
 @media screen and (min-width: 750px) {
   .main-blog .title--primary span,
   .main-blog .title--primary a {
