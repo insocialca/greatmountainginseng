@@ -1101,16 +1101,6 @@ product-recommendations .card-wrapper {
   padding: 16px 10px 10px;
   display: block;
 }
-
-.main-blog .blog-articles__article:first-child .article-card__info {
-  padding: 40px 50px;
-}
-  
-.main-blog .blog-articles__article:first-child .article-card__link {
-  width: auto;
-  padding-left: 50px;
-  padding-right: 50px;
-}
   
 @media screen and (min-width: 750px) {
   .main-blog .title--primary span,
@@ -1141,6 +1131,16 @@ product-recommendations .card-wrapper {
   
   .blog-articles__article:first-child .article-content > * {
     width: 50%;
+  }
+  
+  .main-blog .blog-articles__article:first-child .article-card__info {
+    padding: 40px 50px;
+  }
+
+  .main-blog .blog-articles__article:first-child .article-card__link {
+    width: auto;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
   
