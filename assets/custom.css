@@ -1250,6 +1250,7 @@ product-recommendations .card-wrapper {
   background-color: transparent;
   border: 2px solid var(--color-header-gold);
   color: var(--color-header-gold);
+  box-shadow: none;
 }
   
 @media screen and (min-width: 750px) {
