@@ -1309,5 +1309,6 @@ product-recommendations .card-wrapper {
   .article-blog-post .article-template__button .button,
   .article-blog-post .article-template__link .button {
     font-size: 26px;
+    padding: 26px 125px;
   }
 }
