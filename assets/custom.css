@@ -1215,6 +1215,10 @@ product-recommendations .card-wrapper {
   padding: 0;
 }
   
+.article-blog-post .article-template__hero-container {
+  margin-bottom: 50px;
+}
+  
 @media screen and (min-width: 750px) {
   .article-blog-post > .page-width {
     display: flex;
