@@ -1,3 +1,19 @@
+{% assign counter = 0 %}
+
+{% capture sidebar_content %}
+  {% assign filter_tag = section.settings.tag_title  %}
+  {% for post in blog.articles %}
+    {% if counter < 3 %}
+      {% if post != article and post.tags contains filter_tag %}
+        {%- render 'sidebar-card', article: post, show_image: true, show_readmore: true -%}
+        {% assign counter = counter | plus: 1 %}
+      {% endif %}
+    {% else %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+
 <div class="page-width">
   <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
     {%- for block in section.blocks -%}
@@ -202,21 +218,10 @@
     {%- endif -%}
   </article>
   
-  {% if blog.articles.size > 0 and section.settings.tag_title != blank %}
+  {% if sidebar_content != blank and section.settings.tag_title != blank %}
   <aside class="article-sidebar">
     <div>
-    {% assign counter = 0 %}
-    {% assign filter_tag = section.settings.tag_title  %}
-    {% for post in blog.articles %}
-      {% if counter < 3 %}
-        {% if post != article and post.tags contains filter_tag %}
-          {%- render 'sidebar-card', article: post, show_image: true, show_readmore: true -%}
-          {% assign counter = counter | plus: 1 %}
-        {% endif %}
-      {% else %}
-    	{% break %}
-      {% endif %}
-    {% endfor %}
+   	  {{ sidebar_content }}
     </div>
   </aside>
   {% endif %}
