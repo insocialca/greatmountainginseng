@@ -1089,6 +1089,7 @@ product-recommendations .card-wrapper {
 .main-blog .article-card__title {
   font-weight: 700;
   font-size: 26px;
+  margin-bottom: 16px;
 }
   
 .main-blog .article-card__excerpt {
