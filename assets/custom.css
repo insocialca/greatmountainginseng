@@ -1229,6 +1229,7 @@ product-recommendations .card-wrapper {
   .article-blog-post > .page-width {
     display: flex;
     gap: 2.5rem;
+    flex-direction: row-reverse;
   }
 
   .article-blog-post .article-template__hero-container {
