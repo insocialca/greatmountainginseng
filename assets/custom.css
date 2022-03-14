@@ -1037,6 +1037,10 @@ product-recommendations .card-wrapper {
   
 /* Blog List */
   
+.main-blog .title--primary * {
+  display: block;
+}
+  
 .main-blog .title--primary span,
 .main-blog .title--primary a {
   font-weight: 500;
