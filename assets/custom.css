@@ -1329,6 +1329,15 @@ product-recommendations .card-wrapper {
   border-bottom: 3px solid var(--color-header-gold);
 }
   
+.article-template__button a svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+  
+.article-template__button a svg path {
+  fill: var(--color-header-gold);
+}
+  
 @media screen and (min-width: 750px) {  
   .article-blog-post > .page-width {
     flex-direction: row-reverse;
