@@ -1331,7 +1331,7 @@ product-recommendations .card-wrapper {
   
 ,
 .article-template__content h6 {
-  font-weight: normal;
+  font-weight: normal !important;
 }
   
 .article-template__button a,
