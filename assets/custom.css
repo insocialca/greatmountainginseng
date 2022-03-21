@@ -1318,17 +1318,11 @@ product-recommendations .card-wrapper {
 }
   
 .article-template__content iframe {
-  width: 100%;
-  height: 400px;
+  max-width: 100% !important;
   margin-bottom: 16px;
 }
   
-@media screen and (min-width: 750px) {
-  .article-template__content iframe {
-    width: 80%;
-    margin: 0 auto 16px;
-  }
-  
+@media screen and (min-width: 750px) {  
   .article-blog-post > .page-width {
     flex-direction: row-reverse;
   }
