@@ -1167,7 +1167,8 @@ product-recommendations .card-wrapper {
 @media screen and (min-width: 750px) {
   .main-blog .title--primary span,
   .main-blog .title--primary a,
-  .article-template__button a {
+  .article-template__button a,
+  .article-template__content h6 a {
     font-size: 26px;
     margin: 0 20px;
   }
@@ -1328,7 +1329,8 @@ product-recommendations .card-wrapper {
   margin-bottom: 16px;
 }
   
-.article-template__button a {
+.article-template__button a,
+.article-template__content h6 a {
   padding-bottom: 5px;
   border-bottom: 3px solid var(--color-header-gold);
 }
