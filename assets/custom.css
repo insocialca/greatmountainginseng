@@ -1092,7 +1092,6 @@ product-recommendations .card-wrapper {
 
 .main-blog .title--primary span,
 .main-blog .title--primary a {
-  font-weight: 500;
   font-size: 18px;
   color: var(--color-header-gold);
   text-decoration: none;
