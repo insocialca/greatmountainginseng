@@ -1331,6 +1331,9 @@ product-recommendations .card-wrapper {
   
 .article-template__content h6 {
   font-weight: normal !important;
+}
+  
+.article-template__content h6 a {
   border-bottom: 2px solid var(--color-header-gold);
 }
   
