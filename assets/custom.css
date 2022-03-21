@@ -1329,9 +1329,8 @@ product-recommendations .card-wrapper {
   margin-bottom: 16px;
 }
   
-,
 .article-template__content h6 {
-  --font-body-weight: 400;
+  font-weight: normal !important;
 }
   
 .article-template__button a,
