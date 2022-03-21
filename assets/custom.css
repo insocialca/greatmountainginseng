@@ -1091,7 +1091,8 @@ product-recommendations .card-wrapper {
 /* Blog List */
 
 .main-blog .title--primary span,
-.main-blog .title--primary a {
+.main-blog .title--primary a,
+.article-template__button a {
   font-size: 18px;
   color: var(--color-header-gold);
   text-decoration: none;
@@ -1161,7 +1162,8 @@ product-recommendations .card-wrapper {
   
 @media screen and (min-width: 750px) {
   .main-blog .title--primary span,
-  .main-blog .title--primary a {
+  .main-blog .title--primary a,
+  .article-template__button a {
     font-size: 26px;
     margin: 0 20px;
   }
