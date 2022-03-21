@@ -23,6 +23,7 @@
         },
         "27f44b9b-507e-4d4b-b412-8288d86982a6": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_text": "立即前往搶購",
             "button_link": "shopify:\/\/collections\/all"
