@@ -1329,6 +1329,11 @@ product-recommendations .card-wrapper {
   margin-bottom: 16px;
 }
   
+,
+.article-template__content h6 {
+  font-weight: normal;
+}
+  
 .article-template__button a,
 .article-template__content h6 a {
   padding-bottom: 5px;
