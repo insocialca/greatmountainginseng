@@ -1095,7 +1095,8 @@ product-recommendations .card-wrapper {
 
 .main-blog .title--primary span,
 .main-blog .title--primary a,
-.article-template__button a {
+.article-template__button a,
+.article-template__content h6 a {
   font-size: 18px;
   color: var(--color-header-gold);
   text-decoration: none;
