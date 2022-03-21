@@ -1319,6 +1319,7 @@ product-recommendations .card-wrapper {
   
 .article-template__content iframe {
   width: 100%;
+  height: 56.25%;
 }
   
 @media screen and (min-width: 750px) {
