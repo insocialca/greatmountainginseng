@@ -1325,7 +1325,8 @@ product-recommendations .card-wrapper {
 }
   
 .article-template__button a {
-  text-decoration: underline;
+  padding-bottom: 5px;
+  border-bottom: 3px solid var(--color-header-gold);
 }
   
 @media screen and (min-width: 750px) {  
