@@ -25,31 +25,32 @@ header-drawer {
   margin-left: -1.2rem;
 }
 
-  @media screen and (min-width: 990px) {
-    header-drawer {
-      display: none;
-    }
+@media screen and (min-width: 990px) {
+  header-drawer {
+    display: none;
   }
-
-  .menu-drawer-container {
-    display: flex;
-  }
-
-  .list-menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .list-menu--inline {
-    display: inline-flex;
-    flex-wrap: wrap;
-  }
-
-  summary.list-menu__item {
-    padding-right: 2.7rem;
 }
 
+.menu-drawer-container {
+  display: flex;
+}
+
+.list-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-menu--inline {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+summary.list-menu__item {
+  padding-right: 2.7rem;
+}
+  
 .list-menu__item {
   display: flex;
   align-items: center;
