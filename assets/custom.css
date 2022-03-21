@@ -733,6 +733,9 @@ product-recommendations .card-wrapper {
   .is_narrow .footer-block__image-wrap img {
     max-width: 150px !important;
   }
+  .footer__copyright {
+    text-align: center;
+  }
 }
   
 /* Locations Page */
