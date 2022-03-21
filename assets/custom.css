@@ -1324,6 +1324,11 @@ product-recommendations .card-wrapper {
 }
   
 @media screen and (min-width: 750px) {
+  .article-template__content iframe {
+    width: 80%;
+    margin: 0 auto 16px;
+  }
+  
   .article-blog-post > .page-width {
     flex-direction: row-reverse;
   }
