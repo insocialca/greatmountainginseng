@@ -1331,10 +1331,10 @@ product-recommendations .card-wrapper {
   
 .article-template__content h6 {
   font-weight: normal !important;
+  border-bottom: 2px solid var(--color-header-gold);
 }
   
-.article-template__button a,
-.article-template__content h6 a {
+.article-template__button a {
   padding-bottom: 5px;
   border-bottom: 3px solid var(--color-header-gold);
 }
