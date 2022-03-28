@@ -194,6 +194,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/award1.png",
             "title": "2006",
+            "add_link_to_header": false,
             "text": "<p>Chinese Canadian Entrepreneur Awards -  The Award of Merit<\/p>",
             "button_label": "",
             "button_link": "",
@@ -205,6 +206,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/award2.png",
             "title": "2011",
+            "add_link_to_header": false,
             "text": "<p>Foodland Ontario Approval - Certified Production in Ontario<\/p>",
             "button_label": "",
             "button_link": "",
@@ -216,6 +218,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/award3.png",
             "title": "2011",
+            "add_link_to_header": false,
             "text": "<p>Agriculture and Agri-Food Canada Approval - Certified Production in Canada<\/p>",
             "button_label": "",
             "button_link": "",
@@ -227,6 +230,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/award4.png",
             "title": "2011",
+            "add_link_to_header": false,
             "text": "<p>Ontario Ginseng Growers Association Approval - Certified for authenticity and country of production<\/p>",
             "button_label": "",
             "button_link": "",
@@ -238,6 +242,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/award5.png",
             "title": "2019",
+            "add_link_to_header": false,
             "text": "<p>Greater Niagara Chamber of Commerce - Business Achievement Award<\/p>",
             "button_label": "",
             "button_link": "",
@@ -278,12 +283,22 @@
         "section_border_color": "",
         "custom_class": "story-awards"
       }
+    },
+    "16484976313739c315": {
+      "type": "instafeed",
+      "settings": {
+        "heading_font": "helvetica_n4",
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
     }
   },
   "order": [
     "main",
     "1643899962b94e00b4",
     "164390874991a99b46",
-    "16439091179c9cd623"
+    "16439091179c9cd623",
+    "16484976313739c315"
   ]
 }
