@@ -251,7 +251,7 @@
         "9d29f0bb-5a63-49f6-91de-4a61e6d8077e"
       ],
       "settings": {
-        "include_margins": false
+        "include_margins": true
       }
     }
   },
