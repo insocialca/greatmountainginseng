@@ -284,13 +284,26 @@
         "custom_class": "story-awards"
       }
     },
-    "16484976313739c315": {
-      "type": "instafeed",
+    "1648758835740b34d6": {
+      "type": "apps",
+      "blocks": {
+        "7d00ecbd-c6c9-43dc-b5c5-4ab5e1145a75": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "helvetica_n4",
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "7d00ecbd-c6c9-43dc-b5c5-4ab5e1145a75"
+      ],
       "settings": {
-        "heading_font": "helvetica_n4",
-        "heading_size": 20,
-        "feed_width": 100,
-        "html_area": "<h2>@greatmountain_ginseng<\/h2>"
+        "include_margins": true,
+        "custom_html": "<div class=\"ig-feed-handle\">\n<a href=\"https:\/\/www.instagram.com\/greatmountain_ginseng\/\" target=\"_blank\"><span class=\"ig-feed-handle_profile-pic\"><\/span> <strong>@greatmountain_ginseng<\/strong><\/a>\n<\/div>",
+        "custom_class": ""
       }
     }
   },
@@ -299,6 +312,6 @@
     "1643899962b94e00b4",
     "164390874991a99b46",
     "16439091179c9cd623",
-    "16484976313739c315"
+    "1648758835740b34d6"
   ]
 }
