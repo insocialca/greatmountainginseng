@@ -1399,8 +1399,13 @@ product-recommendations .card-wrapper {
 }
   
 /* Instafeed */
-.ig-feed-handle {
+.ig-feed-handle > a {
   padding: 0 20px;
+  color: #000;
+  text-decoration: none;
+}
+  
+.ig-feed-handle_profile-pic {
 }
   
 #insta-feed .slider-arrow,
