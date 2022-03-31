@@ -712,6 +712,10 @@ product-recommendations .card-wrapper {
   padding-left: 0;
 }
   
+.fb_iframe_widget iframe {
+  max-width: 100%;
+}
+  
 @media screen and (min-width: 990px) {
   .grid--5-col-desktop .is_fb_widget {
     width: calc(20% - 1rem * 4 / 5 + 8%) !important;
