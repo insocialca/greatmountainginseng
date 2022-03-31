@@ -1399,6 +1399,10 @@ product-recommendations .card-wrapper {
 }
   
 /* Instafeed */
+.ig-feed-handle {
+  padding: 0 20px;
+}
+  
 #insta-feed .slider-arrow,
 .instafeed-shopify .slider-arrow {
   border-radius: 0 !important;
