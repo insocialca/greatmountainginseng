@@ -1405,6 +1405,7 @@ product-recommendations .card-wrapper {
   text-decoration: none;
   display: flex;
   align-items: center;
+  gap: 5px;
 }
   
 .ig-feed-handle_profile-pic {
