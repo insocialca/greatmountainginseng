@@ -250,7 +250,9 @@
         "5a94f58c-4f00-49e5-8467-1493e06efddc"
       ],
       "settings": {
-        "include_margins": false
+        "include_margins": true,
+        "custom_html": "<div class=\"ig-feed-handle\">\n<a href=\"https:\/\/www.instagram.com\/greatmountain_ginseng\/\" target=\"_blank\"><span class=\"ig-feed-handle_profile-pic\"><\/span> <strong>@greatmountain_ginseng<\/strong><\/a>\n<\/div>",
+        "custom_class": ""
       }
     }
   },
