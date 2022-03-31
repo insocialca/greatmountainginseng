@@ -234,24 +234,13 @@
         "mobile_layout": "collage"
       }
     },
-    "1648497274a299a040": {
-      "type": "apps",
-      "blocks": {
-        "9d29f0bb-5a63-49f6-91de-4a61e6d8077e": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "heading_font": "helvetica_n4",
-            "heading_size": 20,
-            "feed_width": 100,
-            "html_area": "<div class=\"ig-feed-handle\">\n<a href=\"https:\/\/www.instagram.com\/greatmountain_ginseng\/\" target=\"_blank\"><span class=\"ig-feed-handle_profile-pic\"><\/span> <strong>@greatmountain_ginseng<\/strong><\/a>\n<\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "9d29f0bb-5a63-49f6-91de-4a61e6d8077e"
-      ],
+    "164875808514ec26e6": {
+      "type": "instafeed",
       "settings": {
-        "include_margins": true
+        "heading_font": "helvetica_n4",
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
       }
     }
   },
@@ -261,6 +250,6 @@
     "featured_products",
     "163579258829eae0af",
     "1635795941ad68d959",
-    "1648497274a299a040"
+    "164875808514ec26e6"
   ]
 }
