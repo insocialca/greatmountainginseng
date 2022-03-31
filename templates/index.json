@@ -243,7 +243,7 @@
             "heading_font": "helvetica_n4",
             "heading_size": 20,
             "feed_width": 100,
-            "html_area": ""
+            "html_area": "<div class=\"ig-feed-handle\">\n<a href=\"https:\/\/www.instagram.com\/greatmountain_ginseng\/\" target=\"_blank\"><span class=\"ig-feed-handle_profile-pic\"><\/span> <strong>@greatmountain_ginseng<\/strong><\/a>\n\n<\/div>"
           }
         }
       },
