@@ -39,9 +39,32 @@
       "settings": {
         "tag_title": "食譜"
       }
+    },
+    "1648758896820c988c": {
+      "type": "apps",
+      "blocks": {
+        "c4c27ce9-1edb-4207-bab5-6b0dc8f2a371": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "helvetica_n4",
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "c4c27ce9-1edb-4207-bab5-6b0dc8f2a371"
+      ],
+      "settings": {
+        "include_margins": true,
+        "custom_html": "<div class=\"ig-feed-handle\">\n<a href=\"https:\/\/www.instagram.com\/greatmountain_ginseng\/\" target=\"_blank\"><span class=\"ig-feed-handle_profile-pic\"><\/span> <strong>@greatmountain_ginseng<\/strong><\/a>\n<\/div>",
+        "custom_class": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1648758896820c988c"
   ]
 }
