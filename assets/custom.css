@@ -1404,14 +1404,14 @@ product-recommendations .card-wrapper {
   color: #000;
   text-decoration: none;
   font-size: 26px;
-  line-height: 72px;
-  display: block;
+  display: flex;
 }
   
 .ig-feed-handle_profile-pic {
   background: url('https://cdn.shopify.com/s/files/1/0580/8445/8645/files/gmg-ig-profile.jpg?v=1648757885') center center/contain no-repeat transparent;
   display: inline-block;
   width: 72px;
+  height: 72px;
   margin-left: 24px;
   border-radius: 50%;
 }
