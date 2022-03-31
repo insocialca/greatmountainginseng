@@ -1403,21 +1403,30 @@ product-recommendations .card-wrapper {
   padding: 0 20px;
   color: #000;
   text-decoration: none;
-  font-size: 26px;
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 16px;
 }
   
 .ig-feed-handle_profile-pic {
   background: url('https://cdn.shopify.com/s/files/1/0580/8445/8645/files/gmg-ig-profile.jpg?v=1648757885') center center/contain no-repeat transparent;
   display: inline-block;
-  width: 72px;
-  height: 72px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
 }
   
 #insta-feed .slider-arrow,
 .instafeed-shopify .slider-arrow {
   border-radius: 0 !important;
+}
+  
+@media screen and (min-width: 750px) {
+  .ig-feed-handle > a {
+    font-size: 26px;
+  }
+  .ig-feed-handle_profile-pic {
+    width: 72px;
+    height: 72px;
+  }
 }
