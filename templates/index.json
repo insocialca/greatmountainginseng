@@ -234,13 +234,24 @@
         "mobile_layout": "collage"
       }
     },
-    "164875808514ec26e6": {
-      "type": "instafeed",
+    "1648758138adcea8dd": {
+      "type": "apps",
+      "blocks": {
+        "9325c208-3a81-4192-bb31-2b3acfaeb8b6": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "helvetica_n4",
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "9325c208-3a81-4192-bb31-2b3acfaeb8b6"
+      ],
       "settings": {
-        "heading_font": "helvetica_n4",
-        "heading_size": 20,
-        "feed_width": 100,
-        "html_area": ""
+        "include_margins": false
       }
     }
   },
@@ -250,6 +261,6 @@
     "featured_products",
     "163579258829eae0af",
     "1635795941ad68d959",
-    "164875808514ec26e6"
+    "1648758138adcea8dd"
   ]
 }
