@@ -39,9 +39,32 @@
       "settings": {
         "tag_title": "養生觀點"
       }
+    },
+    "16487589094ca2cb64": {
+      "type": "apps",
+      "blocks": {
+        "f380f3cd-dc26-45f3-8560-5ac23f8b2e68": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "helvetica_n4",
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "f380f3cd-dc26-45f3-8560-5ac23f8b2e68"
+      ],
+      "settings": {
+        "include_margins": true,
+        "custom_html": "<div class=\"ig-feed-handle\">\n<a href=\"https:\/\/www.instagram.com\/greatmountain_ginseng\/\" target=\"_blank\"><span class=\"ig-feed-handle_profile-pic\"><\/span> <strong>@greatmountain_ginseng<\/strong><\/a>\n<\/div>",
+        "custom_class": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16487589094ca2cb64"
   ]
 }
