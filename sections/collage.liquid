@@ -50,6 +50,7 @@
               {% if counter < 1 %}
                 {% if article.tags contains section.settings.blog-handle %}
                   {%- render 'article-card', article: article, show_image: true -%}
+            	  {% assign counter = counter | plus: 1 %}
                 {% endif %}
               {% else %}
                 {% break %}
