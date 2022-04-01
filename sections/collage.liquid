@@ -45,6 +45,7 @@
     	{%- when 'blog-post'-%}
     	  {% assign counter = 0 %}
     	  <div class="collage-card collage-article">
+            {{ block.settings.blog_tag }}
             {% for article in blogs.blog.articles %}
               {% if counter < 1 %}
             	{% if article.tags contains block.settings.blog_tag %}
