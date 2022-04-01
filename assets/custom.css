@@ -350,6 +350,12 @@ summary.list-menu__item {
   font-weight: 700;
   font-size: 1.8rem;
 }
+  
+.collage-article .article-card__title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #fff;
+}
  
 /* FAQ List - Accordion */
   
