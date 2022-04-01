@@ -251,7 +251,7 @@ summary.list-menu__item {
   padding-bottom: 1rem;
 }
 
-.emphasize_first_child > .grid__item .card-wrapper {
+.hp_feat-col .grid > .grid__item .card-wrapper {
   background-color: #fff;
   border-radius: 1rem;
   box-shadow: 0.3rem 0.3rem 0.4rem rgba(0, 0, 0, 0.15);
