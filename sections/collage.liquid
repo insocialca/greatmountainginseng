@@ -43,19 +43,9 @@
           </div>
 
     	{%- when 'blog-post'-%}
-    	  {% assign counter = 0 %}
     	  <div class="collage-card collage-article">
             {% assign blog = blogs.blog %}
-            {% for article in blog.articles %}
-              {% if counter < 1 %}
-                {% if article.tags contains section.settings.blog-handle %}
-                  {%- render 'article-card', article: article, show_image: true -%}
-            	  {% assign counter = counter | plus: 1 %}
-                {% endif %}
-              {% else %}
-                {% break %}
-              {% endif %}
-            {% endfor %}
+            {{ blog.articles_count }}
     	  </div>
     
         {%- when 'product'-%}
