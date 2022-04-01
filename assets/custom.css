@@ -362,6 +362,7 @@ summary.list-menu__item {
   position: absolute;
   top: 0;
   padding: 15px;
+  margin: 0;
 }
  
 /* FAQ List - Accordion */
