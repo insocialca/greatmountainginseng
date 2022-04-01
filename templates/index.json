@@ -125,7 +125,8 @@
         "show_vendor": false,
         "striked_header": true,
         "show_viewproduct": true,
-        "emphasize_first_item": true
+        "emphasize_first_item": false,
+        "custom_class": "hp_feat-col"
       }
     },
     "163579258829eae0af": {
