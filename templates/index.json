@@ -213,20 +213,16 @@
             "image_padding": false
           }
         },
-        "9cd2574f-38a6-46e2-aaac-029b59018af4": {
-          "type": "content",
+        "3f71b12c-bf84-4062-af02-12eadd333b83": {
+          "type": "blog-post",
           "settings": {
-            "image": "shopify:\/\/shop_images\/collage.jpg",
-            "title": "養生觀點",
-            "content": "<p>入秋之際，最適合補身！想用花旗參補氣，但不知道該搭配哪些食材嗎？<\/p>",
-            "button_label": "了解更多",
-            "button_link": "shopify:\/\/products\/test-product"
+            "blog-handle": ""
           }
         }
       },
       "block_order": [
         "1635795941ad68d959-0",
-        "9cd2574f-38a6-46e2-aaac-029b59018af4"
+        "3f71b12c-bf84-4062-af02-12eadd333b83"
       ],
       "settings": {
         "heading": "養生美食家",
