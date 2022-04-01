@@ -9,19 +9,10 @@
             "image": "shopify:\/\/shop_images\/GMG_FreeShippingOver79_WebBanner1920x720.png",
             "image_link": ""
           }
-        },
-        "163553785723f157eb-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/GMG_FreeShippingOver79_WebBanner1920x720.png",
-            "image_link": ""
-          }
         }
       },
       "block_order": [
-        "163553785723f157eb-0",
-        "163553785723f157eb-1"
+        "163553785723f157eb-0"
       ],
       "settings": {
         "header": ""
