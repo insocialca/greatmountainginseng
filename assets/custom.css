@@ -355,6 +355,16 @@ summary.list-menu__item {
   position: relative;
 }
   
+.collage-article .article-card__header::before {
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+}
+  
 .collage-article .article-card__title {
   font-size: 2.6rem;
   font-weight: 700;
