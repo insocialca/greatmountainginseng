@@ -1,4 +1,4 @@
-<div class="splide">
+<div id="carousel-{{ section.id }}" class="splide">
 	<div class="splide__track">
 		<ul class="splide__list">
             {%- for block in section.blocks -%}
@@ -20,7 +20,13 @@
 		</ul>
 	</div>
 </div>
-test{{ section.blocks.size }}
+
+{% if section.blocks.size < 2 %}
+<style>
+  .splide__arrows
+</style>
+{% endif %}
+
 {% schema %}
   {
     "name": "Carousel",
