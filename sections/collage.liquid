@@ -43,9 +43,11 @@
           </div>
 
     	{%- when 'blog-post'-%}
+    	  
     	  <div class="collage-card collage-article">
-            {% assign blog = blogs.blog %}
-            {{ blog.articles_count }}
+            {% for article in blogs.blog limit:4 %}
+              {% render 'article-card' blog: blogs.blog, article: article, show_image: true %}
+            {% endfor %}
     	  </div>
     
         {%- when 'product'-%}
