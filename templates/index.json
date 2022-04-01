@@ -113,7 +113,7 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "{{ section.settings.collection.title }}",
         "collection": "泡參",
         "products_to_show": 5,
         "show_view_all": true,
@@ -175,7 +175,7 @@
         "163579258829eae0af-2"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "為什麼選擇大山行",
         "header_color": "#ffffff",
         "striked_header": true,
         "content_above_header": "",
@@ -229,7 +229,7 @@
         "9cd2574f-38a6-46e2-aaac-029b59018af4"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "養生美食家",
         "striked_header": true,
         "desktop_layout": "left",
         "mobile_layout": "collage"
