@@ -69,23 +69,15 @@
                             class="motion-reduce"
                           >
                         </div>
+                        <header class="article-card__header">
+                          <h2 class="article-card__title" id="Article-{{ article.id }}">
+                            {{ article.title | escape }}
+                          </h2>
+                        </header>
                       </div>
                     {%- endif -%}
 
                     <div class="article-card__info">
-                      <header class="article-card__header">
-                        {%- if block.settings.show_date -%}
-                        <span class="circle-divider caption-with-letter-spacing">
-                          {{- article.published_at | time_tag: '%Y.%m.%d' -}}
-                        </span>
-                        {%- endif -%}
-                        <h2 class="article-card__title" id="Article-{{ article.id }}">
-                          {{ article.title | escape }}
-                        </h2>
-                        {%- if block.settings.show_author -%}
-                        <span class="caption-with-letter-spacing">{{ article.author -}}</span>
-                        {%- endif -%}
-                      </header>
                       {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
                       <p class="article-card__excerpt rte-width">
                         {%- if article.excerpt.size > 0 -%}
