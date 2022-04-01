@@ -45,7 +45,7 @@
     	{%- when 'blog-post'-%}
     	  
     	  <div class="collage-card collage-article">
-            {% for article in blogs.blog limit:4 %}
+            {% for article in blogs.blog.articles limit:4 %}
               {% render 'article-card' blog: blogs.blog, article: article, show_image: true %}
             {% endfor %}
     	  </div>
