@@ -45,10 +45,10 @@
     	{%- when 'blog-post'-%}
     	  
     	  <div class="collage-card collage-article">
-            {% for article in blogs.blog.articles limit:4 %}
-              <article class="article-card{% if article.image == blank or show_image == false %} article-card--no-image{% endif %}" aria-labelledby="Article-{{ article.id }}">
+            {% for article in blogs.blog.articles limit:1 %}
+              <article class="article-card{% if article.image == blank %} article-card--no-image{% endif %}" aria-labelledby="Article-{{ article.id }}">
                 <a href="{{ article.url }}" class="article-content motion-reduce">
-                  {%- if show_image == true and article.image -%}
+                  {%- if article.image -%}
                     <div class="article-card__image-wrapper">
                       <div class="article-card__image media media--landscape">
                         <img srcset="
