@@ -394,6 +394,10 @@ summary.list-menu__item {
   .collage {
     display: block;
   }
+  
+  .collage-card:not(.collage-card:first-child) {
+    margin-top: 16px;
+  }
 }
   
 /* FAQ List - Accordion */
