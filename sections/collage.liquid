@@ -43,41 +43,18 @@
           </div>
 
     	{%- when 'blog-post'-%}
-    	  <div class="collage-card collage-text">
-            <div class="collage-content collage-card__image-wrapper media media--transparent{% if block.settings.image_padding %} collage-card-spacing{% endif %}">
-              {%- if block.settings.image != blank -%}
-                <img srcset="{%- if block.settings.image.width >= 500 -%}{{ block.settings.image | img_url: '500x' }} 500w,{%- endif -%}
-                  {%- if block.settings.image.width >= 730 -%}{{ block.settings.image | img_url: '730x' }} 730w,{%- endif -%}
-                  {%- if block.settings.image.width >= 1440 -%}{{ block.settings.image | img_url: '1440x' }} 1440w,{%- endif -%}
-                  {%- if block.settings.image.width >= 990 -%}{{ block.settings.image | img_url: '990x' }} 990w,{%- endif -%}
-                  {%- if block.settings.image.width >= 2080 -%}{{ block.settings.image | img_url: '2080x' }} 2080w{%- endif -%}"
-                  src="{{ block.settings.image | img_url: '720x' }}"
-                  sizes="(min-width: 990px){% if section.blocks.size == 1 %} 990px{% else %} 730px{% endif %}, (min-width: 750px){% if section.blocks.size == 1 %} calc(100vw - 100px){% else%} 500px{% endif %}, calc(100vw - 30px)"
-                  alt="{{ block.settings.image.alt | escape }}"
-                  loading="lazy"
-                  width="{{ block.settings.image.width }}"
-                  height="{{ block.settings.image.height }}"
-                  class="collage-card__image"
-                >
-              {%- else -%}
-                {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder collage-card__image' }}
-              {%- endif -%}
-              {% if block.settings.title != blank %}
-              <h3 class="collage-card__title">{{ block.settings.title | escape }}</h3>
+    	  {% assign counter = 0 %}
+    	  <div class="collage-card collage-article">
+            {% assign blog = blogs.blog %}
+            {% for article in blog.articles %}
+              {% if counter < 1 %}
+                {% if article.tags contains section.settings.blog-handle %}
+                  {%- render 'article-card', article: article, show_image: true -%}
+                {% endif %}
+              {% else %}
+                {% break %}
               {% endif %}
-            </div>
-            
-            {% if block.settings.content != blank %}
-            <div class="collage-card__text rte">
-              {{ block.settings.content }}
-            </div>
-            {% endif %}
-            
-            {% if block.settings.button_link != blank and block.settings.button_label != blank %}
-            <div class="collage-card__button">
-              <a class="button" href="{{ block.settings.button_link }}">{{ block.settings.button_label | escape }}</a>
-            </div>
-            {% endif %}
+            {% endfor %}
     	  </div>
     
         {%- when 'product'-%}
