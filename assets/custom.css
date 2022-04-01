@@ -371,7 +371,7 @@ summary.list-menu__item {
   font-weight: 700;
   color: #fff;
   position: absolute;
-  top: 0;
+  bottom: 0;
   padding: 15px;
   margin: 0;
 }
