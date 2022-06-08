@@ -6,7 +6,7 @@
 
 <div class="{{ section.settings.page_width }}">
   <h1 class="main-page-title page-title h0{% if section.settings.striked_header %} striked-header{% endif %}">
-    {{ page.title | escape }}
+    <span>{{ page.title | escape }}</span>
   </h1>
   <div class="rte">
     {{ page.content }}
