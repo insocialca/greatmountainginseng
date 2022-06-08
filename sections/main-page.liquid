@@ -5,7 +5,7 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
 <div class="{{ section.settings.page_width }}">
-  <h1 class="main-page-title page-title h0">
+  <h1 class="main-page-title page-title h0{% if section.settings.striked_header %} striked-header{% endif %}">
     {{ page.title | escape }}
   </h1>
   <div class="rte">
@@ -20,6 +20,12 @@
   "class": "spaced-section",
   "settings": [
     {
+      "type": "checkbox",
+      "id": "striked_header",
+      "default": false,
+      "label": "Striked header style"
+  	},
+	{
       "type": "select",
       "id": "page_width",
       "label": "Page width",
