@@ -1,4 +1,9 @@
-<div class="{% if section.settings.include_margins %}page-width{% endif %}">
+<div class="{% if section.settings.include_margins %}page-width{% endif %} {{ section.settings.custom_class }}">
+  {% if section.settings.custom_html != blank %}
+  <div class="app_custom">
+    {{ section.settings.custom_html }}
+  </div>
+  {% endif %}
   {%- for block in section.blocks -%}
     {% render block %}
   {%- endfor -%}
@@ -15,6 +20,16 @@
       "id": "include_margins",
       "default": false,
       "label": "t:sections.apps.settings.include_margins.label"
+    },
+    {
+      "type": "html",
+      "id": "custom_html",
+      "label": "Custom HTML"
+    },
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom class"
     }
   ],
   "blocks": [

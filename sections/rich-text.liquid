@@ -4,20 +4,61 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="rich-text{% if section.settings.full_width %} rich-text--full-width{% endif %} color-{{ section.settings.color_scheme }}">
+{% if section.settings.section_border %}
+<div class="rich-text__border-{{ section.id }} rich-text__border-top"></div>
+{% endif %}
+
+<div{% if section.settings.anchor_tag != blank %} id="{{ section.settings.anchor_tag | handleize }}"{% endif %} class="rich-text{% if section.settings.full_width %} rich-text--full-width{% endif %} color-{{ section.settings.color_scheme }}">
   <div class="rich-text__blocks">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'heading' -%}
-          <h2 class="{% if block.settings.heading_size == 'small' %}h2{% else %}h1{% endif %}">{{ block.settings.heading | escape }}</h2>
+    	  <h2 class="{% if block.settings.heading_size == 'small' %}h2{% else %}h1{% endif %}{% if block.settings.striked_header %} striked-header{% endif %}"><span>{{ block.settings.heading | escape }}</span></h2>
         {%- when 'text' -%}
-          <div class="rich-text__text rte">{{ block.settings.text }}</div>
+          <div class="rich-text__text rte">
+            {% if block.settings.heading != blank %}
+            <p class="heading">{{ block.settings.heading | escape }}</p>
+            {% endif %}
+            {{ block.settings.text }}
+    	  </div>
         {%- when 'button' -%}
           <a{% if block.settings.button_link == blank %} aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
+    	{%- when 'video' -%}
+    	  <div class="rich-text__video">
+            {{ block.settings.video_embed }}
+    	  </div>
+    	{%- when 'list' -%}
+    	  <div class="rich-text__list">
+    	  {% for i in (1..6) %}
+            {% assign caption = 'list_title' | append: i %}
+            {% assign list_text = 'list_text' | append: i %}
+            {% if block.settings[caption] != blank %}
+            <span class="rich-text__list_caption"><span>{{ block.settings[caption] }}</span></span>
+            {% endif %}
+            {% if block.settings[list_text] != blank %}
+            <span class="rich-text__list_text">{{ block.settings[list_text] }}</span>
+            {% endif %}
+          {% endfor %}
+    	  </div>
       {%- endcase -%}
     {%- endfor -%}
   </div>
 </div>
+
+{% if section.settings.section_border %}
+<div class="rich-text__border-{{ section.id }} rich-text__border-bottom"></div>
+{% endif %}
+
+<style>
+  {% if section.settings.section_border and section.settings.section_border_color != blank %}
+  .rich-text__border-{{ section.id }} {
+    height: 8px;
+    background-color: {{ section.settings.section_border_color }};
+    width: 100%;
+    display: block !important;
+  }
+  {% endif %}
+</style>
 
 {% schema %}
 {
@@ -46,6 +87,10 @@
           "label": "t:sections.rich-text.settings.color_scheme.options__4.label"
         },
         {
+          "value": "background-3",
+          "label": "Background 3"
+        },
+        {
           "value": "inverse",
           "label": "t:sections.rich-text.settings.color_scheme.options__5.label"
         }
@@ -58,6 +103,22 @@
       "id": "full_width",
       "default": true,
       "label": "t:sections.rich-text.settings.full_width.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "section_border",
+      "label": "Add section borders",
+      "default": false
+    },
+	{
+      "type": "color",
+      "id": "section_border_color",
+	  "label": "Border color"
+    },
+    {
+      "type": "text",
+      "id": "anchor_tag",
+      "label": "Anchor"
     }
   ],
   "blocks": [
@@ -87,19 +148,108 @@
           ],
           "default": "medium",
           "label": "t:sections.rich-text.blocks.heading.settings.heading_size.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "striked_header",
+          "label": "Use striked header style",
+          "default": false
         }
       ]
     },
     {
       "type": "text",
       "name": "t:sections.rich-text.blocks.text.name",
-      "limit": 1,
       "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
         {
           "type": "richtext",
           "id": "text",
           "default": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
           "label": "t:sections.rich-text.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "name": "List",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "list_title1",
+          "label": "List Title 1"
+        },
+        {
+          "type": "text",
+          "id": "list_text1",
+          "label": "List Text 1"
+        },
+        {
+          "type": "text",
+          "id": "list_title2",
+          "label": "List Title 2"
+        },
+        {
+          "type": "text",
+          "id": "list_text2",
+          "label": "List Text 2"
+        },
+        {
+          "type": "text",
+          "id": "list_title3",
+          "label": "List Title 3"
+        },
+        {
+          "type": "text",
+          "id": "list_text3",
+          "label": "List Text 3"
+        },
+        {
+          "type": "text",
+          "id": "list_title4",
+          "label": "List Title 4"
+        },
+        {
+          "type": "text",
+          "id": "list_text4",
+          "label": "List Text 4"
+        },
+        {
+          "type": "text",
+          "id": "list_title5",
+          "label": "List Title 5"
+        },
+        {
+          "type": "text",
+          "id": "list_text5",
+          "label": "List Text 5"
+        },
+        {
+          "type": "text",
+          "id": "list_title6",
+          "label": "List Title 6"
+        },
+        {
+          "type": "text",
+          "id": "list_text6",
+          "label": "List Text 6"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "name": "Video",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "html",
+          "id": "video_embed",
+          "label": "Video embed"
         }
       ]
     },

@@ -7,7 +7,7 @@
     - show_image: {String} The setting either show the article image or not. If it's not included it will show the image by default
 
     Usage:
-    {% render 'article-card' blog: blog, article: article, show_image: section.settings.show_image %}
+    {% render 'sidebar-card' blog: blog, article: article, show_image: section.settings.show_image %}
 {% endcomment %}
 
 <article class="article-card{% if article.image == blank or show_image == false %} article-card--no-image{% endif %}" aria-labelledby="Article-{{ article.id }}">
@@ -35,46 +35,16 @@
     {%- endif -%}
 
     <div class="article-card__info">
-      {%- for block in section.blocks -%}
-        {%- case block.type -%}
-          {%- when 'title'-%}
-            <header class="article-card__header">
-              {%- if block.settings.show_date -%}
-                <span class="circle-divider caption-with-letter-spacing">
-                  {{- article.published_at | time_tag: '%Y.%m.%d' -}}
-                </span>
-              {%- endif -%}
-              <h2 class="article-card__title" id="Article-{{ article.id }}">
-                {{ article.title | escape }}
-              </h2>
-              {%- if block.settings.show_author -%}
-                <span class="caption-with-letter-spacing">{{ article.author -}}</span>
-              {%- endif -%}
-            </header>
-
-          {%- when 'summary'-%}
-            {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
-              <p class="article-card__excerpt rte-width">
-                {%- if article.excerpt.size > 0 -%}
-                  {{ article.excerpt | strip_html | truncate: 100 }}
-                {%- else -%}
-                  {{ article.content | strip_html | truncate: 100 }}
-                {%- endif -%}
-              </p>
-            {%- endif -%}
-
-          {%- when 'link'-%}
-            <div class="article-card__footer">
-              <span class="button link article-card__link" aria-label="{{ 'blogs.article.read_more_title' | t: title: article.title | escape }}">
-                {{ 'blogs.article.read_more' | t }}
-              </span>
-
-              {%- if article.comments_count > 0 and blog.comments_enabled? -%}
-                <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
-              {%- endif -%}
-            </div>
-        {%- endcase -%}
-      {%- endfor -%}
+      <header class="article-card__header">
+        <h2 class="article-card__title" id="Article-{{ article.id }}">
+          {{ article.title | escape }}
+        </h2>
+      </header>
+      {% if show_readmore %}
+      <div class="article-card__footer">
+        <span class="link article-card__link" aria-label="{{ 'blogs.article.read_more_title' | t: title: article.title | escape }}">了解更多 <span>{% render 'icon-chevron-right' %}</span></span>
+      </div>
+      {% endif %}
     </div>
   </a>
 </article>

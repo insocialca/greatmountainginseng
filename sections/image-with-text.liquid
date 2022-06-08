@@ -1,6 +1,13 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
-<div class="image-with-text {% if section.settings.full_width %}image-with-text--full-width{% else %}page-width{% endif %} color-scheme-{{ section.settings.color_scheme }}">
+{% if section.settings.section_border %}
+<div class="image-with-text__border-{{ section.id }} image-with-text__border-top"></div>
+{% endif %}
+
+<div class="image-with-text {% if section.settings.full_width %}image-with-text--full-width{% else %}page-width{% endif %} color-scheme-{{ section.settings.color_scheme }} {{ section.settings.custom_class }}">
+  {% if section.settings.title != blank %}
+  <h2 class="title{% if section.settings.striked-header %} striked-header{% endif %}"><span>{{ section.settings.title | escape }}</span></h2>
+  {% endif %}
   <div class="image-with-text__grid color-{{ section.settings.color_scheme }}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %} grid grid--gapless grid--1-col grid--2-col-tablet">
     <div class="grid__item">
       <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} {% if section.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}"
@@ -46,11 +53,54 @@
   </div>
 </div>
 
+{% if section.settings.section_border %}
+<div class="image-with-text__border-{{ section.id }} image-with-text__border-bottom"></div>
+{% endif %}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    {% if section.settings.bg_image != blank %}
+    background-image: url("{{ section.settings.bg_image | img_url: '1420x' }}");
+    background-size: {{ section.settings.section_bg_fit }};
+    background-repeat: no-repeat;
+    background-position: {{ section.settings.background_position }};
+    {% endif %}
+    background-color: {{ section.settings.bg_color }};
+  }
+  
+  #shopify-section-{{ section.id }} .striked-header span {
+    background-color: {{ section.settings.bg_color }};
+    color: {{ section.settings.txt_color }}
+  }
+  
+  #shopify-section-{{ section.id }} .image-with-text__content {
+  	color: {{ section.settings.txt_color }}
+  }
+  
+  .image-with-text__border-{{ section.id }} {
+    background-color: {{ section.settings.border_color }};
+    height: 8px;
+    width: 100%;
+    display: block !important;
+  }
+</style>
+
 {% schema %}
 {
   "name": "t:sections.image-with-text.name",
   "class": "spaced-section spaced-section--full-width",
   "settings": [
+	{
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "checkbox",
+      "id": "striked-header",
+      "label": "Apply striked header styling",
+      "default": false
+    },
     {
       "type": "image_picker",
       "id": "image",
@@ -99,6 +149,10 @@
         {
           "value": "accent-2",
           "label": "t:sections.image-with-text.settings.color_scheme.options__5.label"
+        },
+        {
+          "value": "",
+          "label": "None"
         }
       ],
       "default": "background-1",
@@ -120,6 +174,73 @@
       "default": "image_first",
       "label": "t:sections.image-with-text.settings.layout.label",
       "info": "t:sections.image-with-text.settings.layout.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "section_border",
+      "label": "Apply section border",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border color"
+    },
+	{
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background image"
+    },
+	{
+      "type": "select",
+      "id": "section_bg_fit",
+      "options": [
+        {
+          "value": "cover",
+          "label": "Cover"
+        },
+        {
+          "value": "contain",
+          "label": "Contain"
+        }
+      ],
+      "default": "cover",
+      "label": "Background image size"
+    },
+    {
+      "type": "select",
+      "id": "background_position",
+      "options": [
+        {
+          "value": "top center",
+          "label": "Top"
+        },
+        {
+          "value": "center center",
+          "label": "Center"
+        },
+        {
+          "value": "bottom center",
+          "label": "Bottom"
+        }
+      ],
+      "default": "center center",
+      "label": "Background position"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color"
+    },
+    {
+      "type": "color",
+      "id": "txt_color",
+      "label": "Text color"
+    },
+	{
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
     }
   ],
   "blocks": [

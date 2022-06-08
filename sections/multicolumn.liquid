@@ -9,7 +9,7 @@
     {% unless section.settings.section_bg_fit == 'pattern' %}
       background-size: {{ section.settings.section_bg_fit }};
       background-repeat: no-repeat;
-      background-position: center center;
+      background-position: {{ section.settings.background_position }};
     {% endunless %}
   }
   
@@ -23,7 +23,7 @@
   {% if section.settings.header_color != blank %}
   #multicolumn-{{ section.id }},
   #multicolumn-{{ section.id }} * {
-    color: {{ section.settings.header_color }} !important;
+    color: {{ section.settings.header_color }};
   }
   {% endif %}
   
@@ -39,6 +39,23 @@
     display: block !important;
   }
   {% endif %}
+  
+  {% if section.settings.collapse_content_mobile %}
+  @media screen and (max-width: 749px) {
+    #multicolumn-{{ section.id }} .multicolumn-card {
+      display: flex;
+      align-items: center;
+    }
+    
+    #multicolumn-{{ section.id }} .multicolumn-card > div {
+      width: 50%;
+    }
+    
+    #multicolumn-{{ section.id }} .multicolumn-card__info {
+      padding: 10px;
+    }
+  }
+  {% endif %}
 </style>
 {% endif %}
 
@@ -46,8 +63,13 @@
 <div class="multicolumn__border-{{ section.id }} multicolumn__border-top"></div>
 {% endif %}
 
-<div id="multicolumn-{{ section.id }}" class="multicolumn background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.set_style == 'borderless_overlay' %} multicolumn-borderless{% elsif section.settings.set_style == 'plain' %} multicolumn-plain{% elsif section.settings.set_style == 'locations' %} multicolumn-locations{% endif %}">
+<div id="multicolumn-{{ section.id }}" class="multicolumn background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.set_style == 'borderless_overlay' %} multicolumn-borderless{% elsif section.settings.set_style == 'plain' %} multicolumn-plain{% elsif section.settings.set_style == 'locations' %} multicolumn-locations{% endif %} {{ section.settings.custom_class }}">
   <div class="page-width">
+    {% if section.settings.content_above_header != blank %}
+    <div class="multicolumn__content-above-header">
+      {{ section.settings.content_above_header }}
+    </div>
+    {% endif %}
     <div class="title-wrapper-with-link title-wrapper--self-padded-mobile{% if section.settings.title == blank %} title-wrapper-with-link--no-heading{% endif %}">
       <h2 class="title{% if section.settings.striked_header %} striked-header{% endif %}">
         <span>{{ section.settings.title | escape }}</span>
@@ -57,7 +79,7 @@
       {%- endif -%}
     </div>
     <slider-component class="slider-mobile-gutter">
-      <ul class="multicolumn-list grid grid--1-col{% if section.blocks.size > 3 and section.settings.image_width != 'full' %} grid--2-col-tablet grid--4-col-desktop{% elsif section.blocks.size > 3 and section.settings.image_width == 'full' %} grid--{{ section.settings.set_column_number }}-col-tablet{% else %} grid--3-col-tablet{% endif %}{% if section.settings.swipe_on_mobile and section.blocks.size > 1 %} slider slider--mobile grid--peek{% endif %}"
+      <ul class="multicolumn-list grid grid--{{ section.settings.set_col_mobile }}-col{% if section.blocks.size > 3 and section.settings.image_width != 'full' %} grid--2-col-tablet grid--4-col-desktop{% elsif section.blocks.size > 3 and section.settings.image_width == 'full' %} grid--{{ section.settings.set_column_number }}-col-tablet{% else %} grid--3-col-tablet{% endif %}{% if section.settings.swipe_on_mobile and section.blocks.size > 1 %} slider slider--mobile grid--peek{% endif %}"
         id="Slider-{{ section.id }}"
         role="list"
       >
@@ -100,7 +122,7 @@
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
-                  <h3>{{ block.settings.title | escape }}</h3>
+                <h3>{% if block.settings.add_link_to_header and block.settings.button_link != blank %}<a href="{{ block.settings.button_link }}">{{ block.settings.title | escape }}</a>{% else %}{{ block.settings.title | escape }}{% endif %}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
@@ -167,6 +189,11 @@
       "label": "Striked header style"
     },
     {
+      "type": "richtext",
+      "id": "content_above_header",
+      "label": "Content above header"
+    },
+    {
       "type": "select",
       "id": "set_style",
       "label": "Set Style",
@@ -220,6 +247,46 @@
       "id": "section_bg_color",
       "label": "Background color"
 	},
+    {
+      "type": "select",
+      "id": "background_style",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:sections.multicolumn.settings.background_style.options__1.label"
+        },
+        {
+          "value": "primary",
+          "label": "t:sections.multicolumn.settings.background_style.options__2.label"
+        },
+        {
+          "value": "secondary",
+          "label": "t:sections.multicolumn.settings.background_style.options__3.label"
+        }
+      ],
+      "default": "primary",
+      "label": "t:sections.multicolumn.settings.background_style.label"
+    },
+    {
+      "type": "select",
+      "id": "background_position",
+      "options": [
+        {
+          "value": "top center",
+          "label": "Top"
+        },
+        {
+          "value": "center center",
+          "label": "Center"
+        },
+        {
+          "value": "bottom center",
+          "label": "Bottom"
+        }
+      ],
+      "default": "center center",
+      "label": "Background position"
+    },
     {
       "type": "select",
       "id": "image_width",
@@ -284,31 +351,28 @@
       "type": "range",
       "id": "set_column_number",
       "min": 1,
-      "max": 4,
+      "max": 5,
       "step": 1,
       "default": 2,
       "label": "Set Number of Columns (Desktop)",
 	  "info": "Only takes effect if image width is set to full"
     },
+	{
+      "type": "range",
+      "id": "set_col_mobile",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "default": 1,
+      "label": "Set Number of Columns (Mobile)",
+	  "info": "Only takes effect if image width is set to full"
+    },
     {
-      "type": "select",
-      "id": "background_style",
-      "options": [
-        {
-          "value": "none",
-          "label": "t:sections.multicolumn.settings.background_style.options__1.label"
-        },
-        {
-          "value": "primary",
-          "label": "t:sections.multicolumn.settings.background_style.options__2.label"
-        },
-        {
-          "value": "secondary",
-          "label": "t:sections.multicolumn.settings.background_style.options__3.label"
-        }
-      ],
-      "default": "primary",
-      "label": "t:sections.multicolumn.settings.background_style.label"
+      "type": "checkbox",
+      "id": "collapse_content_mobile",
+      "label": "Apply side-by-side content for mobile",
+      "default": false,
+	  "info": "Works only if 1 column is set for mobile"
     },
     {
       "type": "text",
@@ -361,6 +425,11 @@
       "type": "color",
       "id": "section_border_color",
 	  "label": "Border color"
+    },
+	{
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
     }
   ],
   "blocks": [
@@ -378,6 +447,12 @@
           "id": "title",
           "default": "Column",
           "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "add_link_to_header",
+          "default": false,
+          "label": "Add link to title"
         },
         {
           "type": "richtext",

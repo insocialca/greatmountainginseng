@@ -1,1 +1,14 @@
-{"sections":{"main":{"type":"main-page","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "striked_header": true,
+        "page_width": "page-width"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

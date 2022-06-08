@@ -1,15 +1,90 @@
 {{ 'component-timeline.css' | asset_url | stylesheet_tag }}
 
+<div class="page-width">
+  <div class="timeline__wrap">
+    <div class="timeline__section-content">
+      {% if section.settings.title != blank %}
+      <h2 class="title{% if section.settings.striked-header %} striked-header{% endif %}"><span>{{ section.settings.title | escape }}</span></h2>
+      {% endif %}
+    </div>
+    {% if section.blocks.size > 0 %}
+    <div class="timeline">
+      <span></span>
+      <ul class="timeline__graph">
+        {%- for block in section.blocks -%}
+        <li class="timeline__item-wrap {{ block.settings.timeline_direction }}">
+          <div class="timeline__item">
+            <div class="flag-wrapper">
+              <span class="flag">{{ block.settings.title }}</span>
+              <div class="desc">
+                {{ block.settings.description }}
+              </div>
+            </div>
+          </div>
+        </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
 {% schema %}
 {
   "name": "Timeline",
   "tag": "section",
   "class": "spaced-section timeline",
   "blocks": [
-    
+	{
+      "name": "Timeline Item",
+      "type": "item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Year"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "select",
+          "id": "timeline_direction",
+          "label": "Alignment",
+          "options": [
+            {
+              "value": "direction-l",
+              "label": "Left"
+            },
+            {
+              "value": "direction-r",
+              "label": "Right"
+            }
+          ],
+          "default": "direction-l"
+        }
+      ]
+    }
   ],
   "settings": [
-    
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "checkbox",
+      "id": "striked-header",
+      "label": "Apply striked header styling",
+      "default": false
+    },
+    {
+      "type": "textarea",
+      "id": "content",
+      "label": "Content"
+    }
   ],
   "presets": [
     {

@@ -2,11 +2,23 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
 
-
-{%- paginate blog.articles by 6 -%}
+{%- paginate blog.articles by 7 -%}
 
   <div class="main-blog page-width">
-    <h1 class="title--primary">{{ blog.title | escape }}</h1>
+    <h1 class="title--primary">
+      {% if current_tags != blank %}
+      {{ blog.title | link_to: blog.url }}
+      {% else %}
+      <span class="active">{{ blog.title | escape }}</span>
+      {% endif %}
+      {% for tag in blog.all_tags %}
+      	{% if current_tags contains tag %}
+      	<span class="active">{{ tag | escape }}</span>
+      	{% else %}
+      	{{ tag  | link_to_tag: tag }}
+      	{% endif %}
+      {% endfor %}
+    </h1>
 
     <div class="blog-articles">
       {%- for article in blog.articles -%}

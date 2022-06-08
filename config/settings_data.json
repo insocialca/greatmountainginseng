@@ -1,1 +1,116 @@
-{"current":{"colors_accent_1":"#a6192e","colors_background_1":"#f8f5f2","colors_background_2":"#cfbfb0","type_header_font":"roboto_n4","type_body_font":"roboto_n4","social_facebook_link":"https:\/\/www.facebook.com\/greatmountain.ginseng\/","social_instagram_link":"https:\/\/www.instagram.com\/greatmountain_ginseng\/","social_youtube_link":"","checkout_header_image":"shopify:\/\/shop_images\/checkoutheader.png","checkout_logo_image":"shopify:\/\/shop_images\/logo_0054aab0-6414-4ca3-9c83-66b3087e3059.png","checkout_logo_position":"center","checkout_logo_size":"large","checkout_sidebar_background_color":"#eaeaea","checkout_heading_font":"Roboto","checkout_body_font":"Roboto","checkout_accent_color":"#85714d","checkout_button_color":"#a6192e","checkout_error_color":"#a6192e","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement-bar-0":{"type":"announcement","settings":{"text":"Welcome to our store","color_scheme":"accent-1","link":""}}},"block_order":["announcement-bar-0"],"settings":{}},"header":{"type":"header","settings":{"logo":"shopify:\/\/shop_images\/logo_0054aab0-6414-4ca3-9c83-66b3087e3059.png","logo_width":140,"logo_position":"top-left","menu":"main-menu","show_line_separator":true,"show_search_bar_desktop":true,"enable_sticky_header":true}},"footer":{"type":"footer","blocks":{"footer-0":{"type":"link_list","settings":{"heading":"關於我們","menu":"footer"}},"2070964a-c886-4858-b930-429774d81c91":{"type":"link_list","settings":{"heading":"購物需知","menu":"footer-menu-2"}},"105e6623-a658-4d26-ab8a-628bbc1f74ff":{"type":"link_list","settings":{"heading":"客服資訊","menu":"footer-menu-3"}},"f944b0ce-30bd-4f4a-b4dc-c74b07c1b347":{"type":"html","settings":{"custom_html":"test","is_fb_widget":true}},"3ba697be-2ae3-44cc-ac87-c1a9922d89b8":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/customer_service.png","show_socmed_icons":true,"is_narrow":true}}},"block_order":["footer-0","2070964a-c886-4858-b930-429774d81c91","105e6623-a658-4d26-ab8a-628bbc1f74ff","f944b0ce-30bd-4f4a-b4dc-c74b07c1b347","3ba697be-2ae3-44cc-ac87-c1a9922d89b8"],"settings":{"color_scheme":"background-2","newsletter_enable":false,"newsletter_heading":"Sign up to our emails","show_social":false,"enable_country_selector":false,"enable_language_selector":false,"payment_enable":false,"block_columns":5}}},"content_for_index":[]}}
+{
+  "current": {
+    "colors_accent_1": "#a6192e",
+    "colors_background_1": "#f8f5f2",
+    "colors_background_2": "#cfbfb0",
+    "type_header_font": "roboto_n4",
+    "type_body_font": "roboto_n4",
+    "social_facebook_link": "https:\/\/www.facebook.com\/greatmountain.ginseng\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/greatmountain_ginseng\/",
+    "social_youtube_link": "",
+    "checkout_header_image": "shopify:\/\/shop_images\/checkoutheader.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_0054aab0-6414-4ca3-9c83-66b3087e3059.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_sidebar_background_color": "#eaeaea",
+    "checkout_heading_font": "Roboto",
+    "checkout_body_font": "Roboto",
+    "checkout_accent_color": "#85714d",
+    "checkout_button_color": "#a6192e",
+    "checkout_error_color": "#a6192e",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "加拿大境內單筆消費滿$79（稅前），包郵到府。",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo_0054aab0-6414-4ca3-9c83-66b3087e3059.png",
+          "logo_width": 140,
+          "logo_position": "top-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "show_search_bar_desktop": true,
+          "enable_sticky_header": true,
+          "hide_account_on_mobile": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "關於我們",
+              "menu": "footer"
+            }
+          },
+          "2070964a-c886-4858-b930-429774d81c91": {
+            "type": "link_list",
+            "settings": {
+              "heading": "購物需知",
+              "menu": "footer-menu-2"
+            }
+          },
+          "105e6623-a658-4d26-ab8a-628bbc1f74ff": {
+            "type": "link_list",
+            "settings": {
+              "heading": "客服資訊",
+              "menu": "footer-menu-3"
+            }
+          },
+          "f944b0ce-30bd-4f4a-b4dc-c74b07c1b347": {
+            "type": "html",
+            "settings": {
+              "custom_html": "<div id=\"fb-root\"><\/div>\n<script async defer crossorigin=\"anonymous\" src=\"https:\/\/connect.facebook.net\/en_US\/sdk.js#xfbml=1&amp;version=v13.0\" nonce=\"qoRnH9cN\"><\/script>\n\n<div class=\"fb-page\" data-href=\"https:\/\/www.facebook.com\/greatmountain.ginseng\/\" data-tabs=\"\" data-width=\"\" data-height=\"\" data-small-header=\"false\" data-adapt-container-width=\"true\" data-hide-cover=\"false\" data-show-facepile=\"false\"><blockquote cite=\"https:\/\/www.facebook.com\/greatmountain.ginseng\/\" class=\"fb-xfbml-parse-ignore\"><a href=\"https:\/\/www.facebook.com\/greatmountain.ginseng\/\">Greatmountain Ginseng<\/a><\/blockquote><\/div>",
+              "is_fb_widget": true
+            }
+          },
+          "3ba697be-2ae3-44cc-ac87-c1a9922d89b8": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/customer_service.png",
+              "show_socmed_icons": true,
+              "is_narrow": true
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "2070964a-c886-4858-b930-429774d81c91",
+          "105e6623-a658-4d26-ab8a-628bbc1f74ff",
+          "f944b0ce-30bd-4f4a-b4dc-c74b07c1b347",
+          "3ba697be-2ae3-44cc-ac87-c1a9922d89b8"
+        ],
+        "settings": {
+          "color_scheme": "background-2",
+          "newsletter_enable": false,
+          "newsletter_heading": "Sign up to our emails",
+          "show_social": false,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false,
+          "block_columns": 5
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}

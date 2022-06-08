@@ -1,18 +1,317 @@
 {
   "sections": {
     "main": {
-      "type": "main-page",
+      "type": "custom-story-page",
       "settings": {
+        "bg_image": "shopify:\/\/shop_images\/story-bg.png",
+        "section_bg_fit": "cover",
+        "background_position": "center center",
+        "bg_color": "#eaeaea"
       }
     },
     "1643899962b94e00b4": {
       "type": "timeline",
+      "blocks": {
+        "9448fe16-288f-4135-8635-9403c31e588e": {
+          "type": "item",
+          "settings": {
+            "title": "1976年",
+            "description": "成立Y.E Ginseng（花旗參農場）",
+            "timeline_direction": "direction-l"
+          }
+        },
+        "0381e841-f7d9-4ff1-87d8-b626f37b77df": {
+          "type": "item",
+          "settings": {
+            "title": "1982年",
+            "description": "成立Chin Tai Ginseng Co. Ltd.",
+            "timeline_direction": "direction-r"
+          }
+        },
+        "8e660ea9-c454-416b-9d74-91239ffbd3ce": {
+          "type": "item",
+          "settings": {
+            "title": "1989年",
+            "description": "第一間大山行門市正式開幕－密市中國城門市，取名為大山行 成立大山行花旗參有限公司（Great Mountain Ginseng Co. Ltd.）",
+            "timeline_direction": "direction-l"
+          }
+        },
+        "e3b5c3a8-8ca0-4c04-8b47-9b53d93611c6": {
+          "type": "item",
+          "settings": {
+            "title": "1992年",
+            "description": "中區唐人街門市開幕",
+            "timeline_direction": "direction-r"
+          }
+        },
+        "3172ed2a-249b-46f4-8cae-40eef490b1ec": {
+          "type": "item",
+          "settings": {
+            "title": "1992年",
+            "description": "Y.E Ginseng更名為Yeh's Ginseng Farm",
+            "timeline_direction": "direction-l"
+          }
+        },
+        "76dc6b07-4862-4929-952e-51c8237c2f4b": {
+          "type": "item",
+          "settings": {
+            "title": "1995年",
+            "description": "列治文山時代廣場店門市開幕",
+            "timeline_direction": "direction-r"
+          }
+        },
+        "4803f913-a331-409f-aac9-7509d5f5716e": {
+          "type": "item",
+          "settings": {
+            "title": "1997年",
+            "description": "萬錦太古商場門市開幕",
+            "timeline_direction": "direction-l"
+          }
+        },
+        "2554eaed-ac31-4ed2-8da7-400cc74736d1": {
+          "type": "item",
+          "settings": {
+            "title": "1999年",
+            "description": "密市黃金廣場門市開幕",
+            "timeline_direction": "direction-r"
+          }
+        },
+        "decfc298-9968-4129-998e-96ac9986ef7b": {
+          "type": "item",
+          "settings": {
+            "title": "2005年",
+            "description": "溫哥華時代坊門市開幕",
+            "timeline_direction": "direction-l"
+          }
+        },
+        "69ff2c6a-9f0c-4e0e-ad1a-bcaf0f87312b": {
+          "type": "item",
+          "settings": {
+            "title": "2006年",
+            "description": "尼加拉瓜瀑佈區示範農場開幕",
+            "timeline_direction": "direction-r"
+          }
+        },
+        "9f387dee-402e-4c5a-94b4-c21a67df08e3": {
+          "type": "item",
+          "settings": {
+            "title": "2007年",
+            "description": "萬錦錦繡中華門市開幕",
+            "timeline_direction": "direction-l"
+          }
+        },
+        "214b68c1-0706-4724-8fe0-9f91337c9a27": {
+          "type": "item",
+          "settings": {
+            "title": "2008年",
+            "description": "渥太華門市開幕",
+            "timeline_direction": "direction-r"
+          }
+        },
+        "3d6f4b33-2023-4495-b255-93182110b732": {
+          "type": "item",
+          "settings": {
+            "title": "2008年",
+            "description": "設立花旗參加工廠及工廠門市",
+            "timeline_direction": "direction-l"
+          }
+        },
+        "c7a9bb8a-9d54-4981-9551-9d95daf4616e": {
+          "type": "item",
+          "settings": {
+            "title": "2011年",
+            "description": "普曼娜康山門市開幕",
+            "timeline_direction": "direction-r"
+          }
+        },
+        "9ec51817-8195-4c62-948f-c8a9de7c4c0b": {
+          "type": "item",
+          "settings": {
+            "title": "2019年",
+            "description": "農場增設廣達45,000平方呎的加工廠，且獲得SFCR認證",
+            "timeline_direction": "direction-l"
+          }
+        }
+      },
+      "block_order": [
+        "9448fe16-288f-4135-8635-9403c31e588e",
+        "0381e841-f7d9-4ff1-87d8-b626f37b77df",
+        "8e660ea9-c454-416b-9d74-91239ffbd3ce",
+        "e3b5c3a8-8ca0-4c04-8b47-9b53d93611c6",
+        "3172ed2a-249b-46f4-8cae-40eef490b1ec",
+        "76dc6b07-4862-4929-952e-51c8237c2f4b",
+        "4803f913-a331-409f-aac9-7509d5f5716e",
+        "2554eaed-ac31-4ed2-8da7-400cc74736d1",
+        "decfc298-9968-4129-998e-96ac9986ef7b",
+        "69ff2c6a-9f0c-4e0e-ad1a-bcaf0f87312b",
+        "9f387dee-402e-4c5a-94b4-c21a67df08e3",
+        "214b68c1-0706-4724-8fe0-9f91337c9a27",
+        "3d6f4b33-2023-4495-b255-93182110b732",
+        "c7a9bb8a-9d54-4981-9551-9d95daf4616e",
+        "9ec51817-8195-4c62-948f-c8a9de7c4c0b"
+      ],
       "settings": {
+        "title": "我们的历史",
+        "striked-header": true,
+        "content": ""
+      }
+    },
+    "164390874991a99b46": {
+      "type": "image-with-text",
+      "blocks": {
+        "1643908749b7d4d8d8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>安心﹑誠信與創新是大山行的企業理念，也是40多年來的目標與堅持。憑藉著免費為洋人打工習得種參技術，大山行的草創之路艱辛不易，但也因為親自踏入農場，深知花旗參栽種的過程，氣候環境﹑土壤優劣﹑蟲害等，都深深影響了花旗參的品質，因此自開始到現在，都堅持走自營農場的路，作到第一線的把關，為的就是讓消費者從自大山行購買的任何產品，都可以吃得安心且放心。<\/p><p>大山行深信，除了優質、安心的產品外，唯有誠信，才能獲得消費者的信任，作長久的生意。因此，所有大山行的員工，皆謹守著誠信的原則，為消費者提供最好的服務。此外，花旗參作為與養生觀念連結性強的產品，過往的客群多半為中老年人。大山行為了讓更多人因為花旗參而健康，感受花旗參的好，不斷推出新產品。如花旗參冰蜂蜜﹑花旗參咖啡﹑花旗參杏仁果等，都是大山行獨特的新產品。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1643908749b7d4d8d8-1"
+      ],
+      "settings": {
+        "title": "我们的任务",
+        "striked-header": true,
+        "image": "shopify:\/\/shop_images\/our-process.png",
+        "height": "adapt",
+        "color_scheme": "",
+        "layout": "text_first",
+        "section_border": true,
+        "border_color": "#a6192e",
+        "bg_image": "shopify:\/\/shop_images\/process-bg.png",
+        "section_bg_fit": "contain",
+        "background_position": "center center",
+        "bg_color": "#000000",
+        "txt_color": "#ffffff",
+        "custom_class": "our-process"
+      }
+    },
+    "16439091179c9cd623": {
+      "type": "multicolumn",
+      "blocks": {
+        "1643909117baf58097-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/award1.png",
+            "title": "2006",
+            "add_link_to_header": false,
+            "text": "<p>Chinese Canadian Entrepreneur Awards -  The Award of Merit<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "trigger_locations": false
+          }
+        },
+        "acc700e2-5295-4de2-9d1b-f034ff34aab9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/award2.png",
+            "title": "2011",
+            "add_link_to_header": false,
+            "text": "<p>Foodland Ontario Approval - Certified Production in Ontario<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "trigger_locations": false
+          }
+        },
+        "3d0a6ad8-bcf9-4b9c-81f0-851eb5880c19": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/award3.png",
+            "title": "2011",
+            "add_link_to_header": false,
+            "text": "<p>Agriculture and Agri-Food Canada Approval - Certified Production in Canada<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "trigger_locations": false
+          }
+        },
+        "532483bb-8d76-4dcc-9038-3374d1a4fa3f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/award4.png",
+            "title": "2011",
+            "add_link_to_header": false,
+            "text": "<p>Ontario Ginseng Growers Association Approval - Certified for authenticity and country of production<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "trigger_locations": false
+          }
+        },
+        "cf4227ef-7003-4b48-8fa8-f9f6f7bab184": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/award5.png",
+            "title": "2019",
+            "add_link_to_header": false,
+            "text": "<p>Greater Niagara Chamber of Commerce - Business Achievement Award<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "trigger_locations": false
+          }
+        }
+      },
+      "block_order": [
+        "1643909117baf58097-0",
+        "acc700e2-5295-4de2-9d1b-f034ff34aab9",
+        "3d0a6ad8-bcf9-4b9c-81f0-851eb5880c19",
+        "532483bb-8d76-4dcc-9038-3374d1a4fa3f",
+        "cf4227ef-7003-4b48-8fa8-f9f6f7bab184"
+      ],
+      "settings": {
+        "title": "我們的榮耀",
+        "header_color": "#000000",
+        "striked_header": true,
+        "content_above_header": "<p><strong>我们的使命大山参坚持天然、纯正、高品质<\/strong><\/p>",
+        "set_style": "locations",
+        "section_bg": "shopify:\/\/shop_images\/background-awards.png",
+        "section_bg_fit": "cover",
+        "section_bg_color": "#eaeaea",
+        "background_style": "secondary",
+        "background_position": "bottom center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "set_column_number": 5,
+        "set_col_mobile": 1,
+        "collapse_content_mobile": true,
+        "button_label": "",
+        "button_link": "",
+        "trigger_all_locations": false,
+        "button_style_mobile": "text",
+        "swipe_on_mobile": false,
+        "section_border": false,
+        "section_border_color": "",
+        "custom_class": "story-awards"
+      }
+    },
+    "1648758835740b34d6": {
+      "type": "apps",
+      "blocks": {
+        "7d00ecbd-c6c9-43dc-b5c5-4ab5e1145a75": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "helvetica_n4",
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "7d00ecbd-c6c9-43dc-b5c5-4ab5e1145a75"
+      ],
+      "settings": {
+        "include_margins": true,
+        "custom_html": "<div class=\"ig-feed-handle\">\n<a href=\"https:\/\/www.instagram.com\/greatmountain_ginseng\/\" target=\"_blank\"><span class=\"ig-feed-handle_profile-pic\"><\/span> <strong>@greatmountain_ginseng<\/strong><\/a>\n<\/div>",
+        "custom_class": ""
       }
     }
   },
   "order": [
     "main",
-    "1643899962b94e00b4"
+    "1643899962b94e00b4",
+    "164390874991a99b46",
+    "16439091179c9cd623",
+    "1648758835740b34d6"
   ]
 }

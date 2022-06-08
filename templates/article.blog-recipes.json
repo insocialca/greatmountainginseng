@@ -1,39 +1,49 @@
 {
   "sections": {
     "main": {
-      "type": "main-blog",
+      "type": "articles-sidebar",
       "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
-            "show_date": true,
-            "show_author": false
+            "blog_show_date": true,
+            "blog_show_author": false
           }
         },
-        "summary": {
-          "type": "summary",
+        "content": {
+          "type": "content",
           "settings": {
           }
         },
-        "link": {
-          "type": "link",
+        "27f44b9b-507e-4d4b-b412-8288d86982a6": {
+          "type": "button",
+          "disabled": true,
           "settings": {
+            "button_text": "立即前往搶購",
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
       "block_order": [
+        "featured_image",
         "title",
-        "summary",
-        "link"
+        "content",
+        "27f44b9b-507e-4d4b-b412-8288d86982a6"
       ],
       "settings": {
-        "show_image": true
+        "tag_title": "食譜"
       }
     },
-    "1646693376ef7ad084": {
+    "1648758896820c988c": {
       "type": "apps",
       "blocks": {
-        "da669177-2ccb-45a7-a2e0-3a24985a954a": {
+        "c4c27ce9-1edb-4207-bab5-6b0dc8f2a371": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "heading_font": "helvetica_n4",
@@ -44,7 +54,7 @@
         }
       },
       "block_order": [
-        "da669177-2ccb-45a7-a2e0-3a24985a954a"
+        "c4c27ce9-1edb-4207-bab5-6b0dc8f2a371"
       ],
       "settings": {
         "include_margins": true,
@@ -55,6 +65,6 @@
   },
   "order": [
     "main",
-    "1646693376ef7ad084"
+    "1648758896820c988c"
   ]
 }
