@@ -4,7 +4,7 @@
 <noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="page-width page-width--narrow">
+<div class="{{ section.settings.page_width }}">
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
   </h1>
@@ -17,6 +17,28 @@
 {
   "name": "t:sections.main-page.name",
   "tag": "section",
-  "class": "spaced-section"
+  "class": "spaced-section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "page_width",
+      "label": "Page width",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "Wide"
+        },
+        {
+          "value": "page-width page-width--narrow",
+          "label": "Narrow"
+        },
+        {
+          "value": "",
+          "label": "Full Width"
+        }
+      ],
+      "default": "page-width"
+    }
+  ]
 }
 {% endschema %}
