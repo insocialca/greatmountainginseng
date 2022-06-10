@@ -34,10 +34,10 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle-6.png",
             "title": "花旗參－全球華人養生首選",
-            "add_link_to_header": false,
+            "add_link_to_header": true,
             "text": "",
-            "button_label": "",
-            "button_link": "",
+            "button_label": "查看更多商品",
+            "button_link": "shopify:\/\/collections\/泡參",
             "trigger_locations": false
           }
         },
