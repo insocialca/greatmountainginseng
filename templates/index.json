@@ -25,8 +25,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle-6.png",
-            "title": "全球華人養生首選－花旗參",
-            "add_link_to_header": true,
+            "title": "花旗參－全球華人養生首選",
+            "add_link_to_header": false,
             "text": "",
             "button_label": "",
             "button_link": "",
