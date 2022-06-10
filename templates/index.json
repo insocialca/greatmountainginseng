@@ -29,7 +29,7 @@
             "add_link_to_header": false,
             "text": "",
             "button_label": "",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/花旗參",
             "trigger_locations": false
           }
         },
@@ -227,9 +227,8 @@
       "type": "apps",
       "blocks": {
         "9325c208-3a81-4192-bb31-2b3acfaeb8b6": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_font": "helvetica_n4",
             "heading_size": 20,
             "feed_width": 100,
             "html_area": ""
