@@ -59,7 +59,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "你可能还喜欢",
+        "heading": "您可能還喜歡",
         "striked-header": true,
         "image_ratio": "adapt",
         "show_secondary_image": false,
