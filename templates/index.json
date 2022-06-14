@@ -119,7 +119,7 @@
         "show_view_all": true,
         "view_all_text": "立即購物",
         "swipe_on_mobile": false,
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "show_secondary_image": false,
         "add_image_padding": false,
         "show_vendor": false,
