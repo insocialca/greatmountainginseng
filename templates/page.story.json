@@ -170,7 +170,7 @@
         "1643908749b7d4d8d8-1"
       ],
       "settings": {
-        "title": "我们的任务",
+        "title": "我們的使命",
         "striked-header": true,
         "image": "shopify:\/\/shop_images\/our-process.png",
         "height": "adapt",
@@ -288,9 +288,8 @@
       "type": "apps",
       "blocks": {
         "7d00ecbd-c6c9-43dc-b5c5-4ab5e1145a75": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_font": "helvetica_n4",
             "heading_size": 20,
             "feed_width": 100,
             "html_area": ""
