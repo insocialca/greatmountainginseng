@@ -376,5 +376,12 @@
       "copy_code_success": "代碼已成功複製",
       "print_gift_card": "列印"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "stock": {
+        "continue_shopping_button_label": "繼續購物"
+      }
+    }
   }
 }
