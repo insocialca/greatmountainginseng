@@ -261,7 +261,7 @@
         "title": "我們的榮耀",
         "header_color": "#000000",
         "striked_header": true,
-        "content_above_header": "<p><strong>我们的使命大山参坚持天然、纯正、高品质<\/strong><\/p>",
+        "content_above_header": "<p><strong>我們的使命<br\/>大山行堅持天然、纯正、高品质<\/strong><\/p>",
         "set_style": "locations",
         "section_bg": "shopify:\/\/shop_images\/background-awards.png",
         "section_bg_fit": "cover",
