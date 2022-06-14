@@ -70,7 +70,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle-9.png",
             "title": "最新特惠",
-            "add_link_to_header": false,
+            "add_link_to_header": true,
             "text": "",
             "button_label": "",
             "button_link": "",
