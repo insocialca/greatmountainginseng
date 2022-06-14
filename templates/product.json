@@ -22,7 +22,7 @@
         "9ae08ec4-c609-4aae-97bf-701bc143e851": {
           "type": "richtext",
           "settings": {
-            "paragraph": "<p><a href=\"#read-more\" title=\"#read-more\">阅读有关此产品的信息 &gt;<\/a><\/p>"
+            "paragraph": "<p><a href=\"#read-more\" title=\"#read-more\">查看更多產品訊息 &gt;<\/a><\/p>"
           }
         },
         "quantity_selector": {
@@ -72,9 +72,8 @@
       "type": "apps",
       "blocks": {
         "ff11c3f6-674a-4446-9af6-30ec5a48bfba": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_font": "helvetica_n4",
             "heading_size": 20,
             "feed_width": 100,
             "html_area": ""
