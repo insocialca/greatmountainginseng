@@ -159,7 +159,7 @@
         "set_column_number": 3,
         "set_col_mobile": 1,
         "collapse_content_mobile": false,
-        "button_label": "所有門市",
+        "button_label": "門市詳細資訊",
         "button_link": "https:\/\/www.google.com\/maps\/d\/u\/1\/embed?mid=12pHj9r4nQvZ6FgsOpjoVYp1POiBQiCes",
         "trigger_all_locations": true,
         "button_style_mobile": "solid",
