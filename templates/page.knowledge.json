@@ -4,6 +4,8 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "striked_header": false,
+        "page_width": "page-width"
       }
     },
     "164641875717f909fb": {
@@ -147,7 +149,7 @@
         "16464241749efd5986-0": {
           "type": "heading",
           "settings": {
-            "heading": "什么是海参\/鱼肚",
+            "heading": "什麼是海參\/花膠",
             "heading_size": "medium",
             "striked_header": true
           }
@@ -237,9 +239,8 @@
       "type": "apps",
       "blocks": {
         "5a94f58c-4f00-49e5-8467-1493e06efddc": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_font": "helvetica_n4",
             "heading_size": 20,
             "feed_width": 100,
             "html_area": ""
