@@ -58,7 +58,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle-8.png",
             "title": "燕窩－潤肺養顏的天然聖品",
-            "add_link_to_header": false,
+            "add_link_to_header": true,
             "text": "",
             "button_label": "",
             "button_link": "shopify:\/\/collections\/燕窩",
