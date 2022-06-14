@@ -46,7 +46,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle_7.png",
             "title": "野生海參－來自大海的鮮美滋味",
-            "add_link_to_header": false,
+            "add_link_to_header": true,
             "text": "",
             "button_label": "",
             "button_link": "shopify:\/\/collections\/北極野生海參",
