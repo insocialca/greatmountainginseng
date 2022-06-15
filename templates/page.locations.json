@@ -98,10 +98,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/gmg-ottawa.jpg",
-            "title": "渥太華門市 - Ottawa",
+            "title": "渥太華門市 （Ottawa）",
             "add_link_to_header": false,
-            "text": "<p>Unit G, 224 Hunt Club Road Ottawa, Ontario K1V 1C1<\/p><p><strong>电话 : <\/strong><a href=\"tel:6139070006\" title=\"tel:6139070006\"><strong>(613) 907-0006<\/strong><\/a><\/p>",
-            "button_label": "地图",
+            "text": "<p>地址：Unit G, 224 Hunt Club Road Ottawa, ON, Canada K1V 1C1<\/p><p>電話：<a href=\"tel:6139070006\" title=\"tel:6139070006\"><strong>(613) 907-0006<\/strong><\/a><\/p><p>營業時間：每日11：00～19：00<\/p>",
+            "button_label": "查看地圖",
             "button_link": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2804.737979615869!2d-75.6927784844469!3d45.33391327909968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x57e7c46c4a48b4dc!2sGreat%20Mountain%20Ginseng!5e0!3m2!1sen!2sca!4v1636469502765!5m2!1sen!2sca",
             "trigger_locations": true
           }
