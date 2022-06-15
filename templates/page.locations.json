@@ -76,8 +76,8 @@
             "image": "shopify:\/\/shop_images\/gmg-promenademall.jpg",
             "title": "普曼娜商場門市（Thornhill）",
             "add_link_to_header": false,
-            "text": "<p>Unit E, 1 Promenade Circle Thornhill, Ontario L4J 4P8<\/p><p><strong>电话 : <\/strong><a href=\"tel:2895972908\" title=\"tel:2895972908\"><strong>(289) 597-2908<\/strong><\/a><\/p>",
-            "button_label": "地图",
+            "text": "<p>地址：Unit E, 1 Promenade Circle Thornhill, ON, Canada L4J 4P8<\/p><p>電話：<a href=\"tel:2895972908\" title=\"tel:2895972908\"><strong>(289) 597-2908<\/strong><\/a><\/p><p>營業時間：每日11：00～19：00<\/p>",
+            "button_label": "查看地圖",
             "button_link": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2879.305863588703!2d-79.45456568449727!3d43.80801467911633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x861b554ba2b4cce7!2sGreat%20Mountain%20Ginseng!5e0!3m2!1sen!2sca!4v1636469588915!5m2!1sen!2sca",
             "trigger_locations": true
           }
