@@ -70,6 +70,18 @@
             "trigger_locations": true
           }
         },
+        "29a78fe2-31a3-4a5a-8cc3-bd9a9ef671ae": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gmg-promenademall.jpg",
+            "title": "普曼娜商場門市（Thornhill）",
+            "add_link_to_header": false,
+            "text": "<p>Unit E, 1 Promenade Circle Thornhill, Ontario L4J 4P8<\/p><p><strong>电话 : <\/strong><a href=\"tel:2895972908\" title=\"tel:2895972908\"><strong>(289) 597-2908<\/strong><\/a><\/p>",
+            "button_label": "地图",
+            "button_link": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2879.305863588703!2d-79.45456568449727!3d43.80801467911633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x861b554ba2b4cce7!2sGreat%20Mountain%20Ginseng!5e0!3m2!1sen!2sca!4v1636469588915!5m2!1sen!2sca",
+            "trigger_locations": true
+          }
+        },
         "a7c05b67-c335-4b35-8108-b1ee14cf844b": {
           "type": "column",
           "settings": {
@@ -79,18 +91,6 @@
             "text": "<p>Unit G, 224 Hunt Club Road Ottawa, Ontario K1V 1C1<\/p><p><strong>电话 : <\/strong><a href=\"tel:6139070006\" title=\"tel:6139070006\"><strong>(613) 907-0006<\/strong><\/a><\/p>",
             "button_label": "地图",
             "button_link": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2804.737979615869!2d-75.6927784844469!3d45.33391327909968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x57e7c46c4a48b4dc!2sGreat%20Mountain%20Ginseng!5e0!3m2!1sen!2sca!4v1636469502765!5m2!1sen!2sca",
-            "trigger_locations": true
-          }
-        },
-        "29a78fe2-31a3-4a5a-8cc3-bd9a9ef671ae": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gmg-promenademall.jpg",
-            "title": "湯山普曼娜門市 - Promenade Mall",
-            "add_link_to_header": false,
-            "text": "<p>Unit E, 1 Promenade Circle Thornhill, Ontario L4J 4P8<\/p><p><strong>电话 : <\/strong><a href=\"tel:2895972908\" title=\"tel:2895972908\"><strong>(289) 597-2908<\/strong><\/a><\/p>",
-            "button_label": "地图",
-            "button_link": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2879.305863588703!2d-79.45456568449727!3d43.80801467911633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x861b554ba2b4cce7!2sGreat%20Mountain%20Ginseng!5e0!3m2!1sen!2sca!4v1636469588915!5m2!1sen!2sca",
             "trigger_locations": true
           }
         },
@@ -137,8 +137,8 @@
         "163641372026d52163-2",
         "18716720-ed7c-4311-839e-abec6686ab15",
         "b40120dc-7b2c-49e5-811d-bee8aa007df6",
-        "a7c05b67-c335-4b35-8108-b1ee14cf844b",
         "29a78fe2-31a3-4a5a-8cc3-bd9a9ef671ae",
+        "a7c05b67-c335-4b35-8108-b1ee14cf844b",
         "4f5a609c-1091-474d-9170-045c64f5708f",
         "00ea4b7f-3c89-4fb4-b7da-b050779b2f0e",
         "1c04f654-b576-47e4-8387-cdac5f47ef6c"
