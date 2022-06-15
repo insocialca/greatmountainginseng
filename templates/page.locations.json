@@ -58,26 +58,14 @@
             "trigger_locations": true
           }
         },
-        "1c04f654-b576-47e4-8387-cdac5f47ef6c": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gmg-niagara.jpg",
-            "title": "示範農場遊客中心（Niagara-on-the-Lake）",
-            "add_link_to_header": false,
-            "text": "<p>地址：758 Niagara Stone Road Niagara-on-the-Lake, ON, Canada L0S 1J0<\/p><p>電話：<a href=\"tel:9056857328\" title=\"tel:9056857328\"><strong>(905) 685-7328<\/strong><\/a><\/p><p>營業時間：每日11：00～19：00<\/p><p>備註：遊客中心營業時間因天候因素常有變動，建議先行致電確認。<\/p>",
-            "button_label": "查看地圖",
-            "button_link": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2908.6550651808557!2d-79.15915268451701!3d43.19574797913963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x267b7c37d41eed66!2sGreat%20Mountain%20Ginseng%20Visitor%20Centre!5e0!3m2!1sen!2sca!4v1636469266290!5m2!1sen!2sca",
-            "trigger_locations": true
-          }
-        },
         "b40120dc-7b2c-49e5-811d-bee8aa007df6": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/gmg-richmondtimesquare.jpg",
-            "title": "時代廣場門市 - Time Square",
+            "title": "時代廣場門市（Richmond Hill）",
             "add_link_to_header": false,
-            "text": "<p>Unit A10, 550 Highway 7 East Richmond Hill, Ontario L4B 3Z4<\/p><p><strong>电话 : <\/strong><a href=\"tel:9057075728\" title=\"tel:9057075728\"><strong>(905) 707-5728<\/strong><\/a><\/p>",
-            "button_label": "地图",
+            "text": "<p>地址：Unit A10, 550 Highway 7 East Richmond Hill, ON, Canada L4B 3Z4<\/p><p>電話：<strong> <\/strong><a href=\"tel:9057075728\" title=\"tel:9057075728\"><strong>(905) 707-5728<\/strong><\/a><\/p><p>營業時間：每日11：00～19：00<\/p>",
+            "button_label": "查看地圖",
             "button_link": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2877.5248522258316!2d-79.38570048449607!3d43.84494907911511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x880f9c6b1d775da3!2sGreat%20Mountain%20Ginseng!5e0!3m2!1sen!2sca!4v1636469363899!5m2!1sen!2sca",
             "trigger_locations": true
           }
@@ -129,6 +117,18 @@
             "button_link": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2878.533265157557!2d-79.30476888449672!3d43.82403977911575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2becb99b7665cc68!2sGreat%20Mountain%20Ginseng!5e0!3m2!1sen!2sca!4v1636469771489!5m2!1sen!2sca",
             "trigger_locations": true
           }
+        },
+        "1c04f654-b576-47e4-8387-cdac5f47ef6c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gmg-niagara.jpg",
+            "title": "示範農場遊客中心（Niagara-on-the-Lake）",
+            "add_link_to_header": false,
+            "text": "<p>地址：758 Niagara Stone Road Niagara-on-the-Lake, ON, Canada L0S 1J0<\/p><p>電話：<a href=\"tel:9056857328\" title=\"tel:9056857328\"><strong>(905) 685-7328<\/strong><\/a><\/p><p>營業時間：每日11：00～19：00<\/p><p>備註：遊客中心營業時間因天候因素常有變動，建議先行致電確認。<\/p>",
+            "button_label": "查看地圖",
+            "button_link": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2908.6550651808557!2d-79.15915268451701!3d43.19574797913963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x267b7c37d41eed66!2sGreat%20Mountain%20Ginseng%20Visitor%20Centre!5e0!3m2!1sen!2sca!4v1636469266290!5m2!1sen!2sca",
+            "trigger_locations": true
+          }
         }
       },
       "block_order": [
@@ -136,12 +136,12 @@
         "163641372026d52163-1",
         "163641372026d52163-2",
         "18716720-ed7c-4311-839e-abec6686ab15",
-        "1c04f654-b576-47e4-8387-cdac5f47ef6c",
         "b40120dc-7b2c-49e5-811d-bee8aa007df6",
         "a7c05b67-c335-4b35-8108-b1ee14cf844b",
         "29a78fe2-31a3-4a5a-8cc3-bd9a9ef671ae",
         "4f5a609c-1091-474d-9170-045c64f5708f",
-        "00ea4b7f-3c89-4fb4-b7da-b050779b2f0e"
+        "00ea4b7f-3c89-4fb4-b7da-b050779b2f0e",
+        "1c04f654-b576-47e4-8387-cdac5f47ef6c"
       ],
       "settings": {
         "title": "直營門市資訊",
