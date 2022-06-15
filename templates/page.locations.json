@@ -16,7 +16,7 @@
             "image": "shopify:\/\/shop_images\/gmg-spadina.jpg",
             "title": "唐人街門市 - China Town",
             "add_link_to_header": false,
-            "text": "<p>324 Spadina Ave<br\/>Toronto, Ontario M5T 2E7<br\/><strong>电话 : <\/strong><a href=\"tel:4166666135\" title=\"tel:4166666135\"><strong>(416) 666-6135<\/strong><\/a><\/p>",
+            "text": "<p>地址：324 Spadina Ave, Toronto, Ontario M5T 2E7<br\/><a href=\"tel:4166666135\" title=\"tel:4166666135\"><strong>(416) 666-6135<\/strong><\/a><\/p><p>營業時間：<\/p><p>周一～周日 11：00～19：00<\/p><p><\/p>",
             "button_label": "查看地圖",
             "button_link": "https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d2886.7349569737935!2d-79.3987257!3d43.6536824!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b35655e9cb027%3A0x2b2b7c6bca02e586!2sGreat%20Mountain%20Ginseng%20(Downtown)!5e0!3m2!1sen!2sca!4v1636464800267!5m2!1sen!2sca",
             "trigger_locations": true
