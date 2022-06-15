@@ -110,10 +110,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/gmg-aberdeencentre.jpg",
-            "title": "溫哥華門市－Aberdeen Centre",
+            "title": "時代坊門市（溫哥華）",
             "add_link_to_header": false,
-            "text": "<p>Unit 1858, 4151 Hazelbridge Way Richmond, British Columbia V6X 0A4<\/p><p><strong>电话 : <\/strong><a href=\"tel:6043041328\" title=\"tel:6043041328\"><strong>(604) 304-1328<\/strong><\/a><\/p>",
-            "button_label": "地图",
+            "text": "<p>地址：Unit 1858, 4151 Hazelbridge Way, Richmond, BC, Canada V6X 0A4<\/p><p>電話：<a href=\"tel:6043041328\" title=\"tel:6043041328\"><strong>(604) 304-1328<\/strong><\/a><\/p><p>營業時間：每日11：00～19：00<\/p>",
+            "button_label": "查看地圖",
             "button_link": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2607.8669286697223!2d-123.13573158431399!3d49.18411167932073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xba07923c9057d6cc!2sGreat%20Mountain%20Ginseng!5e0!3m2!1sen!2sca!4v1636469697890!5m2!1sen!2sca",
             "trigger_locations": true
           }
