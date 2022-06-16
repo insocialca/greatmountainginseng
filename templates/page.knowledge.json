@@ -182,13 +182,22 @@
           "settings": {
             "video_embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/_UeOKoTiXHA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>"
           }
+        },
+        "6dd1736d-83b3-49a4-9055-5df30debd380": {
+          "type": "button",
+          "settings": {
+            "button_label": "立即前往選購",
+            "button_link": "shopify:\/\/collections\/北極野生海參",
+            "button_style_secondary": true
+          }
         }
       },
       "block_order": [
         "16464241749efd5986-0",
         "61b07f59-61aa-46b8-9d8c-4b4583f0ea4e",
         "16464241749efd5986-1",
-        "0d8df860-4c67-45de-97bd-e1a338ed86f1"
+        "0d8df860-4c67-45de-97bd-e1a338ed86f1",
+        "6dd1736d-83b3-49a4-9055-5df30debd380"
       ],
       "settings": {
         "color_scheme": "inverse",
