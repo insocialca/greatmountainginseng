@@ -187,7 +187,7 @@
           "type": "button",
           "settings": {
             "button_label": "立即前往選購",
-            "button_link": "shopify:\/\/collections\/北極野生海參",
+            "button_link": "shopify:\/\/collections\/海參",
             "button_style_secondary": true
           }
         }
