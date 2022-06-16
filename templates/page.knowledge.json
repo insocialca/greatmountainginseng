@@ -132,7 +132,7 @@
           "settings": {
             "button_label": "立即前往選購",
             "button_link": "shopify:\/\/collections\/花旗參",
-            "button_style_secondary": false
+            "button_style_secondary": true
           }
         }
       },
