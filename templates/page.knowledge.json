@@ -237,13 +237,22 @@
           "settings": {
             "video_embed": "<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/itcDXBnkdLk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>"
           }
+        },
+        "5e328233-489b-4fb7-a3c1-c414889f9128": {
+          "type": "button",
+          "settings": {
+            "button_label": "立即前往選購",
+            "button_link": "shopify:\/\/collections\/燕窩",
+            "button_style_secondary": true
+          }
         }
       },
       "block_order": [
         "1646427998f5602908-0",
         "1646427998f5602908-1",
         "65230ab2-d242-40ac-b383-bb5fa0aa3605",
-        "1ebb66dd-516c-4d56-b485-878f1ec13f41"
+        "1ebb66dd-516c-4d56-b485-878f1ec13f41",
+        "5e328233-489b-4fb7-a3c1-c414889f9128"
       ],
       "settings": {
         "color_scheme": "background-1",
