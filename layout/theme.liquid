@@ -158,7 +158,12 @@
     <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
     {{ 'carousel.min.css' | asset_url | stylesheet_tag }}
     {{ 'custom.css' | asset_url | stylesheet_tag }}
-  </body>
+  
+<!-- **BEGIN** Hextom TMS Translator // Main Include - DO NOT MODIFY -->
+    <script src="{{ 'tms-translator.js' | asset_url }}" defer="defer"></script>
+    <!-- **END** Hextom TMS Translator // Main Include - DO NOT MODIFY -->
+        
+</body>
 </html>
 
 {% include 'etranslate-language-switch-control' %}
