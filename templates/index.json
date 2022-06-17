@@ -115,7 +115,7 @@
       "settings": {
         "title": "{{ section.settings.collection.title }}",
         "collection": "泡參",
-        "products_to_show": 7,
+        "products_to_show": 5,
         "show_view_all": true,
         "view_all_text": "立即購物",
         "swipe_on_mobile": false,
@@ -125,7 +125,7 @@
         "show_vendor": false,
         "striked_header": true,
         "show_viewproduct": true,
-        "emphasize_first_item": true,
+        "emphasize_first_item": false,
         "custom_class": "hp_feat-col"
       }
     },
