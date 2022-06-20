@@ -554,6 +554,10 @@ summary.list-menu__item {
   border-bottom: 2px solid var(--color-header-gold);
 }
   
+.page-product .product__text.subtitle {
+  font-weight: bold;
+}
+  
 /* Product Price */
 
 .page-product .price--large .price-item {
