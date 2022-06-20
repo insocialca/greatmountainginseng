@@ -1440,7 +1440,7 @@ product-recommendations .card-wrapper {
   }
 
   .article-sidebar {
-    flex-basis: 375px;
+    flex-basis: 300px;
   }
   
   .article-blog-post .article-card {
