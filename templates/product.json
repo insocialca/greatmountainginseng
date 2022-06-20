@@ -3,6 +3,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "b14b15ac-4f25-4e0a-a5ca-ba9bdbafc2a1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.promo_text.value }}",
+            "text_style": "subtitle"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -38,6 +45,7 @@
         }
       },
       "block_order": [
+        "b14b15ac-4f25-4e0a-a5ca-ba9bdbafc2a1",
         "title",
         "variant_picker",
         "price",
