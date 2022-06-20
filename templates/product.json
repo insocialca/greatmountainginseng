@@ -61,6 +61,7 @@
       "settings": {
         "heading": "您可能還喜歡",
         "striked-header": true,
+        "products_to_show": 5,
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
