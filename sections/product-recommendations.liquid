@@ -14,7 +14,8 @@ if mobile_col == 0
   assign mobile_col = 2
 else
   assign mobile_col = 1
-endif -%}
+endif
+-%}
 
 <product-recommendations class="product-recommendations page-width" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.products_to_show }}">
   {% if recommendations.performed and recommendations.products_count > 0 %}
