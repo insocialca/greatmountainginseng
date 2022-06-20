@@ -31,7 +31,7 @@ header-drawer {
   }
   
   .header__submenu .header__submenu {
-    background-color: #ffffff80;
+    background-color: rgb(255 255 255 / 50%);
   }
 }
 
