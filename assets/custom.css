@@ -29,6 +29,10 @@ header-drawer {
   header-drawer {
     display: none;
   }
+  
+  .header__submenu .header__submenu {
+    background-color: #ffffff80;
+  }
 }
 
 .menu-drawer-container {
