@@ -556,6 +556,7 @@ summary.list-menu__item {
   
 .page-product .product__text.subtitle {
   font-weight: bold;
+  color: var(--color-button-background);
 }
   
 /* Product Price */
