@@ -8,7 +8,7 @@
 <noscript>{{ 'component-price.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'section-product-recommendations.css' | asset_url | stylesheet_tag }}</noscript>
 
-<product-recommendations class="product-recommendations page-width" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4">
+<product-recommendations class="product-recommendations page-width" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.products_to_show }}">
   {% if recommendations.performed and recommendations.products_count > 0 %}
   <h2 class="product-recommendations__heading{% if section.settings.striked-header %} striked-header{% endif %}"><span>{{ section.settings.heading | escape }}</span></h2>
     <ul class="grid grid--2-col grid--3-col-tablet{% if recommendations.products_count > 3 %} grid--4-col-desktop grid--quarter-max{% endif %}" role="list">
@@ -128,6 +128,15 @@
       "id": "show_viewproduct",
       "default": false,
       "label": "Show View Product link"
+    },
+    {
+      "type": "range",
+      "id": "products_to_show",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "default": 4,
+      "label": "t:sections.featured-collection.settings.products_to_show.label"
     }
   ]
 }
