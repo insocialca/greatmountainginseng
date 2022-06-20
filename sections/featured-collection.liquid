@@ -12,7 +12,7 @@
 
 {% assign to_show = section.settings.product_col | times: section.settings.product_row %}
 
-<div class="collection page-width{% if section.settings.swipe_on_mobile == true and section.settings.collection.all_products_count > 2 and to_show > 2 %} page-width-desktop{% endif %} {{ section.settings.custom_class }}{% if section.settings.emphasized_products %} emphasized_feat-coll{% endif %}">
+<div class="collection page-width{% if section.settings.swipe_on_mobile == true and section.settings.collection.all_products_count > 2 and to_show > 2 %} page-width-desktop{% endif %} {{ section.settings.custom_class }}{% if section.settings.emphasized_products or section.settings.emphasize_first_item %} emphasized_feat-coll{% endif %}">
   <div class="{% if section.settings.show_view_all and section.settings.swipe_on_mobile %}title-wrapper-with-link{% endif %}{% if section.settings.title == blank %} title-wrapper-with-link--no-heading{% endif %}{% if section.settings.collection.all_products_count > 2 and section.settings.swipe_on_mobile and to_show > 2 %} title-wrapper--self-padded-tablet-down{% endif %}">
     <h2 class="title{% if section.settings.title == blank %} title--no-heading{% endif %}{% if section.settings.striked_header %} striked-header{% endif %}"><span>{{ section.settings.title | escape }}</span></h2>
 
