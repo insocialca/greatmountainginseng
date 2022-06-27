@@ -1499,3 +1499,9 @@ product-recommendations .card-wrapper {
     height: 72px;
   }
 }
+  
+/* Google Translate Fix */
+  
+.product .product__title {
+  max-width: fit-content;
+}
