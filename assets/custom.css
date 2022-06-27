@@ -1502,6 +1502,10 @@ product-recommendations .card-wrapper {
   
 /* Google Translate Fix */
   
+.list-menu--inline {
+  flex-wrap: nowrap;
+}
+  
 .product .product__title {
   max-width: fit-content;
 }
