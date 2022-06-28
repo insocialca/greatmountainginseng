@@ -33,6 +33,10 @@ header-drawer {
   .header__submenu .header__submenu {
     background-color: rgb(255 255 255 / 50%);
   }
+  
+  .header:not(.header--middle-left) .header__inline-menu {
+    margin-left: 1rem;
+  }
 }
 
 .menu-drawer-container {
