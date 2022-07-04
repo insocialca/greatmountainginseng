@@ -1,12 +1,69 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
+{
+  "sections": {
+    "main": {
+      "type": "articles-sidebar",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "c4982c40-0bec-408c-b6e7-87a42650b540": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "立即前往搶購",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "content",
+        "c4982c40-0bec-408c-b6e7-87a42650b540"
+      ],
+      "settings": {
+        "tag_title": "食材準備"
+      }
+    },
+    "1646693016588ffde6": {
+      "type": "apps",
+      "blocks": {
+        "0836d875-25bf-4c97-92fc-1e86f10e57a4": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "0836d875-25bf-4c97-92fc-1e86f10e57a4"
+      ],
+      "settings": {
+        "include_margins": true,
+        "custom_html": "<div class=\"ig-feed-handle\">\n<a href=\"https:\/\/www.instagram.com\/greatmountain_ginseng\/\" target=\"_blank\"><span class=\"ig-feed-handle_profile-pic\"><\/span> <strong>@greatmountain_ginseng<\/strong><\/a>\n<\/div>",
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1646693016588ffde6"
+  ]
+}
