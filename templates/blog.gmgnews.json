@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "main": {
+      "type": "articles-sidebar",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "b4c6204d-81bf-407e-8682-1fe272bf31bc": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "立即前往搶購",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "content",
+        "b4c6204d-81bf-407e-8682-1fe272bf31bc"
+      ],
+      "settings": {
+        "tag_title": "養生觀點"
+      }
+    },
+    "16487589094ca2cb64": {
+      "type": "apps",
+      "blocks": {
+        "f380f3cd-dc26-45f3-8560-5ac23f8b2e68": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "f380f3cd-dc26-45f3-8560-5ac23f8b2e68"
+      ],
+      "settings": {
+        "include_margins": true,
+        "custom_html": "<div class=\"ig-feed-handle\">\n<a href=\"https:\/\/www.instagram.com\/greatmountain_ginseng\/\" target=\"_blank\"><span class=\"ig-feed-handle_profile-pic\"><\/span> <strong>@greatmountain_ginseng<\/strong><\/a>\n<\/div>",
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16487589094ca2cb64"
+  ]
+}
