@@ -61,7 +61,7 @@
       var url_array_arr = sourct_url ? sourct_url.split(",") : []
       for (var i = 0; i < url_array_arr.length; i++) {
           var item = url_array_arr[i].trim().split(' ')[0]
-          if (allReplace_url.includes(item)) {
+          if (allReplace_url.includes(item) && item) {
               return true
           }
       }
