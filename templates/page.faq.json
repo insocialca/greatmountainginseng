@@ -76,7 +76,7 @@
           "type": "faq-item",
           "settings": {
             "question": "有哪些付款方式",
-            "answer": "<p>【信用卡】可接受VISA、MasterCard、銀聯等信用卡類別。 【Paypal】接受Paypal付款。 【微信\/支付寶】接受微信、支付寶等付款方式。<\/p>"
+            "answer": "<p>【信用卡】可接受VISA、MasterCard、銀聯等信用卡類別。 【Paypal】接受Paypal付款。 <\/p>"
           }
         }
       },
