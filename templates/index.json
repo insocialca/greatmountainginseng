@@ -115,7 +115,7 @@
       "settings": {
         "title": "{{ section.settings.collection.title }}",
         "collection": "泡參",
-        "product_col": 4,
+        "product_col": 3,
         "product_row": 2,
         "show_view_all": true,
         "view_all_text": "立即購物",
