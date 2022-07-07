@@ -18,6 +18,14 @@ img {
   -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
 }
   
+/* Announcement Bar */
+  
+@media screen and (min-width: 990px) {
+  .announcement-bar__message {
+    font-size: 1.6rem;
+  }
+}
+  
 /* Navigation */
 
 header-drawer {
