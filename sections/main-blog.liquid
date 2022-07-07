@@ -7,9 +7,9 @@
   <div class="main-blog page-width">
     <h1 class="title--primary">
       {% if current_tags != blank %}
-      {{ blog.title | link_to: blog.url }}
+      {{ '查看全部' | link_to: blog.url }}
       {% else %}
-      <span class="active">{{ blog.title | escape }}</span>
+      <span class="active">{{ '查看全部' | escape }}</span>
       {% endif %}
       {% for tag in blog.all_tags %}
       	{% if current_tags contains tag %}
