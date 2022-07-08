@@ -16,11 +16,19 @@
             "image": "shopify:\/\/shop_images\/2022_Father_sDay_WebBanner-01_2_a7c82a4d-9ab4-45ed-9982-d7faf80004a1.jpg",
             "image_link": ""
           }
+        },
+        "3b13676a-013e-442f-9626-d528671a7938": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GMG_2022_WebBanner_ShippingChanges-01_1.jpg",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
         "163553785723f157eb-0",
-        "c97bebb4-e6d3-4be7-afe8-14bd354d7441"
+        "c97bebb4-e6d3-4be7-afe8-14bd354d7441",
+        "3b13676a-013e-442f-9626-d528671a7938"
       ],
       "settings": {
         "header": ""
