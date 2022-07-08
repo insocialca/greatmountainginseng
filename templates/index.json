@@ -3,17 +3,17 @@
     "163553785723f157eb": {
       "type": "carousel",
       "blocks": {
+        "163553785723f157eb-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GMG_2021SickKidsFairchildFundraisingDay_WebBanner_1920x720_7.jpg",
+            "image_link": ""
+          }
+        },
         "3b13676a-013e-442f-9626-d528671a7938": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/GMG_2022_WebBanner_ShippingChanges-01_1.jpg",
-            "image_link": ""
-          }
-        },
-        "163553785723f157eb-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/GMG_FreeShippingOver79_WebBanner1920x720.png",
             "image_link": ""
           }
         },
@@ -26,8 +26,8 @@
         }
       },
       "block_order": [
-        "3b13676a-013e-442f-9626-d528671a7938",
         "163553785723f157eb-0",
+        "3b13676a-013e-442f-9626-d528671a7938",
         "c97bebb4-e6d3-4be7-afe8-14bd354d7441"
       ],
       "settings": {
