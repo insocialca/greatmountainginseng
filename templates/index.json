@@ -23,12 +23,20 @@
             "image": "shopify:\/\/shop_images\/GMG_PMALL_StoreMovingAnnouncement_Banner-01_1.jpg",
             "image_link": ""
           }
+        },
+        "5fef1f80-1633-40ec-9b03-9f11a5df232e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/220615-GMG_2022FallTourPromo_v1-07.jpg",
+            "image_link": ""
+          }
         }
       },
       "block_order": [
         "163553785723f157eb-0",
         "3b13676a-013e-442f-9626-d528671a7938",
-        "c97bebb4-e6d3-4be7-afe8-14bd354d7441"
+        "c97bebb4-e6d3-4be7-afe8-14bd354d7441",
+        "5fef1f80-1633-40ec-9b03-9f11a5df232e"
       ],
       "settings": {
         "header": ""
