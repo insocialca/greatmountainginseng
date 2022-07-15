@@ -138,7 +138,7 @@
             "add_link_to_header": false,
             "text": "<p>地址：4425 Highway 24, Scotland,  ON, Canada, N0E 1R<\/p><p>電話：N\/A<\/p><p>營業時間：每日11：00～16：00<\/p><p>備註：遊客中心營業時間因天候因素常有變動，<br\/><\/p>",
             "button_label": "查看地圖",
-            "button_link": "https:\/\/goo.gl\/maps\/bmwJFo8Y9mhMKUVFA",
+            "button_link": "https:\/\/www.google.com\/maps\/place\/4425+ON-24,+Scotland,+ON+N0E+1R0\/@42.9925215,-80.365014,17z\/data=!4m5!3m4!1s0x882c44030338b899:0x54848e1ca7929fe3!8m2!3d42.9925215!4d-80.3628253",
             "trigger_locations": false
           }
         }
