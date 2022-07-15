@@ -136,8 +136,8 @@
             "image": "shopify:\/\/shop_images\/WeChat_Image_20220615165200.jpg",
             "title": "農場展售中心（Scotland）",
             "add_link_to_header": false,
-            "text": "<p>地址：4425 Highway 24, Scotland,  ON, Canada, N0E 1R0<br\/>電話：N\/A<br\/>營業時間：每日11：00～16：00<br\/><\/p>",
-            "button_label": "Button label",
+            "text": "<p>地址：4425 Highway 24, Scotland,  ON, Canada, N0E 1R<\/p><p>電話：N\/A<\/p><p>營業時間：每日11：00～16：00<\/p><p>備註：遊客中心營業時間因天候因素常有變動，<br\/><\/p>",
+            "button_label": "查看地圖",
             "button_link": "https:\/\/goo.gl\/maps\/bmwJFo8Y9mhMKUVFA",
             "trigger_locations": true
           }
