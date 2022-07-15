@@ -126,7 +126,7 @@
             "add_link_to_header": false,
             "text": "<p>地址：758 Niagara Stone Road Niagara-on-the-Lake, ON, Canada L0S 1J0<\/p><p>電話：<a href=\"tel:9056857328\" title=\"tel:9056857328\"><strong>(905) 685-7328<\/strong><\/a><\/p><p>營業時間：每日11：00～17：00<\/p><p>備註：遊客中心營業時間因天候因素常有變動，建議先行致電確認。<\/p>",
             "button_label": "查看地圖",
-            "button_link": "https:\/\/www.google.com\/maps\/place\/758+Niagara+Stone+Rd,+Niagara-on-the-Lake,+ON+L0S+1J0\/@43.1950639,-79.1570349,3a,75y,314.97h,90t\/data=!3m6!1e1!3m4!1sWKaKa8KHXQWVOD6-cy8bjg!2e0!7i16384!8i8192!4m5!3m4!1s0x89d35a2ba6a410e9:0x929c66a2f9c7848a!8m2!3d43.1957544!4d-79.1579839",
+            "button_link": "https:\/\/www.google.com\/maps\/place\/758+Niagara+Stone+Rd,+Niagara-on-the-Lake,+ON+L0S+1J0\/data=!4m2!3m1!1s0x89d35a2ba6a410e9:0x929c66a2f9c7848a?sa=X&ved=2ahUKEwjRuISf3_v4AhWOk4kEHf2xAkcQ8gF6BAgdEAE",
             "trigger_locations": true
           }
         },
