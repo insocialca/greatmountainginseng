@@ -126,7 +126,7 @@
             "add_link_to_header": false,
             "text": "<p>地址：758 Niagara Stone Road Niagara-on-the-Lake, ON, Canada L0S 1J0<\/p><p>電話：<a href=\"tel:9056857328\" title=\"tel:9056857328\"><strong>(905) 685-7328<\/strong><\/a><\/p><p>營業時間：每日11：00～17：00<\/p><p>備註：遊客中心營業時間因天候因素常有變動，建議先行致電確認。<\/p>",
             "button_label": "查看地圖",
-            "button_link": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2908.6550651808557!2d-79.15915268451701!3d43.19574797913963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x267b7c37d41eed66!2sGreat%20Mountain%20Ginseng%20Visitor%20Centre!5e0!3m2!1sen!2sca!4v1636469266290!5m2!1sen!2sca",
+            "button_link": "",
             "trigger_locations": true
           }
         },
@@ -138,7 +138,7 @@
             "add_link_to_header": false,
             "text": "<p>地址：4425 Highway 24, Scotland,  ON, Canada, N0E 1R<\/p><p>電話：N\/A<\/p><p>營業時間：每日11：00～16：00<\/p><p>備註：遊客中心營業時間因天候因素常有變動，<br\/><\/p>",
             "button_label": "查看地圖",
-            "button_link": "https:\/\/goo.gl\/maps\/bmwJFo8Y9mhMKUVFA",
+            "button_link": "",
             "trigger_locations": true
           }
         }
