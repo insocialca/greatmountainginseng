@@ -134,12 +134,12 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/WeChat_Image_20220615165200.jpg",
-            "title": "農場展售中心（）",
-            "add_link_to_header": false,
-            "text": "<p>地址：<br\/>電話：<br\/>營業時間：每日11：00～16：00<br\/><\/p>",
+            "title": "農場展售中心（Scotland）",
+            "add_link_to_header": true,
+            "text": "<p>地址：4425 Highway 24, Scotland,  ON, Canada, N0E 1R0<br\/>電話：N\/A<br\/>營業時間：每日11：00～16：00<br\/><\/p>",
             "button_label": "Button label",
             "button_link": "",
-            "trigger_locations": false
+            "trigger_locations": true
           }
         }
       },
