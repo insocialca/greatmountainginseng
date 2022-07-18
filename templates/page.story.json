@@ -92,20 +92,12 @@
             "timeline_direction": "direction-r"
           }
         },
-        "3d6f4b33-2023-4495-b255-93182110b732": {
-          "type": "item",
-          "settings": {
-            "title": "2008年",
-            "description": "設立花旗參加工廠及工廠門市",
-            "timeline_direction": "direction-l"
-          }
-        },
         "c7a9bb8a-9d54-4981-9551-9d95daf4616e": {
           "type": "item",
           "settings": {
             "title": "2011年",
-            "description": "普曼娜康山門市開幕",
-            "timeline_direction": "direction-r"
+            "description": "普曼娜商場門市（Thornhill）門市開幕。",
+            "timeline_direction": "direction-l"
           }
         },
         "9ec51817-8195-4c62-948f-c8a9de7c4c0b": {
@@ -136,7 +128,6 @@
         "decfc298-9968-4129-998e-96ac9986ef7b",
         "69ff2c6a-9f0c-4e0e-ad1a-bcaf0f87312b",
         "214b68c1-0706-4724-8fe0-9f91337c9a27",
-        "3d6f4b33-2023-4495-b255-93182110b732",
         "c7a9bb8a-9d54-4981-9551-9d95daf4616e",
         "9ec51817-8195-4c62-948f-c8a9de7c4c0b",
         "346c2125-b00f-495b-bb82-522e787b6ba1"
