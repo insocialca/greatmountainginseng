@@ -400,6 +400,10 @@ summary.list-menu__item {
   text-decoration: none;
 }
  
+.collage-article .article-content .article-card__excerpt {
+  color: var(--color-foreground-75);
+}
+  
 @media screen and (min-width: 750px) {
   .collage-article .article-card__title {
     font-size: 2.6rem;
