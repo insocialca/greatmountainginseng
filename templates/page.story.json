@@ -72,8 +72,8 @@
           "type": "item",
           "settings": {
             "title": "2004年",
-            "description": "溫哥華時代坊門市開幕",
-            "timeline_direction": "direction-l"
+            "description": "時代坊門市（Richmond）門市開幕。",
+            "timeline_direction": "direction-r"
           }
         },
         "69ff2c6a-9f0c-4e0e-ad1a-bcaf0f87312b": {
@@ -88,8 +88,8 @@
           "type": "item",
           "settings": {
             "title": "2004年",
-            "description": "時代坊門市（Richmond）門市開幕。",
-            "timeline_direction": "direction-r"
+            "description": "",
+            "timeline_direction": "direction-l"
           }
         },
         "214b68c1-0706-4724-8fe0-9f91337c9a27": {
