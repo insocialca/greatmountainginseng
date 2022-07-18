@@ -105,14 +105,6 @@
           "settings": {
             "title": "2019年",
             "description": "農場增設廣達45,000平方呎的加工廠，且獲得SFCR認證",
-            "timeline_direction": "direction-l"
-          }
-        },
-        "346c2125-b00f-495b-bb82-522e787b6ba1": {
-          "type": "item",
-          "settings": {
-            "title": "",
-            "description": "",
             "timeline_direction": "direction-r"
           }
         }
@@ -129,8 +121,7 @@
         "69ff2c6a-9f0c-4e0e-ad1a-bcaf0f87312b",
         "214b68c1-0706-4724-8fe0-9f91337c9a27",
         "c7a9bb8a-9d54-4981-9551-9d95daf4616e",
-        "9ec51817-8195-4c62-948f-c8a9de7c4c0b",
-        "346c2125-b00f-495b-bb82-522e787b6ba1"
+        "9ec51817-8195-4c62-948f-c8a9de7c4c0b"
       ],
       "settings": {
         "title": "我們的歷史",
