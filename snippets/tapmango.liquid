@@ -1,0 +1,22 @@
+<script>
+  var TapMangoShopify={};
+  {% if customer != nil %}
+	{% assign now = 'now' | date: "%Y-%m-%dT%H:%M:%S%z" %}
+    TapMangoShopify.customer = {
+      id: "{{ customer.id }}",
+      email: "{{ customer.email }}",
+      name: "{{ customer.name }}",
+      recharge_hash: "{{ customer.metafields.subscriptions.customer_string | if: customer.metafields.subscriptions.customer_string }}",
+      date: "{{ now }}",
+      auth_token: "{{ customer.id | append: now | append: customer.email | append: '015f06020d6f5b542c2641265070c092e1b2f928' | sha1 }}"
+    };
+  {% endif %}
+  (function(t){
+    var n,i=t.getElementsByTagName("script")[0];
+    n=t.createElement("script");
+    n.type="text/javascript";
+    n.async=true;
+    n.src ="https://shopify.tapmango.com/store/35244237-440b-4c72-835f-2141b08977fa";
+    i.parentNode.insertBefore(n,i);
+  })(document);
+</script>
