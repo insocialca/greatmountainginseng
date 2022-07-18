@@ -84,19 +84,11 @@
             "timeline_direction": "direction-l"
           }
         },
-        "9f387dee-402e-4c5a-94b4-c21a67df08e3": {
-          "type": "item",
-          "settings": {
-            "title": "2004年",
-            "description": "",
-            "timeline_direction": "direction-l"
-          }
-        },
         "214b68c1-0706-4724-8fe0-9f91337c9a27": {
           "type": "item",
           "settings": {
             "title": "2008年",
-            "description": "渥太華門市開幕",
+            "description": "渥太華門市 （Ottawa）門市開幕。\n設立花旗參加工廠及工廠門市。",
             "timeline_direction": "direction-r"
           }
         },
@@ -143,7 +135,6 @@
         "2554eaed-ac31-4ed2-8da7-400cc74736d1",
         "decfc298-9968-4129-998e-96ac9986ef7b",
         "69ff2c6a-9f0c-4e0e-ad1a-bcaf0f87312b",
-        "9f387dee-402e-4c5a-94b4-c21a67df08e3",
         "214b68c1-0706-4724-8fe0-9f91337c9a27",
         "3d6f4b33-2023-4495-b255-93182110b732",
         "c7a9bb8a-9d54-4981-9551-9d95daf4616e",
