@@ -44,20 +44,12 @@
             "timeline_direction": "direction-r"
           }
         },
-        "3172ed2a-249b-46f4-8cae-40eef490b1ec": {
-          "type": "item",
-          "settings": {
-            "title": "1992年",
-            "description": "Y.E Ginseng更名為Yeh's Ginseng Farm",
-            "timeline_direction": "direction-l"
-          }
-        },
         "76dc6b07-4862-4929-952e-51c8237c2f4b": {
           "type": "item",
           "settings": {
             "title": "1995年",
-            "description": "列治文山時代廣場店門市開幕",
-            "timeline_direction": "direction-r"
+            "description": "時代廣場門市（Richmond Hill）門市開幕。",
+            "timeline_direction": "direction-l"
           }
         },
         "4803f913-a331-409f-aac9-7509d5f5716e": {
@@ -146,7 +138,6 @@
         "0381e841-f7d9-4ff1-87d8-b626f37b77df",
         "8e660ea9-c454-416b-9d74-91239ffbd3ce",
         "e3b5c3a8-8ca0-4c04-8b47-9b53d93611c6",
-        "3172ed2a-249b-46f4-8cae-40eef490b1ec",
         "76dc6b07-4862-4929-952e-51c8237c2f4b",
         "4803f913-a331-409f-aac9-7509d5f5716e",
         "2554eaed-ac31-4ed2-8da7-400cc74736d1",
