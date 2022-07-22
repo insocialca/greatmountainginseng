@@ -440,7 +440,7 @@
     onScroll() {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-      if (scrollTop + 40 > this.currentScrollTop && scrollTop + 40 > this.headerBounds.bottom) {
+      if (scrollTop + 85 > this.currentScrollTop && scrollTop + 85 > this.headerBounds.bottom) {
         requestAnimationFrame(this.hide.bind(this));
       } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         requestAnimationFrame(this.reveal.bind(this));
