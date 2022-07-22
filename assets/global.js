@@ -306,7 +306,12 @@ class MenuDrawer extends HTMLElement {
     }
   }
 
-  
+  onFocusOut(event) {
+    console.log(event);
+    setTimeout(() => {
+      if (this.mainDetailsToggle.hasAttribute('open') && !this.mainDetailsToggle.contains(document.activeElement)) this.closeMenuDrawer();
+    });
+  }
 
   onCloseButtonClick(event) {
     const detailsElement = event.currentTarget.closest('details');
