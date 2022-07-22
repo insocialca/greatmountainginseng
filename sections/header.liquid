@@ -439,7 +439,8 @@
 
     onScroll() {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
+console.log("currentScrollTop", this.currentScrollTop);
+console.log("headerBounds", this.headerBounds.bottom);
       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         requestAnimationFrame(this.hide.bind(this));
       } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
@@ -452,7 +453,7 @@
     }
 
     hide() {
-      this.header.classList.add('shopify-section-header-sticky');
+      this.header.classList.add('shopify-section-header-hidden', 'shopify-section-header-sticky');
       this.closeMenuDisclosure();
       this.closeSearchModal();
     }
