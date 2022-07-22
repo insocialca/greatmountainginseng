@@ -452,11 +452,9 @@
     }
 
     hide() {
-      setTimeout(() => {
-        this.header.classList.add('shopify-section-header-hidden', 'shopify-section-header-sticky');
-        this.closeMenuDisclosure();
-        this.closeSearchModal();
-      }, 1000);
+      this.header.classList.add('shopify-section-header-hidden', 'shopify-section-header-sticky');
+      //this.closeMenuDisclosure();
+      this.closeSearchModal();
     }
 
     reveal() {
